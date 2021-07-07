@@ -1,7 +1,9 @@
 TERMINAL
 
-    - git config --global user.name "Gaspare"
+    - git config --global user.name "Gaspare Mascolino"
     - git config --global user.email EMAIL
+    - git config --global --list
+    - rm ~/.gitconfig  -> per resettare le credenziali
 
     - add -> aggiunge un elemento al commit (add * per aggiungere tutto)
     - branch -> mostra su quale branch ti trovi (-D per cancellarlo)
