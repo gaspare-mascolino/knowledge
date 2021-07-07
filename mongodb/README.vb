@@ -21,7 +21,6 @@ AGGREGATION FRAMEWORK
     $group + $sum 
 
 
-
 ATLAS
 
     database completamente gestico con un'ampia gamma di applicazioni MongoDB. Continene
