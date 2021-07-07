@@ -1,4 +1,5 @@
 INTRODUCTIONS
+
     1. Fondamenti di Linux e scripting
         Sono finiti quei giorni in cui le aziende si preoccupavano dei sistemi operativi proprietari. Ora siamo nell'era di Linux. La 
         maggior parte delle aziende preferisce ospitare le proprie applicazioni su Linux. Pertanto, le competenze nella gestione di un 
