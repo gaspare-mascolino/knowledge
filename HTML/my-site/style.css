@@ -1,0 +1,253 @@
+.body {
+    font-family: "Roboto", sans-serif, Helvetica, Helvetica Neue;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.title{
+    padding: 0 40px;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+
+}
+.container {
+    padding: 0 40px;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.container2 {
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+
+.portfolio{
+    padding: 0 40px;
+    max-width: 1080px;
+    margin: 0 auto;
+    display:inline;
+    margin-top: 200px;
+}
+
+
+.name{
+    position: relative;
+    top:50%;
+    margin-top: 230px;
+}
+
+.name h2{
+    display: inline;
+}
+
+.visibility{
+    visibility: hidden;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 2560px)
+{
+    .name {  
+        font-size: 30px;
+
+    }
+
+    .cv-name {  
+        font-size: 40px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 800px)
+{
+    .name {  
+        font-size: 20px;
+
+    }
+
+    .cv-name {  
+        font-size: 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 375px)
+{
+    .name {  
+        font-size: 13px;
+
+    }
+
+    .cv-name {  
+        font-size: 23px;
+
+    }
+
+}
+
+#home {
+    visibility: visible;
+    opacity: 1;
+}
+
+#myName {
+    font-family: Consolas, "Courier New";
+    color: rgb(70, 70, 70);
+    font-weight: 300;
+ 
+}
+
+#mySurname {
+    font-family: Consolas, "Courier New";
+    color: rgb(205, 46, 52);
+    font-weight: 300;
+
+}
+
+#name-input {
+    background-color: rgba(70, 70, 70, 0.8);
+ 
+}
+
+#enter {
+    opacity: 0;
+    font-family: Consolas, "Courier New"; 
+    cursor: pointer;
+    margin-top: -50px;
+    color: rgba(70, 70, 70, 0.8);
+
+}
+
+#links {
+    margin-top: 240px;
+    opacity: 0;
+}
+
+
+/* PORTFOLIO */
+
+p {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.terminal-header {
+    height: 28px;
+    background-color: #e4e3e5;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.header-button.red {
+    background-color: #f96256;
+    border: 1px solid #f65549;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
+
+.header-button.yellow {
+    background-color: #fdbc3d;
+    border: 1px solid #ffb524;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
+
+.header-button.green {
+    background-color: #33c948;
+    border: 1px solid #2dbb41;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
+
+.terminal-window {
+    background-color: white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 50px 100px rgb(50 50 93 / 15%), 0 15px 35px rgb(50 50 93 / 20%), 0 5px 15px rgb(0 0 0 / 12%);
+    font-family: Consolas, Lucida Console, Helvetica, Helvetica Neue;
+    padding: 5% 5%;
+    padding-bottom: 50px;
+    height: 800px;
+}
+
+.statement {
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+.statement-input {
+    color: rgb(70, 70, 70);
+}
+
+.statement-response {
+    color: rgb(205, 46, 52);
+    padding-bottom: 7px;
+}
+
+.statement-response a {
+    color: rgb(205, 46, 52);
+    padding-bottom: 7px;
+}
+
+.info {
+    width:100%;
+    height:30%;
+}
+
+.sidebar {
+    background-color: rgb(149, 43, 38);
+    height:100%;
+    width: 0.1%
+}
+
+.cv-name {
+    font-family: Century Gothic;
+}
