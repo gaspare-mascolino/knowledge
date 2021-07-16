@@ -1,0 +1,10 @@
+div.step-text {
+	position: relative;
+	top:11px;
+}
+
+td.step-details > img {
+	float:right;
+	width:80px;
+	margin:0;
+}

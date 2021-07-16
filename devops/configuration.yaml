@@ -1,0 +1,9 @@
+buildContainer:
+  tool:
+    docker:
+      file: Dockerfile
+      imageTag: 1.1.2
+      buildArgs:
+        debug: true
+        KEEP_WS: false
+publishArtifact: { }

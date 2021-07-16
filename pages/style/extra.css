@@ -1,0 +1,12 @@
+
+div.md-typeset__table {
+	width: 100%;
+}
+
+article ul ul {
+        list-style-type:  circle !important;
+}
+
+article ul ul ul {
+        list-style-type:  square !important;
+}
