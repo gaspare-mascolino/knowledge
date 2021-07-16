@@ -1,0 +1,114 @@
+<settings>
+
+	<pluginGroups>
+		<pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+	</pluginGroups>
+	<profiles>
+		<profile>
+		<id>smartbear</id>			   
+			<repositories>
+				 <repository>
+					  <id>central</id>
+					  <url>http://central</url>
+					  <releases><enabled>true</enabled></releases>
+					  <snapshots><enabled>true</enabled></snapshots>
+					</repository>			
+		  </repositories>
+		</profile>
+		<profile>
+			<id>allow-snapshots</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<repositories>
+				<repository>
+					<id>nexus</id>
+					<url>http://nexus.internal.unicreditgroup.eu:8081/nexus/content/groups/public</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>				
+			</repositories>
+		</profile>
+ 
+		<profile>
+			<id>cebu</id>
+			<properties>
+				<JDK_WAS7_HOME>C:\Program Files\IBM\SDP80\runtimes\base_v7\java
+				</JDK_WAS7_HOME>
+				<JDK_6_ORACLE_HOME>C:\Program Files (x86)\Java\jdk1.6.0_23
+				</JDK_6_ORACLE_HOME>
+				<JDK_7_ORACLE_HOME>C:\Program Files (x86)\Java\jdk1.7.0_55
+				</JDK_7_ORACLE_HOME>
+			</properties>
+			<repositories>
+				<repository>
+					<id>nexus</id>
+					<url>http://nexus.internal.unicreditgroup.eu:8081/nexus/content/groups/public
+					</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>				
+			</repositories>
+		</profile>
+
+
+		<profile>
+		<id>sonar</id> 
+		<properties> 
+          <JDK_WAS7_HOME>C:\Program Files\IBM\SDP80\runtimes\base_v7\java</JDK_WAS7_HOME>
+          <JDK_WAS8_HOME>C:\Websphere\WAS_8.5.5.3\java</JDK_WAS8_HOME>
+		  <JDK_6_ORACLE_HOME>C:\Program Files (x86)\Java\jdk1.6.0_23</JDK_6_ORACLE_HOME>
+          <JDK_7_ORACLE_HOME>C:\Program Files (x86)\Java\jdk1.7.0_55</JDK_7_ORACLE_HOME>
+			<maven.test.skip>false</maven.test.skip>
+			<sonar.host.url>http://sonar.intranet.unicreditgroup.eu:9000</sonar.host.url>
+			<sonar.forceAnalysis>true</sonar.forceAnalysis>
+		</properties>				
+		<repositories>
+			<repository>
+				<id>nexus</id>
+				<url>http://nexus.internal.unicreditgroup.eu:8081/nexus/content/groups/public</url>
+				<snapshots>
+					<enabled>true</enabled>
+				</snapshots>
+			</repository>			
+		</repositories>
+	</profile>
+	</profiles>
+
+	 <proxies>
+		<proxy>
+		  <id>optional</id>
+		  <active>true</active>
+		  <protocol>http</protocol>
+		  <username></username>
+		  <password></password>
+		  <host>proxymuc.internal.unicredit.eu</host>
+		  <port>80</port>
+		  <nonProxyHosts>localhost|nexus.internal.unicreditgroup.eu</nonProxyHosts>
+		</proxy>
+	</proxies>
+  
+  <servers>
+	<server>
+		<id>nexus</id>
+		<username>guest</username>
+		<password>nexus</password>
+	</server>
+  </servers>
+  <mirrors>
+	<mirror>
+		<id>nexus</id>
+		<mirrorOf>*</mirrorOf>
+		<url>http://nexus.internal.unicreditgroup.eu:8081/nexus/content/groups/public</url>
+	</mirror>
+  </mirrors>
+</settings>
+
