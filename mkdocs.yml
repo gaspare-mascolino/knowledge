@@ -1,4 +1,4 @@
-site_name: DevOps Onboarding Documentation
+site_name: Gaspare Mascolino
 site_url: https://gasparemascolino.com
 
 theme:
@@ -8,15 +8,14 @@ theme:
     feature:
         tabs: false
     palette:
-        primary: indigo
-        accent: indigo
+        primary: 'red'
+        accent: 'red'
     font:
         text: Roboto
         code: Roboto Mono
     logo: 'images/logo.png'
 extra_css:
     - style/extra.css
-
 docs_dir: pages
 
 nav:
