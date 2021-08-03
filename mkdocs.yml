@@ -16,6 +16,10 @@ theme:
     logo: 'images/logo.png'
 extra_css:
     - style/extra.css
+markdown_extensions:
+    - admonition
+    - codehilite
+    - footnotes
 docs_dir: pages
 
 nav:
