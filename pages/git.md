@@ -18,10 +18,11 @@ git config --global --list
 
 - ``` add       // add file contents to the index. ```
     - . (stage all changes)
-    - FILE  (stage all changes in FILE)
+    - FILE (stage all changes in FILE)
     - DIRECTORY (stage all changes in DIRECTORY)
     - -p (begin an interactive staging session to choose portions of file)
 - ``` branch    // manage branch. ```
+    - BRANCH (create a new branch without checkout)
 - ``` clone     // clone a repository into a new directory ```
 - ``` commit    // record changes to the repository.```
 - ``` diff      // show changes between commits, commit and working tree, etc.```
