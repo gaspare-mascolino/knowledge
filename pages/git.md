@@ -12,11 +12,16 @@ git config --global user.email EMAIL
 git config --global --list
 ```
 
-Use ``` rm ~/.gitconfig ``` for reset.
+> Use ``` rm ~/.gitconfig ``` for reset.
 
 #### Comands
 
 - ``` add       // add file contents to the index. ```
+    - . (stage all changes)
+    - FILE  (stage all changes in FILE)
+    - DIRECTORY (stage all changes in DIRECTORY)
+    - -p (begin an interactive staging session to choose portions of file)
+- ``` branch    // manage branch. ```
 - ``` clone     // clone a repository into a new directory ```
 - ``` commit    // record changes to the repository.```
 - ``` diff      // show changes between commits, commit and working tree, etc.```
@@ -25,8 +30,9 @@ Use ``` rm ~/.gitconfig ``` for reset.
 - ``` rm        // remove files from the working tree and from the index.```
 - ``` status    // summary of which files have changes that are staged.```
 
-To revert a branch to a specific commit:
+ > To revert a branch to a specific commit:
 ```bash
 git reset --hard COMMIT_ID
 git push --force
 ```
+
