@@ -50,11 +50,11 @@ branch <branch>     // create a new branch without checkout.
 ```
 
 ```bash
-branch -d <branch>  // delete the specified branch if it hasn't unmerged changes.
+branch -d <branch>  // delete the specified local branch if it hasn't unmerged changes.
 ```
 
 ```bash
-branch -D <branch>  // delete the specified branch.
+branch -D <branch>  // delete the specified local branch.
 ```
 
 - ``` clone     // clone a repository into a new directory ```
@@ -62,6 +62,7 @@ branch -D <branch>  // delete the specified branch.
 - ``` config      // get and set repository or global options ```
 - ``` diff      // show changes between commits, commit and working tree, etc.```
 - ``` log       // commit history (-N)```
+- git push origin --delete test
 - ``` reset     // current HEAD to the specified state ((--hard) CODE push --force).```
 - ``` restore   // restore working tree files.```
 - ``` rm        // remove files from the working tree and from the index.```
