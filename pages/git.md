@@ -18,26 +18,43 @@ Use ``` rm ~/.gitconfig ``` for reset.
 Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
 
 ```bash
+add <directory>     // stage all changes in <directory>. 
+```
+
+```bash
+add <file>          // stage all changes in <file>. 
+```
+
+```bash
 add .               // stage all changes. 
-```
-
-```bash
-add <FILE>          // stage all changes in FILE. 
-```
-
-```bash
-add <DIRECTORY>     // stage all changes in DIRECTORY. 
 ```
 
 ```bash
 add -p              // interactive staging session to choose portions of file. 
 ```
 
+
 ##### branch
 This command is your general-purpose branch administration tool. It lets you create isolated development environments within a single repository.
 
 ```bash
-branch <BRANCH>     // create a new branch without checkout. 
+branch -a           // list all remote branches. 
+```
+
+```bash
+branch -m <branch>  // rename the current branch to ＜branch＞.
+```
+
+```bash
+branch <branch>     // create a new branch without checkout. 
+```
+
+```bash
+branch -d <branch>  // delete the specified branch if it hasn't unmerged changes.
+```
+
+```bash
+branch -D <branch>  // delete the specified branch.
 ```
 
 - ``` clone     // clone a repository into a new directory ```
