@@ -57,6 +57,7 @@ branch -d <branch>  // delete the specified local branch if it hasn't unmerged c
 branch -D <branch>  // delete the specified local branch.
 ```
 
+##### checkout
 - ``` clone     // clone a repository into a new directory ```
 - ``` commit    // record changes to the repository.```
 - ``` config      // get and set repository or global options ```
