@@ -15,7 +15,7 @@ Use ``` rm ~/.gitconfig ``` for reset.
 #### Comands
 
 ##### add
-Add file contents to the index.
+Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
 
 ```bash
 add .               // stage all changes. 
@@ -34,7 +34,7 @@ add -p              // interactive staging session to choose portions of file.
 ```
 
 ##### branch
-Manage branch.
+This command is your general-purpose branch administration tool. It lets you create isolated development environments within a single repository.
 
 ```bash
 branch <BRANCH>     // create a new branch without checkout. 
@@ -44,6 +44,7 @@ branch <BRANCH>     // create a new branch without checkout.
 - ``` commit    // record changes to the repository.```
 - ``` config      // get and set repository or global options ```
 - ``` diff      // show changes between commits, commit and working tree, etc.```
+- ``` log       // commit history (-N)```
 - ``` reset     // current HEAD to the specified state ((--hard) CODE push --force).```
 - ``` restore   // restore working tree files.```
 - ``` rm        // remove files from the working tree and from the index.```
