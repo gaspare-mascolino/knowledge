@@ -79,11 +79,70 @@ checkout ＜commit-code＞     // checkout to the commit selected
 ##### clean
 Removes untracked files from the working directory
 
-- ``` clone     // clone a repository into a new directory ```
-- ``` commit    // record changes to the repository.```
-- ``` config      // get and set repository or global options ```
-- ``` diff      // show changes between commits, commit and working tree, etc.```
--fetch
+```bash
+clean -n        // will show you which files are going to be removed without actually removing them.
+```
+
+```bash
+clean -f        // initiates the actual deletion of untracked files from the current directory.
+```
+
+##### clone
+Creates a copy of an existing Git repository. 
+
+```bash
+clone <repo url>        // copy of an existing Git repository.
+```
+
+##### commit
+Takes the staged snapshot and commits it to the project history.
+
+```bash
+commit -m       // commit with message
+```
+##### config
+
+```bash
+config --global user.name <name>
+```
+
+```bash
+config --local user.email <email>
+```
+
+##### diff 
+Show changes between commits, commit and working tree, etc
+
+```bash
+diff <branch-name>
+```
+
+##### fetch
+Fetching downloads a branch from another repository, along with all of its associated commits and files.
+
+##### log
+Lets you explore the previous revisions of a project. It provides several formatting options for displaying committed snapshots.
+
+```bash
+log --oneline      // condense each commit to a single line.
+```
+
+```bash
+log --stat      // include which files were altered and the relative number of lines that were modified.
+```
+
+```bash
+log -n <limit>      // will display only n commits.
+```
+
+```bash
+log -p              // shows the full diff of each commit.
+```
+
+```bash
+log <file>          // shows all the commits for <file>.
+```
+
 - ``` log       // commit history (-N)```
 - git push origin --delete test
 - reflog
