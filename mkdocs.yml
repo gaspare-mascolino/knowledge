@@ -1,0 +1,26 @@
+site_name: Gaspare Mascolino
+site_url: https://gasparemascolino.com
+
+theme:
+    name: null
+    custom_dir: mkdocs-material
+    language: en
+    feature:
+        tabs: false
+    palette:
+        primary: 'red'
+        accent: 'red'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    logo: 'images/logo.png'
+extra_css:
+    - style/extra.css
+markdown_extensions:
+    - admonition
+    - codehilite
+    - footnotes
+docs_dir: pages
+
+nav:
+    - Git: git.md
