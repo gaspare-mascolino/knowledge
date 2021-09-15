@@ -14,8 +14,6 @@ theme:
         text: Roboto
         code: Roboto Mono
     logo: 'images/logo.png'
-extra_css:
-    - style/extra.css
 markdown_extensions:
     - admonition
     - codehilite
@@ -24,3 +22,4 @@ docs_dir: pages
 
 nav:
     - Git: git.md
+    - Terminal: terminal.md
