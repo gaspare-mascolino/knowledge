@@ -1,17 +1,6 @@
 # Git
 
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
-
-#### Setup
-
-```bash
-git config --global user.name "Gaspare Mascolino"
-git config --global user.email EMAIL
-git config --global --list
-```
-
-Use ``` rm ~/.gitconfig ``` for reset.
-
 #### Comands
 
 ##### add
@@ -143,17 +132,99 @@ log -p              // shows the full diff of each commit.
 log <file>          // shows all the commits for <file>.
 ```
 
-- ``` log       // commit history (-N)```
-- git push origin --delete test
-- reflog
+##### merge
+A powerful way to integrate changes from divergent branches.
+
+```bash
+merge <branch-name>    // to integrate a branch into another
+```
+
+##### pull
+It downloads a branch from a remote repository, then immediately merges it into the current branch.
+
+```bash
+pull <branch-name>    // to integrate a branch into another
+```
+
+##### push
+It lets you move a local branch to another repository.
+
+```bash
+push origin --delete <branhc-name>   // delete a branch from the repository
+```
+
+##### rebase
+Rebasing lets you move branches around, which helps you avoid unnecessary merge commits.
+
+```bash
+rebase <base>   // rebase to the base
+```
+
+```bash
+rebase-i        // rebase with interactive application
+```
+
+##### reflog
+Git keeps track of updates to the tip of branches using a mechanism called reflog.
+
+```bash
+reflog show HEAD      // show history of HEAD
+```
+
 - ``` reset     // current HEAD to the specified state ((--hard) CODE push --force).```
 - ``` restore   // restore working tree files.```
 - ``` rm        // remove files from the working tree and from the index.```
 - ``` status    // summary of which files have changes that are staged.```
 
+##### remote
+A convenient tool for administering remote connections.
+
+```bash
+remote -v   // include the URL of each connection.
+```
+
+##### reset
+Undoes changes to files in the working directory.
+
+```bash
+reset --hard <commit-id>    // reset to the commit
+```
+
+##### revert
+Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.
+
+##### stash
+
+```bash
+stash apply        // to apply the stash
+```
+##### status
+Displays the state of the working directory and the staged snapshot.
+
+#### Notes
+
+##### Configuration
+Default configuration:
+```bash
+git config --global user.name "Gaspare Mascolino"
+git config --global user.email EMAIL
+git config --global --list
+```
+
+Use ``` rm ~/.gitconfig ``` for reset.
+
+##### Rename branch
+Default configuration:
+```bash
+git config --global user.name "Gaspare Mascolino"
+git config --global user.email EMAIL
+git config --global --list
+```
+##### Revert branch
 To revert a branch to a specific commit:
 ```bash
-git reset --hard COMMIT_ID
-git push --force
+git branch -m <new_name>
+git push origin -u <new_name>
+git push origin --delete <old_name>
 ```
 
