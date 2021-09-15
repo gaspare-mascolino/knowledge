@@ -61,8 +61,23 @@ branch -D <branch>  // delete the specified local branch.
 In addition to checking out old commits and old file revisions, git checkout is also the means to navigate existing branches.
 
 ```bash
-checkout
+checkout -b ＜new-branch＞ // simultaneously creates and checks out, -b branch before checkout.
 ```
+
+```bash
+checkout -b ＜new-branch＞ ＜existing-branch＞ // bases new-branch from existing-branch
+```
+
+```bash
+checkout ＜branchname＞     // switching branches is a straightforward operation
+```
+
+```bash
+checkout ＜commit-code＞     // checkout to the commit selected
+```
+
+##### clean
+Removes untracked files from the working directory
 
 - ``` clone     // clone a repository into a new directory ```
 - ``` commit    // record changes to the repository.```
@@ -71,6 +86,7 @@ checkout
 -fetch
 - ``` log       // commit history (-N)```
 - git push origin --delete test
+- reflog
 - ``` reset     // current HEAD to the specified state ((--hard) CODE push --force).```
 - ``` restore   // restore working tree files.```
 - ``` rm        // remove files from the working tree and from the index.```
