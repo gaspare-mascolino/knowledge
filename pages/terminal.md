@@ -11,6 +11,7 @@ Mac uses Z shell, there are 2 foundamentals file (path: Users/username):
 ##### Comands
 - cat -> Lets you view the content of a text file.
 - cd -> Change directory. Allows you to move in your disk from one location to another.
+- chown -> Changes the owner and / or assigned group of one or more files and directories.
 - cp -> Copies a file from one location to another. If you want to copy a folder, use the ‘-R’ flag.
 - du -> Shows you the Disk Usage, a useful command to find out how much space is occupied by a folder. It is usually used with the -hs flag to only show totals in human-readable form.
 - grep -> Filters a text file on the keyword you specify.
