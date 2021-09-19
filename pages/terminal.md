@@ -26,3 +26,6 @@ Mac uses Z shell, there are 2 foundamentals file (path: Users/username):
 - rm -> Delete file
 - rmdir -> Delete folder
 - vim -> Lets you to edit a file.
+- wc -> word count
+- xargs -> Accept the pipe input such as text or file. It's default is echo.
+- | -> Allow to merge two or more commands
