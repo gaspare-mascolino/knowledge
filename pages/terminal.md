@@ -14,6 +14,7 @@ Mac uses Z shell, there are 2 foundamentals file (path: Users/username):
 - chown -> Changes the owner and / or assigned group of one or more files and directories.
 - cp -> Copies a file from one location to another. If you want to copy a folder, use the ‘-R’ flag.
 - du -> Shows you the Disk Usage, a useful command to find out how much space is occupied by a folder. It is usually used with the -hs flag to only show totals in human-readable form.
+- find -> Find a file. If you want search every file (.) by name use the flag -name
 - grep -> Filters a text file on the keyword you specify.
 - less -> Lets you view the content of a text file.
 - ls -> List the files and folders of the location currently opened in terminal. Many times used as ls -a which shows hidden files as well as it converts file-sizes to a human-readable form.

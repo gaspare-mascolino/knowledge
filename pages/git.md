@@ -213,6 +213,14 @@ git config --global --list
 
 Use ``` rm ~/.gitconfig ``` for reset.
 
+##### Remove .DS_Store
+Remove .DS_Store from a repo:
+```bash
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+echo .DS_Store >> .gitignore
+git add .gitignore
+git commit -m '.DS_Store banished!'
+```
 ##### Rename branch
 Default configuration:
 ```bash
