@@ -36,11 +36,26 @@ run -p 80:80        // map port 80 of the host to port 80 in the container
 
 #### Notes
 
+##### List images
+```bash
+docker image ls                    // show the images.
+```
 ##### List containers
-```docker ps                         // Show the active containers.```
+```bash
+docker ps                          // show the active containers.
+```
+
+##### Push containers
+```bash
+docker push <container-id>         // push the container.
+```
 
 ##### Remove container
-```docker rm <container-id>          // remove container, you can use flag -f to force it.```
+```bash
+docker rm <container-id>           // remove container, you can use flag -f to force it.
+```
 
 ##### Remove container
-```docker stop <container-id>          // stop container.```
+```bash
+docker stop <container-id>         // stop container.
+```
