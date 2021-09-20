@@ -20,5 +20,27 @@ build .             // the docker file is into this directory
 ```
 
 ```bash
-build -t <NAME>     // flag tags our image
+build -t <NAME>     // tags our image
 ```
+
+##### run
+Run a docker image
+
+```bash
+run -d              // run the container in detached mode (in the background)
+```
+
+```bash
+run -p 80:80        // map port 80 of the host to port 80 in the container
+```
+
+#### Notes
+
+##### List containers
+```docker ps                         // Show the active containers.```
+
+##### Remove container
+```docker rm <container-id>          // remove container, you can use flag -f to force it.```
+
+##### Remove container
+```docker stop <container-id>          // stop container.```
