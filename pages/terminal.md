@@ -22,6 +22,7 @@ Mac uses Z shell, there are 2 foundamentals file (path: Users/username):
 - mkdir -> Creates a new folder under the currently opened location. Note that you can create only a single new folder. If you want to create a hierarchy of folders you can use the -p parameter.
 - more -> Lets you view the content of a text file.
 - nano -> Lets you to edit a file.
+- ps ->  Used to list the currently running processes
 - pwd -> Find out the location/name of the folder currently opened in your terminal window.
 - rm -> Delete file
 - rmdir -> Delete folder
