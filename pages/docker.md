@@ -16,5 +16,9 @@ Docker provides tooling and a platform to manage the lifecycle of your container
 Build a docker image
 
 ```bash
-build -t     // flag tags our image
+build .             // the docker file is into this directory
+```
+
+```bash
+build -t <NAME>     // flag tags our image
 ```
