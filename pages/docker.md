@@ -9,3 +9,12 @@ Docker provides tooling and a platform to manage the lifecycle of your container
 - Develop your application and its supporting components using containers.
 - The container becomes the unit for distributing and testing your application.
 - When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
+
+#### Comands
+
+##### build
+Build a docker image
+
+```bash
+build -t     // stage all changes in <directory>. 
+```
