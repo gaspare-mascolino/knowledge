@@ -222,23 +222,24 @@ lock        // to lock the repository
 unlock        // to unlock the repository
 ```
 
-!!! info
-    If you are a new user in the context of git-crypt, meaning you aren't a trusted one yet, you'll need to run these steps:
+##### Become a trusted user
+If you are a new user in the context of git-crypt, meaning you aren't a trusted one yet, you'll need to run these steps:
 
-    - generate a GPG key (if don't already have one): gpg --full-generate-key
-    - get the key ID: gpg --list-keys
-    - export your public key: gpg --armor --output pubkey.gpg --export <key ID>
-    - send both the key ID and the pubkey.gpg to an already trusted user
+- generate a GPG key (if don't already have one): gpg --full-generate-key
+- get the key ID: gpg --list-keys
+- export your public key: gpg --armor --output pubkey.gpg --export <key ID>
+- send both the key ID and the pubkey.gpg to an already trusted user
 
-    If you are a trusted user, you have to: 
+##### Trust a new user
+If you are a trusted user, you have to: 
 
-    - import the pubkey of the user to insert: gpg --import user_pubkey.gpg
-    - edit the key: gpg --edit–key ${KEY_ID} 
-    - > fpr
-    - > trust (5)
-    - > save
-    - > quit
-    - and insert the key on the repo: git-crypt add-gpg-user ${KEY_ID}
+- import the pubkey of the user to insert: gpg --import user_pubkey.gpg
+- edit the key: gpg --edit–key ${KEY_ID} 
+- > fpr
+- > trust (5)
+- > save
+- > quit
+- and insert the key on the repo: git-crypt add-gpg-user ${KEY_ID}
 
 #### Notes
 
