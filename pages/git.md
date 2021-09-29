@@ -243,7 +243,7 @@ If you are a trusted user, you have to:
 - > trust (5)
 - > save
 - > quit
-- and insert the key on the repo: git-crypt add-gpg-user ${KEY_ID}
+- and insert the key on the repo: git-crypt add-gpg-user --trusted ${KEY_ID}
 
 #### Notes
 
