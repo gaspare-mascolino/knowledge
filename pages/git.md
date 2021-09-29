@@ -204,13 +204,41 @@ Displays the state of the working directory and the staged snapshot.
 #### Git-crypt
 Git-crypt enables transparent encryption and decryption of files in a git repository. Files which you choose to protect are encrypted when committed, and decrypted when checked out. git-crypt lets you freely share a repository containing a mix of public and private content. git-crypt gracefully degrades, so developers without the secret key can still clone and commit to a repository with encrypted files. This lets you store your secret material (such as keys or passwords) in the same repository as your code, without requiring you to lock down your entire repository.
 
-If you are a new user in the context of git-crypt, meaning you aren't a trusted one yet, you'll need to run these steps:
+##### Commands
 
-- generate a GPG key (if don't already have one): gpg --full-generate-key
-- get the key ID: gpg --list-keys
-- export your public key: gpg --armor --output pubkey.gpg --export <key ID>
-- send both the key ID and the pubkey.gpg to an already trusted user
+```bash
+add-gpg-user ${KEY_ID}      // to insert the key of a new user
+```
 
+```bash
+init        // to initialize the repository
+```
+
+```bash
+lock        // to lock the repository
+```
+
+```bash
+unlock        // to unlock the repository
+```
+
+!!! info
+    If you are a new user in the context of git-crypt, meaning you aren't a trusted one yet, you'll need to run these steps:
+
+    - generate a GPG key (if don't already have one): gpg --full-generate-key
+    - get the key ID: gpg --list-keys
+    - export your public key: gpg --armor --output pubkey.gpg --export <key ID>
+    - send both the key ID and the pubkey.gpg to an already trusted user
+
+    If you are a trusted user, you have to: 
+
+    - import the pubkey: gpg --import user_pubkey.gpg
+    - edit the key: gpg --edit–key ${KEY_ID} 
+    - > fpr
+    - > trust (5)
+    - > save
+    - > quit
+    - and insert the key on the repo: git-crypt add-gpg-user ${KEY_ID}
 
 #### Notes
 
