@@ -23,6 +23,10 @@ build .             // the docker file is into this directory
 build -t <NAME>     // tags our image
 ```
 
+##### logs
+```bash
+build -f <NAME>     // shown the logs of the container
+```
 ##### run
 Run a docker image
 
