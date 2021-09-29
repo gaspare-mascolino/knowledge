@@ -215,6 +215,10 @@ init        // to initialize the repository
 ```
 
 ```bash
+-k       // to show local key
+```
+
+```bash
 lock        // to lock the repository
 ```
 
