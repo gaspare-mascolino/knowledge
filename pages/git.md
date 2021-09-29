@@ -233,7 +233,7 @@ If you are a new user in the context of git-crypt, meaning you aren't a trusted 
 ##### Trust a new user
 If you are a trusted user, you have to: 
 
-- import the pubkey of the user to insert: gpg --import user_pubkey.gpg
+- import the pubkey of the user to insert: gpg --import pubkey.gpg
 - edit the key: gpg --edit–key ${KEY_ID} 
 - > fpr
 - > trust (5)
