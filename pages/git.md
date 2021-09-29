@@ -201,6 +201,17 @@ stash apply        // to apply the stash
 ##### status
 Displays the state of the working directory and the staged snapshot.
 
+#### Git-crypt
+Git-crypt enables transparent encryption and decryption of files in a git repository. Files which you choose to protect are encrypted when committed, and decrypted when checked out. git-crypt lets you freely share a repository containing a mix of public and private content. git-crypt gracefully degrades, so developers without the secret key can still clone and commit to a repository with encrypted files. This lets you store your secret material (such as keys or passwords) in the same repository as your code, without requiring you to lock down your entire repository.
+
+If you are a new user in the context of git-crypt, meaning you aren't a trusted one yet, you'll need to run these steps:
+
+- generate a GPG key (if don't already have one): gpg --full-generate-key
+- get the key ID: gpg --list-keys
+- export your public key: gpg --armor --output pubkey.gpg --export <key ID>
+- send both the key ID and the pubkey.gpg to an already trusted user
+
+
 #### Notes
 
 ##### Configuration
@@ -235,4 +246,3 @@ git branch -m <new_name>
 git push origin -u <new_name>
 git push origin --delete <old_name>
 ```
-
