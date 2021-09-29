@@ -232,7 +232,7 @@ unlock        // to unlock the repository
 
     If you are a trusted user, you have to: 
 
-    - import the pubkey: gpg --import user_pubkey.gpg
+    - import the pubkey of the user to insert: gpg --import user_pubkey.gpg
     - edit the key: gpg --edit–key ${KEY_ID} 
     - > fpr
     - > trust (5)
