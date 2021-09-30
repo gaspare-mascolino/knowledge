@@ -266,16 +266,14 @@ git add .gitignore
 git commit -m '.DS_Store banished!'
 ```
 ##### Rename branch
-Default configuration:
-```bash
-git config --global user.name "Gaspare Mascolino"
-git config --global user.email EMAIL
-git config --global --list
-```
-##### Revert branch
-To revert a branch to a specific commit:
 ```bash
 git branch -m <new_name>
 git push origin -u <new_name>
 git push origin --delete <old_name>
+```
+##### Revert branch
+To revert a branch to a specific commit:
+```bash
+git reset --hard <commit_id>
+git push --force
 ```
