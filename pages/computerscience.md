@@ -31,11 +31,19 @@ logs <NAME>     // shown the logs of the container
 ```
 
 ```bash
-logs -f <NAME>  // Follow log output
+logs --details <NAME>     // show extra details provided to logs
 ```
 
 ```bash
-logs --tail <NUMBER>  // Number of line to show from the end
+logs -f <NAME>  // follow log output
+```
+
+```bash
+logs --tail <NUMBER>  // number of line to show from the end
+```
+
+```bash
+logs --timestamps <NAME> // show timestamps
 ```
 
 **Run**
@@ -52,26 +60,26 @@ run -p 80:80        // map port 80 of the host to port 80 in the container
 
 **List images**
 ```bash
-docker image ls                    // show the images.
+image ls                    // show the images.
 ```
 **List containers**
 ```bash
-docker ps                          // show the active containers.
+ps                          // show the active containers.
 ```
 
 **Push containers**
 ```bash
-docker push <container-id>         // push the container.
+push <container-id>         // push the container.
 ```
 
 **Remove container**
 ```bash
-docker rm <container-id>           // remove container, you can use flag -f to force it.
+rm <container-id>           // remove container, you can use flag -f to force it.
 ```
 
 **Remove container**
 ```bash
-docker stop <container-id>         // stop container.
+stop <container-id>         // stop container.
 ```
 
 ## **Git**

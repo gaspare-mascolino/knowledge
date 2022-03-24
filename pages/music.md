@@ -1,3 +1,7 @@
+## **Acoustic**
+
+Two notes with fundamental frequencies in a ratio equal to any integer power of two (e.g., half, twice, or four times) are perceived as very similar. Because of that, all notes with these kinds of relations can be grouped under the same pitch class.
+
 ## **Theory**
 
 ### Music notation
@@ -38,9 +42,9 @@ The use of different clefs makes it possible to write music for all instruments 
 
 A symmetry exists with middle C for the F, C and G clefs. Two mnemonics for learning the clef lines are:
 
-<center><img src="/images/music/mnemonic-bass-alto-treble.png"></center>
-
 <center>**G**ood **B**oys **D**o **F**ine **A**lways, **E**very **G**ood **B**oy **D**oes **F**ine</center> 
+
+<center><img src="/images/music/mnemonic-bass-alto-treble.png"></center>
 
 <center>
 
@@ -54,6 +58,67 @@ A symmetry exists with middle C for the F, C and G clefs. Two mnemonics for lear
 
 This section shows a complete list of the clefs, along with a list of instruments and voice parts notated with them.
 
-**G clefs**
+*G clefs*
 
-- Treble clef:
+- Treble clef: 
+    - Violin, flute, oboe, cor anglais, all clarinets, all saxophones, horn, trumpet, cornet, vibraphone, xylophone, mandolin, recorder, bagpipe and guitar. 
+    - Euphonium and baritone horn (sounding a major ninth lower).
+    - Harp and keyboard instruments (upper stave of the grand stave). 
+    - Cello, double bass, bassoon, trombone (high parts for bass-clef instruments). 
+    - The viola (for very high notes). 
+    - Soprano, mezzo-soprano, alto, contralto and tenor voices.
+
+- French violin (no longer in common)
+    - Violin and flute music in the seventeenth and eighteenth centuries.
+
+*F-clefs*
+
+- Baritone clef (no longer in common)
+    - Keyboard instrument (left hand).
+    - Baritone voices.
+
+- Bass clef
+    - Cello, double bass and bass guitar, bassoon and contrabassoon, trombone, tuba, and timpani.
+    - Baritone horn, euphonium (concert pitch).
+    - Horn (lowest notes).
+    -  Baritone, bass voices, and the tenor voice (if the tenor and bass are written on the same stave). 
+    - Harp and keyboard instruments (bottom stave of the grand stave)
+
+*C-clefs*
+
+- Alto cief
+    -  Viola, viola d'amore, alto trombone, viola da gamba, and mandola.
+    - Countertenor (male singing voice whose vocal range is equivalent to that of the female contralto or mezzo-soprano voice types).
+
+- Tenor cief
+    - Viola da gamba, tenor violin.
+    - Bassoon, cello, euphonium, double bass, and tenor trombone (upper ranges of bass-clef).  
+
+- Mezzo soprano clef (no longer in common)
+    - Second viola
+    - Mezzo-soprano voice
+
+- Soprano clef
+    - Keyboard music (right hand)
+    - Soprano voice
+    - Viola da gamba (high parts)
+
+**Note**
+
+A **note** is a symbol denoting the pitch and duration of a sound. A note can also represent a pitch class (set of all pitches that are a whole number of octaves apart). 
+
+The **naming convention**:
+
+<center>
+
+| Italian | International |
+| ------- | ------------- |
+|   Do    |       C       |
+|   Re    |       D       |
+|   Mi    |       E       |
+|   Fa    |       F       |
+|   Sol   |       G       |
+|   La    |       A       |
+|   Si    |       B       |
+
+</center>
