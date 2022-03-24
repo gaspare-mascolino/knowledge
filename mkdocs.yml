@@ -21,6 +21,5 @@ markdown_extensions:
 docs_dir: pages
 
 nav:
-    - Docker: docker.md
-    - Git: git.md
-    - Terminal: terminal.md
+    - Computer Science: computerscience.md
+    - Music: music.md
