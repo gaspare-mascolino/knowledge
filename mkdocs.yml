@@ -22,4 +22,6 @@ docs_dir: pages
 
 nav:
     - Computer Science: computerscience.md
+    - English: english.md
     - Music: music.md
+    
