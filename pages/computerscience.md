@@ -14,7 +14,7 @@ Docker provides tooling and a platform to manage the lifecycle of your container
 
 **Build**
 
-    Build a docker image
+Build a docker image
 
 ```bash
 build .             // the docker file is into this directory
@@ -29,6 +29,15 @@ build -t <NAME>     // tags our image
 ```bash
 logs <NAME>     // shown the logs of the container
 ```
+
+```bash
+logs -f <NAME>  // Follow log output
+```
+
+```bash
+logs --tail <NUMBER>  // Number of line to show from the end
+```
+
 **Run**
 
 Run a docker image
