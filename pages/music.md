@@ -122,3 +122,14 @@ The **naming convention**:
 |   Si    |       B       |
 
 </center>
+
+**Accidental**
+
+An **accidental** is a note of a pitch (or pitch class) that is not a member of the scale. The sharp (♯), flat (♭), and natural (♮) symbols are also called accidentals. They had two different functionality:
+
+* In **measure** (bar), raises or lowers the immediately following note (and any repetition of it in the bar) from its normal pitch, overriding the key signature. 
+
+    !!! Warning
+        N.B: Accidentals usually apply to all repetitions within the measure in which they appear, unless canceled by another accidental sign, or tied into the following measure.
+
+* In **key signature**. a set of sharp (♯), flat (♭), or rarely, natural (♮) symbols placed on the staff define the tonality. In a key signature, a sharp or flat symbol on a line or space of the staff indicates that the note represented by that line or space is to be played a semitone higher (sharp) or lower (flat) than it would otherwise be played. This applies through the end of the piece or until another key signature is indicated.
