@@ -107,9 +107,13 @@ This section shows a complete list of the clefs, along with a list of instrument
 
 A **note** is a symbol denoting the pitch and duration of a sound. A note can also represent a pitch class (set of all pitches that are a whole number of octaves apart). 
 
-The **naming convention**:
+The **note notation**:
+
+<center><img src="/images/music/note-notation.png"></center>
 
 <center>
+
+Do - Re - Mi - Fa - Sol - La - Si - Do - Si - La - Sol - Fa - Mi - Re - Do
 
 | Italian | International |
 | ------- | ------------- |
@@ -123,6 +127,16 @@ The **naming convention**:
 
 </center>
 
+The **percussion notation**:
+
+<center><img src="/images/music/percussion-notation.png"></center>
+
+The **chord chart**:
+
+<center><img src="/images/music/chord-chart.png"></center>
+
+It is intended primarily for a rhythm section (usually consisting of piano, guitar, drums and bass). In these genres the musicians are expected to be able to improvise the individual notes used for the chords (the "voicing") and the appropriate ornamentation, counter melody or bassline.
+
 **Accidental**
 
 An **accidental** is a note of a pitch (or pitch class) that is not a member of the scale. The sharp (♯), flat (♭), and natural (♮) symbols are also called accidentals. They had two different functionality:
@@ -133,3 +147,43 @@ An **accidental** is a note of a pitch (or pitch class) that is not a member of 
         N.B: Accidentals usually apply to all repetitions within the measure in which they appear, unless canceled by another accidental sign, or tied into the following measure.
 
 * In **key signature**. a set of sharp (♯), flat (♭), or rarely, natural (♮) symbols placed on the staff define the tonality. In a key signature, a sharp or flat symbol on a line or space of the staff indicates that the note represented by that line or space is to be played a semitone higher (sharp) or lower (flat) than it would otherwise be played. This applies through the end of the piece or until another key signature is indicated.
+
+```bash
+♯ sharp -> raises the note of a semitone.
+♯♯ (or X) double sharp -> raises the note of a tone.
+♭ flat -> lower the note of a semitone.
+♭♭ double flat -> lower the note of a tone.
+♮ natural -> restore the original sound.
+```
+
+**Time signatures**
+
+The **time signature** (also known as meter signature, metre signature, or measure signature) is a notational convention used in Western musical notation to specify how many beats (pulses) are contained in each measure (bar), and which note value is equivalent to a beat.
+
+In a music score, the time signature appears at the beginning as a time symbol or stacked numerals, immediately following the key signature (or immediately following the clef symbol if the key signature is empty). A mid-score time signature, usually immediately following a barline, indicates a change of meter.
+
+There are various types of time signatures:
+
+- **simple**: consist of two numerals, one stacked above the other. The lower numeral indicates the note value that represents one beat (the beat unit), this number is typically a power of 2. The upper numeral indicates how many such beats constitute a bar.
+
+- **compound**: subdivisions (which are what the upper number represents in these meters) of the beat are in three equal parts, so that a dotted note (half again longer than a regular note) becomes the beat.
+
+<center><img src="/images/music/meters.jpg"></center>
+    
+- **complex**: signatures that do not fit the usual duple or triple categories are called complex, asymmetric, irregular, unusual, or odd—though these are broad terms, and usually a more specific description is appropriate. The term odd meter, however, sometimes describes time signatures in which the upper number is simply odd rather than even.
+
+- **mixed**: While time signatures usually express a regular pattern of beat stresses continuing through a piece (or at least a section), sometimes composers place a different time signature at the beginning of each bar, resulting in music with an extremely irregular rhythmic feel. In this case, the time signatures are an aid to the performers and not necessarily an indication of meter.
+
+- **additive**: to indicate more complex patterns of stresses, such as additive rhythms, more complex time signatures can be used. Additive meters have a pattern of beats that subdivide into smaller, irregular groups. Such meters are sometimes called imperfect, in contrast to perfect meters, in which the bar is first divided into equal units.
+
+- **irrational**: Irrational time signatures (rarely, "non-dyadic time signatures") are used for so-called irrational bar lengths,that have a denominator that is not a power of two (1, 2, 4, 8, 16, 32, etc.).
+
+**Note value**
+
+A **note value** indicates the relative duration of a note, using the texture or shape of the notehead, the presence or absence of a stem, and the presence or absence of flags/beams/hooks/tails. Unmodified note values are fractional powers of two.
+
+<center><img src="/images/music/parts-of-a-note.png"></center>
+
+A **rest** indicates a silence of an equivalent duration.
+
+<center><img src="/images/music/note-and-rest-value.png"></center>
