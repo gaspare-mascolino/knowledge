@@ -149,11 +149,11 @@ An **accidental** is a note of a pitch (or pitch class) that is not a member of 
 * In **key signature**. a set of sharp (♯), flat (♭), or rarely, natural (♮) symbols placed on the staff define the tonality. In a key signature, a sharp or flat symbol on a line or space of the staff indicates that the note represented by that line or space is to be played a semitone higher (sharp) or lower (flat) than it would otherwise be played. This applies through the end of the piece or until another key signature is indicated.
 
 ```bash
-♯ sharp -> raises the note of a semitone.
-♯♯ (or X) double sharp -> raises the note of a tone.
-♭ flat -> lower the note of a semitone.
-♭♭ double flat -> lower the note of a tone.
-♮ natural -> restore the original sound.
+- ♯ sharp -> raises the note of a semitone.
+- ♯♯ (or X) double sharp -> raises the note of a tone.
+- ♭ flat -> lower the note of a semitone.
+- ♭♭ double flat -> lower the note of a tone.
+- ♮ natural -> restore the original sound.
 ```
 
 **Time signatures**
