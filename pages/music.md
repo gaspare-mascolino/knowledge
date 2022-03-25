@@ -85,6 +85,65 @@ Those chords may be substitute from each others.
 
 An **interval** is the relationship between two separate musical pitches.
 
+Two different kind:
+
+- harmonic: notes are played simultaneously.
+- melodic: notes are played in sequence.
+
+The intervals in the major scale are:
+
+<center>
+
+|         |     Intervals     |
+| ------- | ----------------  |
+|   I     |     1a Perfect    |  
+|   II    |     2a Major      |  
+|   III   |     3a Major      | 
+|   IV    |     4a Perfect    |  
+|   V     |     5a Perfect    | 
+|   VI    |     6a Major      | 
+|   VI    |     7a Major      | 
+
+</center>
+
+Kind of intervals:
+
+* **Major**
+    * ♯ **Augmented**
+    * ♯♯ **Doubly Augmented**
+    * ♭ **Minor**
+* **Minor**
+    * ♯ **Major**
+    * ♭ **Diminished**
+    * ♭♭ ***Doubly Diminished**
+* **Perfect**
+    * ♯ **Augmented**
+    * ♯♯ **Doubly Augmented**
+    * ♭ **Diminished**
+    * ♭♭ **Doubly Diminished**
+
+!!! Note
+    To identify intervals from the sixth onwards it is useful invert the interval keep in mind theese rules:
+
+    - Perfect <-> Perfect
+    - Major <-> Minor
+    - Augmented <-> Diminished
+
+Rules:
+
+- II Minor = H
+- II Major = W
+- III Minor = W + H
+- III Major = 2W
+- IV Perfect = III Major (2W) + H
+- V Perfect = III Major + III Minor
+- V Diminished = 2 III Minor
+- V Augmented = 2 III Major
+- VI Minor = III Major inverted
+- VI Major = III Minor inverted
+- VII Minor = II Major inverted
+- VII Major = II Minor Inverted
+
 ## **Music notation**
 
 **Music notation** or **musical notation** is any system used to visually represent aurally perceived music played with instruments or sung by the human voice through the use of written, printed, or otherwise-produced symbols, including notation for durations of absence of sound such as rests.
@@ -231,13 +290,12 @@ An **accidental** is a note of a pitch (or pitch class) that is not a member of 
 
 * In **key signature**. a set of sharp (♯), flat (♭), or rarely, natural (♮) symbols placed on the staff define the tonality. In a key signature, a sharp or flat symbol on a line or space of the staff indicates that the note represented by that line or space is to be played a semitone higher (sharp) or lower (flat) than it would otherwise be played. This applies through the end of the piece or until another key signature is indicated.
 
-```bash
-- ♯ sharp -> raises the note of a semitone.
-- ♯♯ (or X) double sharp -> raises the note of a tone.
-- ♭ flat -> lower the note of a semitone.
-- ♭♭ double flat -> lower the note of a tone.
-- ♮ natural -> restore the original sound.
-```
+!!! Symbols
+    - ♯ sharp -> raises the note of a semitone.
+    - ♯♯ (or X) double sharp -> raises the note of a tone.
+    - ♭ flat -> lower the note of a semitone.
+    - ♭♭ double flat -> lower the note of a tone.
+    - ♮ natural -> restore the original sound.
 
 **Time signatures**
 
