@@ -2,9 +2,35 @@
 
 Two notes with fundamental frequencies in a ratio equal to any integer power of two (e.g., half, twice, or four times) are perceived as very similar. Because of that, all notes with these kinds of relations can be grouped under the same pitch class.
 
-## **Theory**
+## **Harmony**
 
-### Music notation
+**Harmony** is the process by which the composition of individual sounds, or superpositions of sounds, is analysed by hearing. Usually, this means simultaneously occurring frequencies, pitches (tones, notes), or chords.
+
+Its perception is based on consonance, pitch relationships are described as sounding more pleasant, euphonious, and beautiful than dissonant relationships which sound unpleasant, discordant, or rough.
+
+The study of harmony involves chords and their construction and chord progressions and the principles of connection that govern them. It refer to the "vertical" aspect of music, as distinguished from melodic line, or the "horizontal" aspect.
+
+Counterpoint, which refers to the relationship between melodic lines, and polyphony, which refers to the simultaneous sounding of separate independent voices, are therefore sometimes distinguished from harmony.
+A dissonant chord (chord with tension) "resolves" to a consonant chord. Harmonization usually sounds pleasant to the ear when there is a balance between consonance and dissonance. Simply put, this occurs when there is a balance between "tense" and "relaxed" moments.
+
+**Intervals**
+
+An **interval** is the relationship between two separate musical pitches.
+
+**Scale**
+
+A **scale** is any set of musical notes ordered by fundamental frequency or pitch. A scale ordered by increasing pitch is an ascending scale, and a scale ordered by decreasing pitch is a descending scale.
+
+- chromatic scale: each scale step represents a semitone interval
+- major scale: defined by the interval pattern W–W–H–W–W–W–H
+- minor scale: defined by the interval pattern W–H–W–W–H-W-W
+- diatonic scale
+
+A scale is formed at least by 5 notes, otherwise it is a fragment of a scale.
+
+The **modus** relates to the organisation of pitch in scales.
+
+## **Music notation**
 
 **Music notation** or **musical notation** is any system used to visually represent aurally perceived music played with instruments or sung by the human voice through the use of written, printed, or otherwise-produced symbols, including notation for durations of absence of sound such as rests.
 It is a universal languages.
@@ -29,6 +55,8 @@ A **clef** (from French: clef 'key') is a musical symbol used to indicate which 
 The three clef symbols used in modern music notation are the G-clef, F-clef, and C-clef. Placing these clefs on a line fixes a reference note to that line.
 
 <center><img src="/images/music/all-clefs.png"></center>
+<center><img src="/images/music/piano-ranges.jpg"></center>
+
 
 Theoretically, any clef may be placed on any line. With five lines on the stave and three clefs, there are fifteen possibilities for clef placement. Six of these are redundant because they result in an identical assignment of the notes to the lines (and spaces). Thus, there are nine possible distinct clefs, all of which have been used historically.
 
@@ -187,3 +215,31 @@ A **note value** indicates the relative duration of a note, using the texture or
 A **rest** indicates a silence of an equivalent duration.
 
 <center><img src="/images/music/note-and-rest-value.png"></center>
+
+**Tuplet**
+
+A **tuplet** (also irrational rhythm or groupings, artificial division or groupings, abnormal divisions, irregular rhythm, gruppetto, extra-metric groupings, or, rarely, contrametric rhythm) is "any rhythm that involves dividing the beat into a different number of equal subdivisions from that usually permitted by the time-signature (e.g., triplets, duplets, etc.)
+
+The most common type of tuplet is the triplet.
+
+- triplet -> Is an irregular group representing three notes played in a unit of time, usually when the rhythm is binary. Odds structure inside a even value.
+
+- doublet -> Is an irregular group representing two notes played in a unit of time, usually when the rhythm is ternary. Even structure inside a odds value.
+
+**Dottet note**
+
+A **dotted note** is a note with a small dot written after it. In modern practice, the first dot increases the duration of the basic note by half (the original note with an extra beam) of its original value. This means that a dotted note is equivalent to writing the basic note tied to a note of half the value.
+
+<center><img src="/images/music/dotted-notes.png"></center>
+
+**Tie**
+
+A **tie** is a curved line connecting the heads of two notes of the same pitch, indicating that they are to be played as a single note with a duration equal to the sum of the individual notes' values.
+
+<center><img src="/images/music/tie.png"></center>
+
+**Legato**
+
+A legato indicates that musical notes are played or sung smoothly and connected. That is, the player makes a transition from note to note with no intervening silence.
+
+<center><img src="/images/music/legato.png"></center>
