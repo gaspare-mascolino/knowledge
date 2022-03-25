@@ -13,22 +13,77 @@ The study of harmony involves chords and their construction and chord progressio
 Counterpoint, which refers to the relationship between melodic lines, and polyphony, which refers to the simultaneous sounding of separate independent voices, are therefore sometimes distinguished from harmony.
 A dissonant chord (chord with tension) "resolves" to a consonant chord. Harmonization usually sounds pleasant to the ear when there is a balance between consonance and dissonance. Simply put, this occurs when there is a balance between "tense" and "relaxed" moments.
 
-**Intervals**
-
-An **interval** is the relationship between two separate musical pitches.
-
 **Scale**
 
 A **scale** is any set of musical notes ordered by fundamental frequency or pitch. A scale ordered by increasing pitch is an ascending scale, and a scale ordered by decreasing pitch is a descending scale.
 
-- chromatic scale: each scale step represents a semitone interval
-- major scale: defined by the interval pattern W–W–H–W–W–W–H
-- minor scale: defined by the interval pattern W–H–W–W–H-W-W
-- diatonic scale
+- **chromatic scale**: each scale step represents a semitone interval
+- **diatonic scale**:
+    - **major scale**: defined by the interval pattern W–W–H–W–W–W–H
+    - **minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensible is not present)
+    - **harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh degrees (to fix the missing of the sensible).
 
-A scale is formed at least by 5 notes, otherwise it is a fragment of a scale.
+    <center><img src="/images/music/harmonic-minor.png"></center>
 
-The **modus** relates to the organisation of pitch in scales.
+    - **melodic minor scale**: defined as the minor scale except that the sixth degree is raised by one semitone in the ascending form of the scale (jazz minor), while the lowered seventh appears in the descending form of the scale (minor).
+
+     <center><img src="/images/music/melodic-minor.png"></center>
+
+- **pentatonic scale**: defined as the major scale without the IV (descending sensibile/leading tone) and VII grades (ascending sensibile/leading tone).
+
+!!! Warning
+    A scale is formed at least by 5 notes, otherwise it is a fragment of a scale.
+
+The **modus** relates to the organisation of pitch in scales, start from a specific grade of the major scale.
+
+<center><img src="/images/music/modes.png"></center>
+
+<center>
+
+|         |       Modes       |
+| ------- | ----------------  |
+|   I     |      Ionico       |  
+|   II    |      Dorico       |  
+|   III   |      Frigio       | 
+|   IV    |      Lidio        |  
+|   V     |      Misolidio    | 
+|   VI    |      Eolio        | 
+|   VI    |      Locrio       | 
+
+</center>
+
+**Scale degree**
+
+The scale degree is the position of a particular note on a scale relative to the tonic.
+
+<center><img src="/images/music/degree.png"></center>
+
+<center>
+
+|         |          Degree          |                              |
+| ------- | ------------------------ | ---------------------------- |
+|   I     |          Tonica          |    (Strong or tonal degree)  |
+|   II    |        Sopratonica       |                              |
+|   III   |         Mediante         |                              |
+|   IV    |       Sottodominante     |    (Strong or tonal degree)  |
+|   V     |         Dominante        |    (Strong or tonal degree)  |
+|   VI    |       Sopradominante     |                              |
+|   VII   |        Sottotonica       |    (1W from the tonic)       |
+|   VII   |         Sensibile        |    (1H from the tonic)       |
+
+</center>
+
+Three different group for classification of grades:
+
+1. Tonic group: I, III, VI
+2. Subtonic group: II, IV
+3. Dominant group: V, VII
+
+Those chords may be substitute from each others.
+
+**Intervals**
+
+An **interval** is the relationship between two separate musical pitches.
 
 ## **Music notation**
 
