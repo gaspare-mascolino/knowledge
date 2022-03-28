@@ -434,3 +434,27 @@ A **tie** is a curved line connecting the heads of two notes of the same pitch, 
 A legato indicates that musical notes are played or sung smoothly and connected. That is, the player makes a transition from note to note with no intervening silence.
 
 <center><img src="/images/music/legato.png"></center>
+
+## **Production**
+
+**Audio interface**
+
+- Bit (directly proportional to the amplitude of the sound) ~ 64 bit (1 bit = 6dB)
+- Buffer size (number of samples in a second):
+    - 256 in recording (less latency)
+    - 1024 in reproduction, mixing, mastering (more latency)
+
+!!! Note
+    To avoid latency it could be useful separate instrument from audio recording in two different projects with pre-mix
+
+**Kind of files**
+
+- Wave -> default
+- Broadcast Wave
+- AIFF -> apple
+- FLAC
+
+**Techique of recording**
+
+- Input fader never touched
+- In recording max volume: -5dB / -6dB
