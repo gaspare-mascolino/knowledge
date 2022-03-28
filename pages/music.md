@@ -186,6 +186,10 @@ add indicates that an additional interval number should be added to the chord. (
 !!! Warning
     It could be useful use a chord in common between two different scales as "bridge" to change tonality.
 
+**Circle of fifth**
+
+<center><img src="/images/music/circle-of-fifth.png"></center>
+
 **Principal cadences**
 
 - **Perfect cadence**: V - I
