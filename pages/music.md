@@ -19,11 +19,11 @@ Sound waves are often simplified to a description in terms of sinusoidal plane w
 
 **Phase shift**
 
-<center><img src="/images/music/phase-shift.png"></center>
+<center><img src="/images/music/acoustic/phase-shift.png"></center>
 
 **Phase reversal**
 
-<center><img src="/images/music/phase-reversal.png"></center>
+<center><img src="/images/music/acoustic/phase-reversal.png"></center>
 
 !!! Warning
     Two sounds in phase reversal cancel each other out.
@@ -48,7 +48,7 @@ Principal charateristics of sound are:
 2. **Loudness**: perceived as how "loud" or "soft" a sound is and relates to the totalled number of auditory nerve stimulations over short cyclic time periods, most likely over the duration of theta wave cycles (dB).
 3. **Duration**: perceived as how "long" or "short" a sound is and relates to onset and offset signals created by nerve responses to sounds. The duration of a sound usually lasts from the time the sound is first noticed until the sound is identified as having changed or ceased.
 
-    <center><img src="/images/music/adsr.png"></center>
+    <center><img src="/images/music/acoustic/adsr.png"></center>
 
     !!! Info
         Transient defined means a precise variation of the amplitude.
@@ -83,11 +83,11 @@ A **scale** is any set of musical notes ordered by fundamental frequency or pitc
     - **minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensible is not present)
     - **harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh degrees (to fix the missing of the sensible).
 
-    <center><img src="/images/music/harmonic-minor.png"></center>
+    <center><img src="/images/music/harmony/harmonic-minor.png"></center>
 
     - **melodic minor scale**: defined as the minor scale except that the sixth degree is raised by one semitone in the ascending form of the scale (jazz minor), while the lowered seventh appears in the descending form of the scale (minor).
 
-     <center><img src="/images/music/melodic-minor.png"></center>
+     <center><img src="/images/music/harmony/melodic-minor.png"></center>
 
 - **pentatonic scale**: defined as the major scale without the IV (descending sensibile/leading tone) and VII grades (ascending sensibile/leading tone).
 
@@ -96,7 +96,7 @@ A **scale** is any set of musical notes ordered by fundamental frequency or pitc
 
 The **modus** relates to the organisation of pitch in scales, start from a specific grade of the major scale.
 
-<center><img src="/images/music/modes.png"></center>
+<center><img src="/images/music/harmony/modes.png"></center>
 
 <center>
 
@@ -116,7 +116,7 @@ The **modus** relates to the organisation of pitch in scales, start from a speci
 
 The scale degree is the position of a particular note on a scale relative to the tonic.
 
-<center><img src="/images/music/degree.png"></center>
+<center><img src="/images/music/harmony/degree.png"></center>
 
 <center>
 
@@ -248,7 +248,7 @@ add indicates that an additional interval number should be added to the chord. (
 
 **Circle of fifth**
 
-<center><img src="/images/music/circle-of-fifth.png"></center>
+<center><img src="/images/music/harmony/circle-of-fifth.png"></center>
 
 **Principal cadences**
 
@@ -292,13 +292,13 @@ It is a universal languages.
 In Western musical notation, the **staff** (US) or **stave** (UK) is a set of five horizontal lines and four spaces that each represent a different musical pitch or in the case of a percussion staff, different percussion instruments. Appropriate music symbols, depending on the intended effect, are placed on the staff according to their corresponding pitch or function. Musical notes are placed by pitch, percussion notes are placed by instrument, and rests and other symbols are placed by convention.
 
 
-<center><img src="/images/music/staff.png"></center>
+<center><img src="/images/music/music-notation/staff.png"></center>
 
 **Ledger line**
 
 A **ledger line** is used in Western musical notation to notate pitches above or below the lines and spaces of the regular musical staff. A line slightly longer than the note head is drawn parallel to the staff, above or below, spaced at the same distance as the lines within the staff.
 
-<center><img src="/images/music/ledger-line.png"></center>
+<center><img src="/images/music/music-notation/ledger-line.png"></center>
 
 **Clef**
 
@@ -306,15 +306,15 @@ A **clef** (from French: clef 'key') is a musical symbol used to indicate which 
 
 The three clef symbols used in modern music notation are the G-clef, F-clef, and C-clef. Placing these clefs on a line fixes a reference note to that line.
 
-<center><img src="/images/music/all-clefs.png"></center>
-<center><img src="/images/music/piano-ranges.jpg"></center>
+<center><img src="/images/music/music-notation/all-clefs.png"></center>
+<center><img src="/images/music/music-notation/piano-ranges.jpg"></center>
 
 
 Theoretically, any clef may be placed on any line. With five lines on the stave and three clefs, there are fifteen possibilities for clef placement. Six of these are redundant because they result in an identical assignment of the notes to the lines (and spaces). Thus, there are nine possible distinct clefs, all of which have been used historically.
 
 In modern music, only four clefs are used regularly: treble clef, bass clef, alto clef, and tenor clef. Of these, the treble and bass clefs are by far the most common. The tenor clef is used for the upper register of several instruments that usually use bass clef (including cello, bassoon, and trombone), while the alto is mostly only used by the viola.
 
-<center><img src="/images/music/middle-c-in-four-clefs.png"></center>
+<center><img src="/images/music/music-notation/middle-c-in-four-clefs.png"></center>
 
 *Middle C represented on (from left to right) treble, alto, tenor and bass clefs.*
 
@@ -324,7 +324,7 @@ A symmetry exists with middle C for the F, C and G clefs. Two mnemonics for lear
 
 <center>**G**ood **B**oys **D**o **F**ine **A**lways, **E**very **G**ood **B**oy **D**oes **F**ine</center> 
 
-<center><img src="/images/music/mnemonic-bass-alto-treble.png"></center>
+<center><img src="/images/music/music-notation/mnemonic-bass-alto-treble.png"></center>
 
 <center>
 
@@ -389,7 +389,7 @@ A **note** is a symbol denoting the pitch and duration of a sound. A note can al
 
 The **note notation**:
 
-<center><img src="/images/music/note-notation.png"></center>
+<center><img src="/images/music/music-notation/note-notation.png"></center>
 
 <center>
 
@@ -409,11 +409,11 @@ Do - Re - Mi - Fa - Sol - La - Si - Do - Si - La - Sol - Fa - Mi - Re - Do
 
 The **percussion notation**:
 
-<center><img src="/images/music/percussion-notation.png"></center>
+<center><img src="/images/music/music-notation/percussion-notation.png"></center>
 
 The **chord chart**:
 
-<center><img src="/images/music/chord-chart.png"></center>
+<center><img src="/images/music/music-notation/chord-chart.png"></center>
 
 It is intended primarily for a rhythm section (usually consisting of piano, guitar, drums and bass). In these genres the musicians are expected to be able to improvise the individual notes used for the chords (the "voicing") and the appropriate ornamentation, counter melody or bassline.
 
@@ -447,7 +447,7 @@ There are various types of time signatures:
 
 - **compound**: subdivisions (which are what the upper number represents in these meters) of the beat are in three equal parts, so that a dotted note (half again longer than a regular note) becomes the beat.
 
-<center><img src="/images/music/meters.jpg"></center>
+<center><img src="/images/music/music-notation/meters.jpg"></center>
     
 - **complex**: signatures that do not fit the usual duple or triple categories are called complex, asymmetric, irregular, unusual, or odd—though these are broad terms, and usually a more specific description is appropriate. The term odd meter, however, sometimes describes time signatures in which the upper number is simply odd rather than even.
 
@@ -461,11 +461,11 @@ There are various types of time signatures:
 
 A **note value** indicates the relative duration of a note, using the texture or shape of the notehead, the presence or absence of a stem, and the presence or absence of flags/beams/hooks/tails. Unmodified note values are fractional powers of two.
 
-<center><img src="/images/music/parts-of-a-note.png"></center>
+<center><img src="/images/music/music-notation/parts-of-a-note.png"></center>
 
 A **rest** indicates a silence of an equivalent duration.
 
-<center><img src="/images/music/note-and-rest-value.png"></center>
+<center><img src="/images/music/music-notation/note-and-rest-value.png"></center>
 
 **Tuplet**
 
@@ -481,19 +481,19 @@ The most common type of tuplet is the triplet.
 
 A **dotted note** is a note with a small dot written after it. In modern practice, the first dot increases the duration of the basic note by half (the original note with an extra beam) of its original value. This means that a dotted note is equivalent to writing the basic note tied to a note of half the value.
 
-<center><img src="/images/music/dotted-notes.png"></center>
+<center><img src="/images/music/music-notation/dotted-notes.png"></center>
 
 **Tie**
 
 A **tie** is a curved line connecting the heads of two notes of the same pitch, indicating that they are to be played as a single note with a duration equal to the sum of the individual notes' values.
 
-<center><img src="/images/music/tie.png"></center>
+<center><img src="/images/music/music-notation/tie.png"></center>
 
 **Legato**
 
 A legato indicates that musical notes are played or sung smoothly and connected. That is, the player makes a transition from note to note with no intervening silence.
 
-<center><img src="/images/music/legato.png"></center>
+<center><img src="/images/music/music-notation/legato.png"></center>
 
 ## **Production**
 
@@ -542,4 +542,4 @@ MIDI are instructions which are read from instument:
 
 **Audio signal routing**
 
-<center><img src="/images/music/audio-routing.png"></center>
+<center><img src="/images/music/production/audio-routing.png"></center>
