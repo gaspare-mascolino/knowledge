@@ -73,13 +73,13 @@ The scale degree is the position of a particular note on a scale relative to the
 
 </center>
 
-Three different group for classification of grades:
+Three different group for classification of degrees:
 
 1. Tonic group: I, III, VI
 2. Subtonic group: II, IV
 3. Dominant group: V, VII
 
-Those chords may be substitute from each others.
+Those chords may be substitute from each others. To keep up a song three are the foundamental degrees: I - IV - V, the others are collateral.
 
 **Intervals**
 
@@ -144,6 +144,80 @@ Rules:
 - VII Minor = II Major inverted
 - VII Major = II Minor Inverted
 
+**Chords**
+
+Chord, in music, is any harmonic set of pitches/frequencies consisting of multiple notes (also called "pitches") that are heard as if sounding simultaneously. For many practical and theoretical purposes, arpeggios and broken chords (in which the notes of the chord are sounded one after the other, rather than simultaneously), or sequences of chord tones, may also be considered as chords in the right musical context.
+
+The most frequently encountered chords are triads, so called because they consist of three distinct notes: the root note, and intervals of a third and a fifth above the root note.
+
+The symbols used for notating chords are:
+
+- **m**, **min**, or **−** indicates a minor chord. The "m" must be lowercase to distinguish it from the "M" for major **(I - III Minor - V Perfect)**.
+- **M**, **Ma**, **Maj**, **Δ**, or (**no symbol**) indicates a major chord. In a jazz context, this typically indicates that the player should use any suitable chord of a major quality, for example a major seventh chord or a 6/9 chord. In a lot of jazz styles, an unembellished major triad is rarely if ever played, but in a lead sheet the choice of which major quality chord to use is left to the performer **(I - III Major - V Perfect)**.
+- **+** or **aug** indicates an augmented chord **(I - III Augmented - V Perfect)**.
+- **o** or **dim** indicates a diminished chord, either a diminished triad or a diminished seventh chord (d is not used) **(I - III Minor - V Diminished)**.
+- **ø** indicates a half-diminished seventh chord. In some fake books, the abbreviation m7(♭5) is used as an equivalent symbol **(I - III Minor - V Diminished - VII Minor)**.
+- **2** is mostly used as an extra note in a chord (e.g., add2, sus2) **(I - II Major - V Perfect)**.
+- **3** is the minor or major quality of the chord and is rarely written as a number.
+- **4** is mostly used as an extra note in a chord (e.g., add4, sus4) **(I - IV Perfect - V Perfect)**.
+- **5** is the (perfect) fifth of the chord and is only written as a number when altered (e.g., F7(♭5)). In guitar music, like rock, a "5" indicates a power chord, which consists of only the root and fifth, possibly with the root doubled an octave higher.
+- **6** indicates a sixth chord. There are no rules if the 6 replaces the 5th or not.
+- **7** indicates a dominant seventh chord. However, if Maj7, M7 or Δ7 is indicated, this is a major 7th chord (e.g., GM7 or FΔ7). Very rarely, also dom is used for dominant 7th.
+- **9** indicates a ninth chord, which in jazz usually includes the dominant seventh as well, if it is a dominant chord.
+- **11** indicates an eleventh chord, which in jazz usually includes the dominant seventh and ninth as well, if it is a dominant chord.
+- **13** indicates a thirteenth chord, which in jazz usually includes the dominant seventh, ninth and eleventh as well.
+- **6/9** indicates a triad with the addition of the sixth and ninth.
+- **sus4** (or simply 4) indicates a sus chord with the third omitted and the fourth used instead. Other notes may be added to a sus4 chord, indicated with the word "add" and the scale degree (e.g., Asus4(add9) or Asus4(add7)).
+- **sus2** (or simply 2) indicates a sus chord with the third omitted and the second (which may also be called the ninth) used instead. As with "sus4", a "sus2" chord can have other scale degrees added (e.g., Asus2(add♭7) or Asus2(add4)).
+- **(♭9)** (parenthesis) is used to indicate explicit chord alterations (e.g., A7(♭9)). The parenthesis is probably left from older days when jazz musicians weren't used to "altered chords". Albeit important, the parenthesis can be left unplayed (with no "musical harm").
+add indicates that an additional interval number should be added to the chord. (e.g., C7add13 is a C 7th chord plus an added 13th).
+- **alt** or **alt dom** indicates an altered dominant seventh chord (e.g., G7♯11).
+- **omit5** (or simply **no5**) indicates that the (indicated) note should be omitted.
+
+!!! Note
+    Sus chords (because of there is no the third) creates instability, to give colour to a melody and to link chords with shared note.
+
+**Harmony of the scales**
+
+- **Major scale**: I Major - II Minor - III Minor - IV Major - V Major - VI Minor - VII Diminished
+- **Harmonic Minor**: I Minor - II Diminished - III Augmented - IV Minor - V Major - VI Major - VII Diminished
+- **Melody Minor**: I Minor - II Minor - III Augmented - IV Major - V Major - VI Diminished - VII Diminished
+
+!!! Warning
+    It could be useful use a chord in common between two different scales as "bridge" to change tonality.
+
+**Principal cadences**
+
+- **Perfect cadence**: V - I
+- **Suspanded cadence**: I - V
+- **Plagal (chiesastica) cadence**: IV - I
+- **Half Plagal cadence**: I - IV
+
+**Poliphony movements**
+
+- **Direct**: parts move on the same direction
+- **Oblique**: one part fixs and the other go up or down
+- **Opposite**: one part goes up and the other down.
+- **Mixed**: union of the previous three.
+
+**Chords position**
+
+1. **I position** (the octave sings): Bass - I and Violin III (Tenore) V (Alto) I (Soprano)
+2. **II position** (the third sings): Bass - I and Violin V I III
+3. **III position** (the fifth sings): Bass - I and Violin - I III V
+
+The choose between one position from the other take the name of **voicing**.
+
+**Inversion**
+An inversion is a type of change to intervals, chords, voices (in counterpoint), and melodies. In each of these cases, "inversion" has a distinct but related meaning.
+
+- Root position: Bass - I and Violin (whatever disposition).
+- I inversion: Bass - III and Violin (creates an III - VI - VIII, it is call 6th chord) (It could be helpfull avoid thi inversion with vocal-third 'cause of weigh down the composition).
+- II inversion: Bass - V and Violin (creates an IIII - VI - VIII, it is call 4th and 6th chord (4/6)) -> pre o post from the perfect chord.
+
+!!! Note
+    In the past to create a 7th it could be prepareted before, insert it on the previous chord.
+    
 ## **Music notation**
 
 **Music notation** or **musical notation** is any system used to visually represent aurally perceived music played with instruments or sung by the human voice through the use of written, printed, or otherwise-produced symbols, including notation for durations of absence of sound such as rests.
