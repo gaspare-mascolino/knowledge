@@ -4,4 +4,4 @@
 mkdocs serve
 ```
 
-For more go to https://www.mkdocs.org/user-guide/writing-your-docs/
+For more go to https://squidfunk.github.io/mkdocs-material/

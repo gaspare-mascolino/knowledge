@@ -5,6 +5,7 @@ theme:
     name: null
     custom_dir: pages/documents/mkdocs-material
     language: en
+    favicon: 'images/triskele.png'
     feature:
         tabs: false
     palette:
