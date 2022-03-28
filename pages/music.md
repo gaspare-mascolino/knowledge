@@ -213,11 +213,11 @@ An inversion is a type of change to intervals, chords, voices (in counterpoint),
 
 - Root position: Bass - I and Violin (whatever disposition).
 - I inversion: Bass - III and Violin (creates an III - VI - VIII, it is call 6th chord) (It could be helpfull avoid thi inversion with vocal-third 'cause of weigh down the composition).
-- II inversion: Bass - V and Violin (creates an IIII - VI - VIII, it is call 4th and 6th chord (4/6)) -> pre o post from the perfect chord.
+- II inversion: Bass - V and Violin (creates an IIII - VI - VIII, it is call 4th and 6th chord (4/6)) -> pre o post of the perfect chord.
 
 !!! Note
     In the past to create a 7th it could be prepareted before, insert it on the previous chord.
-    
+
 ## **Music notation**
 
 **Music notation** or **musical notation** is any system used to visually represent aurally perceived music played with instruments or sung by the human voice through the use of written, printed, or otherwise-produced symbols, including notation for durations of absence of sound such as rests.
