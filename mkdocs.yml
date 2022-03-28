@@ -3,7 +3,7 @@ site_url: https://gasparemascolino.com
 
 theme:
     name: null
-    custom_dir: mkdocs-material
+    custom_dir: pages/documents/mkdocs-material
     language: en
     feature:
         tabs: false
