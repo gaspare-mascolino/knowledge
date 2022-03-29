@@ -80,8 +80,8 @@ A **scale** is any set of musical notes ordered by fundamental frequency or pitc
 - **chromatic scale**: each scale step represents a semitone interval
 - **diatonic scale**:
     - **major scale**: defined by the interval pattern W–W–H–W–W–W–H
-    - **minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensible is not present)
-    - **harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh degrees (to fix the missing of the sensible).
+    - **minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensibile is not present)
+    - **harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh degrees (to fix the missing of the sensibile).
 
     <center><img src="/images/music/harmony/harmonic-minor.png"></center>
 
@@ -222,26 +222,104 @@ The symbols used for notating chords are:
 - **4** is mostly used as an extra note in a chord (e.g., add4, sus4) **(I - IV Perfect - V Perfect)**.
 - **5** is the (perfect) fifth of the chord and is only written as a number when altered (e.g., F7(♭5)). In guitar music, like rock, a "5" indicates a power chord, which consists of only the root and fifth, possibly with the root doubled an octave higher.
 - **6** indicates a sixth chord. There are no rules if the 6 replaces the 5th or not.
-- **7** indicates a dominant seventh chord. However, if Maj7, M7 or Δ7 is indicated, this is a major 7th chord (e.g., GM7 or FΔ7). Very rarely, also dom is used for dominant 7th.
+- **7** indicates a dominant seventh chord, on each degree of the scales the 7th exists (compound from 3 thirds) **(I - III - V - VII)**:
+    - **Ma7/Δ**: Major chord + VII Major (III Major up)
+    - **7/dom**: Major chord + VII Minor (III Minor up)
+    - **m7/-**: Minor chord + VII Minor (III Minor up)
+    - **m7(♭5)/ø**: Diminished chord + VII Minor (III Minor up)
+
+!!! Note
+    **Resolution of the dominant 7th chord**
+
+    - complete: Bass VII - and Violin (any of the 3 positions)
+    - incomplete: Bass VII - and Violin (omit the V in the 3 positions)
+
+    VII incomplete - I tonic:
+    1. The 7th of the VII tends to the 3th of the I tonic
+    2. The 3th of the VII tend to the 1sr of the I tonic
+    3. The 8th (double substituted of the 5th) in common with the 5th Perfect of the I tonic
+
+    In Major tonality IV joint down to III, VII joint up to I/VIII
+
 - **9** indicates a ninth chord, which in jazz usually includes the dominant seventh as well, if it is a dominant chord.
 - **11** indicates an eleventh chord, which in jazz usually includes the dominant seventh and ninth as well, if it is a dominant chord.
 - **13** indicates a thirteenth chord, which in jazz usually includes the dominant seventh, ninth and eleventh as well.
 - **6/9** indicates a triad with the addition of the sixth and ninth.
-- **sus4** (or simply 4) indicates a sus chord with the third omitted and the fourth used instead. Other notes may be added to a sus4 chord, indicated with the word "add" and the scale degree (e.g., Asus4(add9) or Asus4(add7)).
 - **sus2** (or simply 2) indicates a sus chord with the third omitted and the second (which may also be called the ninth) used instead. As with "sus4", a "sus2" chord can have other scale degrees added (e.g., Asus2(add♭7) or Asus2(add4)).
+- **sus4** (or simply 4) indicates a sus chord with the third omitted and the fourth used instead. Other notes may be added to a sus4 chord, indicated with the word "add" and the scale degree (e.g., Asus4(add9) or Asus4(add7)).
+
+!!! Note
+    Sus chords (because of there is no the third) creates instability, to give colour to a melody and to link chords with shared note.
+
 - **(♭9)** (parenthesis) is used to indicate explicit chord alterations (e.g., A7(♭9)). The parenthesis is probably left from older days when jazz musicians weren't used to "altered chords". Albeit important, the parenthesis can be left unplayed (with no "musical harm").
 add indicates that an additional interval number should be added to the chord. (e.g., C7add13 is a C 7th chord plus an added 13th).
 - **alt** or **alt dom** indicates an altered dominant seventh chord (e.g., G7♯11).
 - **omit5** (or simply **no5**) indicates that the (indicated) note should be omitted.
 
-!!! Note
-    Sus chords (because of there is no the third) creates instability, to give colour to a melody and to link chords with shared note.
-
 **Harmony of the scales**
 
-- **Major scale**: I Major - II Minor - III Minor - IV Major - V Major - VI Minor - VII Diminished
-- **Harmonic Minor**: I Minor - II Diminished - III Augmented - IV Minor - V Major - VI Major - VII Diminished
-- **Melody Minor**: I Minor - II Minor - III Augmented - IV Major - V Major - VI Diminished - VII Diminished
+**Major scale**:
+
+- I Major 
+- II Minor 
+- III Minor 
+- IV Major 
+- V Major 
+- VI Minor 
+- VII Diminished
+
+**Harmonic Minor**:
+
+- I Minor 
+- II Diminished 
+- III Augmented 
+- IV Minor 
+- V Major 
+- VI Major 
+- VII Diminished
+
+**Melody Minor**:
+
+- I Minor 
+- II Minor 
+- III Augmented 
+- IV Major 
+- V Major 
+- VI Diminished 
+- VII Diminished
+
+**Major scale 7th**: 
+
+- I Major 7 
+- II Minor 7 
+- III Minor 7 
+- IV Major 7 
+- V 7 (particular sound) 
+- VI Minor 7 
+- VII Half Diminished
+
+!!! Note
+    The V degree as always take part of the tonal group but with the difference that the 7th is minor and it generates a dominat 7th chord which produce a particular sound and it tend to the tonic note (it is a leading tone).
+
+**Harmonic Minor 7th**: 
+
+- I Minor (Major 7)
+- II Half Diminished 
+- III Major 7 (#5) (Major + V Augmented)
+- IV Minor 7 
+- V 7 (particular sound, pivot chord) 
+- VI Major 7 
+- VII 7 Diminished (Diminished + VII Diminished)
+
+**Melodic Minor 7th**: 
+
+- I Minor (Major 7)
+- II Minor 7
+- III Major 7 (#5) (Major + V Augmented)
+- IV 7 
+- V 7 (V of Major / IV of another Melodic Minor) 
+- VI Half Diminished
+- VII Half Diminished
 
 !!! Warning
     It could be useful use a chord in common between two different scales as "bridge" to change tonality.
@@ -281,6 +359,11 @@ An inversion is a type of change to intervals, chords, voices (in counterpoint),
 
 !!! Note
     In the past to create a 7th it could be prepareted before, insert it on the previous chord.
+
+**Inversion of 7th chord**
+The same of the classic inversion adding the III inversion.
+
+- III inversion: Bass - VII and Violin (creates an II - IV - VI)
 
 ## **Music notation**
 
