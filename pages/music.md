@@ -175,7 +175,7 @@ Kind of intervals:
 * **Minor**
     * ♯ **Major**
     * ♭ **Diminished**
-    * ♭♭ ***Doubly Diminished**
+    * ♭♭ **Doubly Diminished**
 * **Perfect**
     * ♯ **Augmented**
     * ♯♯ **Doubly Augmented**
