@@ -23,7 +23,11 @@ build .             // the docker file is into this directory
 ```
 
 ```bash
-build -t <NAME>     // tags our image
+build . -t <NAME>     // tags our image
+```
+
+```bash
+build . -output="/path/to/file"     // save image in a path
 ```
 
 **Logs**
