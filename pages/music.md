@@ -77,19 +77,19 @@ A dissonant chord (chord with tension) "resolves" to a consonant chord. Harmoniz
 
 A **scale** is any set of musical notes ordered by fundamental frequency or pitch. A scale ordered by increasing pitch is an ascending scale, and a scale ordered by decreasing pitch is a descending scale.
 
-- **chromatic scale**: each scale step represents a semitone interval
-- **diatonic scale**:
-    - **major scale**: defined by the interval pattern W–W–H–W–W–W–H
-    - **minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensibile is not present)
-    - **harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh degrees (to fix the missing of the sensibile).
+- **Chromatic scale**: each scale step represents a semitone interval
+- **Diatonic scale**:
+    - **Major scale**: defined by the interval pattern W–W–H–W–W–W–H
+    - **Minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensibile is not present)
+    - **Harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh degrees (to fix the missing of the sensibile).
 
     <center><img src="/images/music/harmony/harmonic-minor.png"></center>
 
-    - **melodic minor scale**: defined as the minor scale except that the sixth degree is raised by one semitone in the ascending form of the scale (jazz minor), while the lowered seventh appears in the descending form of the scale (minor).
+    - **Melodic minor scale**: defined as the minor scale except that the sixth degree is raised by one semitone in the ascending form of the scale (jazz minor), while the lowered seventh appears in the descending form of the scale (minor).
 
      <center><img src="/images/music/harmony/melodic-minor.png"></center>
 
-- **pentatonic scale**: defined as the major scale without the IV (descending sensibile/leading tone) and VII grades (ascending sensibile/leading tone).
+- **Pentatonic scale**: defined as the major scale without the IV (descending sensibile/leading tone) and VII grades (ascending sensibile/leading tone).
 
 !!! Warning
     A scale is formed at least by 5 notes, otherwise it is a fragment of a scale.
@@ -526,19 +526,19 @@ In a music score, the time signature appears at the beginning as a time symbol o
 
 There are various types of time signatures:
 
-- **simple**: consist of two numerals, one stacked above the other. The lower numeral indicates the note value that represents one beat (the beat unit), this number is typically a power of 2. The upper numeral indicates how many such beats constitute a bar.
+- **Simple**: consist of two numerals, one stacked above the other. The lower numeral indicates the note value that represents one beat (the beat unit), this number is typically a power of 2. The upper numeral indicates how many such beats constitute a bar.
 
-- **compound**: subdivisions (which are what the upper number represents in these meters) of the beat are in three equal parts, so that a dotted note (half again longer than a regular note) becomes the beat.
+- **Compound**: subdivisions (which are what the upper number represents in these meters) of the beat are in three equal parts, so that a dotted note (half again longer than a regular note) becomes the beat.
 
 <center><img src="/images/music/music-notation/meters.jpg"></center>
     
-- **complex**: signatures that do not fit the usual duple or triple categories are called complex, asymmetric, irregular, unusual, or odd—though these are broad terms, and usually a more specific description is appropriate. The term odd meter, however, sometimes describes time signatures in which the upper number is simply odd rather than even.
+- **Complex**: signatures that do not fit the usual duple or triple categories are called complex, asymmetric, irregular, unusual, or odd—though these are broad terms, and usually a more specific description is appropriate. The term odd meter, however, sometimes describes time signatures in which the upper number is simply odd rather than even.
 
-- **mixed**: While time signatures usually express a regular pattern of beat stresses continuing through a piece (or at least a section), sometimes composers place a different time signature at the beginning of each bar, resulting in music with an extremely irregular rhythmic feel. In this case, the time signatures are an aid to the performers and not necessarily an indication of meter.
+- **Mixed**: While time signatures usually express a regular pattern of beat stresses continuing through a piece (or at least a section), sometimes composers place a different time signature at the beginning of each bar, resulting in music with an extremely irregular rhythmic feel. In this case, the time signatures are an aid to the performers and not necessarily an indication of meter.
 
-- **additive**: to indicate more complex patterns of stresses, such as additive rhythms, more complex time signatures can be used. Additive meters have a pattern of beats that subdivide into smaller, irregular groups. Such meters are sometimes called imperfect, in contrast to perfect meters, in which the bar is first divided into equal units.
+- **Additive**: to indicate more complex patterns of stresses, such as additive rhythms, more complex time signatures can be used. Additive meters have a pattern of beats that subdivide into smaller, irregular groups. Such meters are sometimes called imperfect, in contrast to perfect meters, in which the bar is first divided into equal units.
 
-- **irrational**: Irrational time signatures (rarely, "non-dyadic time signatures") are used for so-called irrational bar lengths,that have a denominator that is not a power of two (1, 2, 4, 8, 16, 32, etc.).
+- **Irrational**: Irrational time signatures (rarely, "non-dyadic time signatures") are used for so-called irrational bar lengths,that have a denominator that is not a power of two (1, 2, 4, 8, 16, 32, etc.).
 
 **Note value**
 
