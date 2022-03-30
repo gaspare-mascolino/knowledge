@@ -19,8 +19,6 @@ markdown_extensions:
     - admonition
     - codehilite
     - footnotes
-    - attr_list
-    - md_in_html
 docs_dir: pages
 
 nav:
