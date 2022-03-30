@@ -235,6 +235,7 @@ The symbols used for notating chords are:
     - incomplete: Bass VII - and Violin (omit the V in the 3 positions)
 
     VII incomplete - I tonic:
+    
     1. The 7th of the VII tends to the 3th of the I tonic
     2. The 3th of the VII tend to the 1sr of the I tonic
     3. The 8th (double substituted of the 5th) in common with the 5th Perfect of the I tonic
