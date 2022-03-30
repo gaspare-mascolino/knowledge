@@ -1,12 +1,14 @@
-## **Cyber security**
-
 ## **Docker**
 
-Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+**Docker** is an open platform for developing, shipping, and running applications. It enables you to separate your applications from your infrastructure so you can deliver software quickly, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
-Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security allow you to run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you do not need to rely on what is currently installed on the host. You can easily share containers while you work, and be sure that everyone you share with gets the same container that works in the same way.
+<center><img src="/images/computer-science/docker/logo.png"{width="100" align="center"}></center>
 
-Docker provides tooling and a platform to manage the lifecycle of your containers:
+<br>
+
+**Docker** provides the ability to package and run an application in a loosely isolated environment called a **container**. The isolation and security allow you to run many containers simultaneously on a given host. Containers are lightweight and contain everything needed to run the application, so you do not need to rely on what is currently installed on the host. You can easily share containers while you work, and be sure that everyone you share with gets the same container that works in the same way.
+
+**Docker** provides tooling and a platform to manage the lifecycle of your containers:
 
 - Develop your application and its supporting components using containers.
 - The container becomes the unit for distributing and testing your application.
@@ -14,80 +16,69 @@ Docker provides tooling and a platform to manage the lifecycle of your container
 
 **Commands:**
 
-**Build**
+- build (build a docker image):
 
-Build a docker image
+    ```
+        docker build [OPTIONS] PATH | URL | -                                     
+    ```
 
-```bash
-build .             // the docker file is into this directory
-```
+    PATH:
 
-```bash
-build . -t <NAME>     // tags our image
-```
+    - . (all the files in the local directory)
 
-```bash
-build . -output="/path/to/file"     // save image in a path
-```
+    OPTIONS:
 
-**Logs**
+    - --output , -o (Output destination)
+    - --pull (Always attempt to pull a newer version of the image)
+    - --tag , -t (Name and optionally a tag in the 'name:tag' format)
 
-```bash
-logs <NAME>     // shown the logs of the container
-```
+- image
 
-```bash
-logs --details <NAME>     // show extra details provided to logs
-```
+    ```
+        docker image COMMAND                                 
+    ```
 
-```bash
-logs -f <NAME>  // follow log output
-```
+    COMMAND:
 
-```bash
-logs --tail <NUMBER>  // number of line to show from the end
-```
+    - ls (List images)
+    - push (Push an image or a repository to a registry)
+    - rm (Remove a container)
 
-```bash
-logs --timestamps <NAME> // show timestamps
-```
+- logs (retrieves logs present at the time of execution)
 
-**Run**
+    ```
+        docker logs [OPTIONS] CONTAINER                                     
+    ```
 
-Run a docker image
+    OPTIONS:
 
-```bash
-run -d              // run the container in detached mode (in the background)
-```
+    - --details (Show extra details provided to logs)
+    - --follow , -f (Follow log output)
+    - --tail, -n (Number of line to show from the end)
+    - --timestamps, -t (Show timestamps)
 
-```bash
-run -p 80:80        // map port 80 of the host to port 80 in the container
-```
+- ps (list containers)
+    
+    ```
+         docker ps [OPTIONS]
+    ```
 
-**List images**
-```bash
-image ls                    // show the images.
-```
-**List containers**
-```bash
-ps                          // show the active containers.
-```
+- run (run a docker image)
 
-**Push containers**
-```bash
-push <container-id>         // push the container.
-```
+    ```
+        docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+    ```
 
-**Remove container**
-```bash
-rm <container-id>           // remove container, you can use flag -f to force it.
-```
+    OPTIONS:
 
-**Remove container**
-```bash
-stop <container-id>         // stop container.
-```
+    - -d (Run the container in detached mode (in the background))
+    - -p (Map port from the host to the container)
 
+- stop (stop one or more running containers)
+
+    ```
+        docker stop [OPTIONS] CONTAINER [CONTAINER...]
+    ```
 ## **Git**
 
 Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
