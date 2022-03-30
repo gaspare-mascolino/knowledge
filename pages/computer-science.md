@@ -2,7 +2,9 @@
 
 **Docker** is an open platform for developing, shipping, and running applications. It enables you to separate your applications from your infrastructure so you can deliver software quickly, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
-<center><img src="/images/computer-science/docker/logo.png"{width="100" align="center"}></center>
+<br>
+
+<center><img src="/images/computer-science/docker/docker-logo.png"></center>
 
 <br>
 
@@ -79,196 +81,151 @@
     ```
         docker stop [OPTIONS] CONTAINER [CONTAINER...]
     ```
+
 ## **Git**
 
-Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).
+**Git** is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems which generate the **working tree**).
+
+<br>
+
+<center><img src="/images/computer-science/git/git-logo.png"></center>
+
+<br>
 
 **Commands:**
 
-**Add**
+add
 
 Moves changes from the working directory to the staging area. This gives you the opportunity to prepare a snapshot before committing it to the official history.
 
-```bash
-add <directory>     // stage all changes in <directory>. 
+```
+git add <directory>     // stage all changes in <directory>
+git add <file>          // stage all changes in <file>
+git add .               // stage all changes
+git add -p              // interactive staging to choose portions of file
 ```
 
-```bash
-add <file>          // stage all changes in <file>. 
-```
-
-```bash
-add .               // stage all changes. 
-```
-
-```bash
-add -p              // interactive staging session to choose portions of file. 
-```
-
-
-**Branch**
+branch
 
 This command is your general-purpose branch administration tool. It lets you create isolated development environments within a single repository.
 
-```bash
-branch -a           // list all remote branches. 
+```
+git branch <branch>     // create a new branch without checkout
+git branch -a           // list all remote branches
+git branch -d <branch>  // delete the specified local branch
+git branch -D <branch>  // delete the specified local branch
+git branch -m <branch>  // rename the current branch to ＜branch＞
 ```
 
-```bash
-branch -m <branch>  // rename the current branch to ＜branch＞.
-```
-
-```bash
-branch <branch>     // create a new branch without checkout. 
-```
-
-```bash
-branch -d <branch>  // delete the specified local branch if it hasn't unmerged changes.
-```
-
-```bash
-branch -D <branch>  // delete the specified local branch.
-```
-
-**Checkout**
+checkout
 
 In addition to checking out old commits and old file revisions, git checkout is also the means to navigate existing branches.
 
-```bash
-checkout -b ＜new-branch＞ // simultaneously creates and checks out, -b branch before checkout.
+```
+git checkout -b ＜new-branch＞ // simultaneously creates and checks out
+git checkout -b ＜new-branch＞ ＜existing-branch＞ // new-branch from old
+git checkout ＜branch-name＞     // switching branches
+git checkout ＜commit-code＞     // checkout to the commit selected
 ```
 
-```bash
-checkout -b ＜new-branch＞ ＜existing-branch＞ // bases new-branch from existing-branch
-```
-
-```bash
-checkout ＜branchname＞     // switching branches is a straightforward operation
-```
-
-```bash
-checkout ＜commit-code＞     // checkout to the commit selected
-```
-
-**Clean**
+clean
 
 Removes untracked files from the working directory
 
 ```bash
-clean -n        // will show you which files are going to be removed without actually removing them.
+git clean -f        // deletion of untracked files
+git clean -n        // files are going to be removed without removing them
 ```
 
-```bash
-clean -f        // initiates the actual deletion of untracked files from the current directory.
-```
-
-**Clone**
+clone
 
 Creates a copy of an existing Git repository. 
 
 ```bash
-clone <repo url>        // copy of an existing Git repository.
+git clone <repo url>        // copy of an existing Git repository.
 ```
 
-**Commit**
+commit
 
 Takes the staged snapshot and commits it to the project history.
 
 ```bash
-commit -m       // commit with message
+git commit -m       // commit with message
 ```
-**Config**
+config
 
 ```bash
-config --global user.name <name>
+git config --global user.name <name>
+git config --local user.email <email>
 ```
 
-```bash
-config --local user.email <email>
-```
-
-**Diff** 
+diff
 
 Show changes between commits, commit and working tree, etc
 
 ```bash
-diff <branch-name>
+git diff <branch-name>
 ```
 
-**Fetch**
+fetch
 
 Fetching downloads a branch from another repository, along with all of its associated commits and files.
 
 ```bash
-fetch
+git fetch
 ```
 
-**Log**
+log
 
 Lets you explore the previous revisions of a project. It provides several formatting options for displaying committed snapshots.
 
 ```bash
-log --oneline      // condense each commit to a single line.
+git log <file>          // shows all the commits for <file>
+git log -n <limit>      // will display only n commits
+git log --oneline      // condense each commit to a single line
+git log -p              // shows the full diff of each commit
+git log --stat      // include which files were altered
 ```
 
-```bash
-log --stat      // include which files were altered and the relative number of lines that were modified.
-```
-
-```bash
-log -n <limit>      // will display only n commits.
-```
-
-```bash
-log -p              // shows the full diff of each commit.
-```
-
-```bash
-log <file>          // shows all the commits for <file>.
-```
-
-**Merge**
+merge
 
 A powerful way to integrate changes from divergent branches.
 
 ```bash
-merge <branch-name>    // to integrate a branch into another
+git merge <branch-name>    // to integrate a branch into another
 ```
 
-**Pull**
+pull
 
 It downloads a branch from a remote repository, then immediately merges it into the current branch.
 
 ```bash
-pull <branch-name>    // to integrate a branch into another
+git pull <branch-name>    // to integrate a branch into another
 ```
 
-**Push**
+push
 
 It lets you move a local branch to another repository.
 
 ```bash
-push origin --delete <branhc-name>   // delete a branch from the repository
+git push origin --delete <branhc-name>   // delete a branch from repository
 ```
 
-**Rebase**
+rebase
 
 Rebasing lets you move branches around, which helps you avoid unnecessary merge commits.
 
 ```bash
-rebase <base>   // rebase to the base
+git rebase <base>   // rebase to the base
+git rebase -i        // rebase with interactive application
 ```
 
-```bash
-rebase-i        // rebase with interactive application
-```
-
-**Reflog**
+reflog
 
 Git keeps track of updates to the tip of branches using a mechanism called reflog.
 
 ```bash
-reflog show HEAD      // show history of HEAD
+git reflog show HEAD      // show history of HEAD
 ```
 
 - ``` reset     // current HEAD to the specified state ((--hard) CODE push --force).```
@@ -276,32 +233,32 @@ reflog show HEAD      // show history of HEAD
 - ``` rm        // remove files from the working tree and from the index.```
 - ``` status    // summary of which files have changes that are staged.```
 
-**Remote**
+remote
 
 A convenient tool for administering remote connections.
 
 ```bash
-remote -v   // include the URL of each connection.
+git remote -v   // include the URL of each connection.
 ```
 
-**Reset**
+reset
 
 Undoes changes to files in the working directory.
 
 ```bash
-reset --hard <commit-id>    // reset to the commit
+git reset --hard <commit-id>    // reset to the commit
 ```
 
-**Revert**
+revert
 
 Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.
 
-**Stash**
+stash
 
 ```bash
-stash apply        // to apply the stash
+git stash apply        // to apply the stash
 ```
-**Status**
+status
 
 Displays the state of the working directory and the staged snapshot.
 
