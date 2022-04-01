@@ -359,12 +359,66 @@ An inversion is a type of change to intervals, chords, voices (in counterpoint),
 - II inversion: Bass - V and Violin (creates an IIII - VI - VIII, it is call 4th and 6th chord (4/6)) -> pre o post of the perfect chord.
 
 !!! Note
+
     In the past to create a 7th it could be prepareted before, insert it on the previous chord.
 
-**Inversion of 7th chord**
-The same of the classic inversion adding the III inversion.
+    **Inversion of 7th chord**
 
-- III inversion: Bass - VII and Violin (creates an II - IV - VI)
+    The same of the classic inversion adding the III inversion.
+
+        - III inversion: Bass - VII and Violin (creates an II - IV - VI)
+
+**Harmonic Continuity**
+
+In this method the chords could be appears in each kind of inversion, inserting the VI major to crate a 4 degrees chord.
+
+*Base principle of harmonic continuity*: keep the note in common between chords (the same vocals registry).
+
+!!! Info
+
+    If two chords have no notes in common it's important to keep the top note (singing note) near to a note of the next chord, at least if you don't want to change register.
+
+    When a chord remains stationary the guide note could be changed.
+
+**Modulation**
+
+**Modulation** is the change from one tonality (tonic, or tonal center) to another. This may or may not be accompanied by a change in key signature. It means use notes and harmonies deriving from another scale. Two different kind:
+
+- Tonicization (transitory): less than 4 chords, it will be report below the relative chord.
+
+    <center><img src="/images/music/harmony/tonicization.png"></center>
+
+- Base modulation (defined): 4 chords to confirm the tonality, and it will be reported on the staff.
+
+    <center><img src="/images/music/harmony/basic-modulation.png"></center>
+
+Types of modulation:
+
+1. **Common-chord** (also known as diatonic-pivot-chord modulation): moves from the original key to the destination key (usually a closely related key) by way of a chord both keys share.
+
+2. **Enharmonic**: takes place when one treats a chord as if it were spelled enharmonically as a functional chord in the destination key, and then proceeds in the destination key. There are two main types of enharmonic modulations: dominant seventh/augmented sixth, and (fully) diminished seventh.
+
+3. **Common-tone**: uses a sustained or repeated pitch from the old key as a bridge between it and the new key (common tone). Usually, this pitch will be held alone before the music continues in the new key.
+
+4. **Chromatic**: chromatic progression, one which involves the chromatic inflection of one or more notes whose letter name, thus, remains the same though altered through an accidental (often between keys which are not closely related. A secondary dominant or other chromatically altered chord may be used to lead one voice chromatically up or down on the way to the new key). 
+
+5. **Phrase** (also called direct, static, or abrupt): is a modulation in which one phrase ends with a cadence in the original key, and the next phrase begins in the destination key without any transition material linking the two keys. This type of modulation is frequently done to a closely related key—particularly the dominant or the relative major/minor key.
+
+6. **Sequential**: A passage in a given key ending in a cadence might be followed by the same passage transposed (up or down) to another key. Although a sequence does not have to modulate, it is also possible to modulate by way of a sequence (diatonically or chromatically).
+
+7. **Chain**: Distant keys may be reached sequentially through closely related keys by chain modulation.
+
+8. **Kind-of-chord**: even if there is no note in common, a major chord can be connected to a major chord, a minor to a minor and soon.
+
+!!! Info
+
+    *Changes between parallel keys*
+
+    Since **modulation** is defined as a change of tonic (tonality or tonal center), the change between minor and its parallel major or the reverse is technically not a modulation but a **change in mode**. Major tonic harmony that concludes music in minor contains what is known as a Picardy third. Any harmony associated with the minor mode in the context of major musical passages is often referred to as a borrowed chord, which creates mode mixture.
+
+    The most common modulations are to closely related keys (I, V, IV, vi, iii, ii).[23] V (dominant) is the most frequent goal and, in minor, III (relative key) is also a common goal.[24] Modulation to the dominant or the subdominant is relatively simple as they are adjacent steps on the circle of fifths. Modulations to the relative major or minor are also simple, as these keys share all pitches in common. Modulation to distantly related keys is often done smoothly through using chords in successive related keys, such as through the circle of fifths, the entirety of which may be used in either direction:
+
+      <center><img src="/images/music/harmony/pitch-class-space.png"></center>
 
 ## **Music notation**
 
