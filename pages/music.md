@@ -259,71 +259,22 @@ add indicates that an additional interval number should be added to the chord. (
 
 **Harmony of the scales**
 
-**Major scale**:
+|         | Major | Minor | Harmonic Minor | Melody Minor | Major 7th |  Harmonic Minor 7th | Melodic Minor 7th |
+| ------- | ----- | ----- | -------------- | ------------ | --------- | ------------------- | ----------------- | 
+|    I    |   M   |   m   |       m        |      m       |    M7     |       m(M7)         |      m(M7)        |
+|    II   |   m   |  dim  |      dim       |      m       |    m7     |         ø           |       m7          |
+|    III  |   m   |   M   |      aug       |     aug      |    m7     |       M7(#5)        |      M7(#5)       |
+|    IV   |   M   |   m   |       m        |      M       |    M7     |         m7          |       7           |
+|    V    |   M   |   m   |       M        |      M       |    7      |         7           |       7           |
+|    VI   |   m   |   M   |       M        |     dim      |    m7     |         M7          |       ø           |
+|   VII   |  dim  |   M   |      dim       |     dim      |    ø      |        7dim         |       ø           |
 
-- I Major 
-- II Minor 
-- III Minor 
-- IV Major 
-- V Major 
-- VI Minor 
-- VII Diminished
-
-**Harmonic Minor**:
-
-- I Minor 
-- II Diminished 
-- III Augmented 
-- IV Minor 
-- V Major 
-- VI Major 
-- VII Diminished
-
-**Melody Minor**:
-
-- I Minor 
-- II Minor 
-- III Augmented 
-- IV Major 
-- V Major 
-- VI Diminished 
-- VII Diminished
-
-**Major scale 7th**: 
-
-- I Major 7 
-- II Minor 7 
-- III Minor 7 
-- IV Major 7 
-- V 7 (particular sound) 
-- VI Minor 7 
-- VII Half Diminished
 
 !!! Note
     The V degree as always take part of the tonal group but with the difference that the 7th is minor and it generates a dominat 7th chord which produce a particular sound and it tend to the tonic note (it is a leading tone).
 
-**Harmonic Minor 7th**: 
-
-- I Minor (Major 7)
-- II Half Diminished 
-- III Major 7 (#5) (Major + V Augmented)
-- IV Minor 7 
-- V 7 (particular sound, pivot chord) 
-- VI Major 7 
-- VII 7 Diminished (Diminished + VII Diminished)
-
-**Melodic Minor 7th**: 
-
-- I Minor (Major 7)
-- II Minor 7
-- III Major 7 (#5) (Major + V Augmented)
-- IV 7 
-- V 7 (V of Major / IV of another Melodic Minor) 
-- VI Half Diminished
-- VII Half Diminished
-
 !!! Warning
-    It could be useful use a chord in common between two different scales as "bridge" to change tonality.
+    It could be useful use a chord in common between two different scales as "bridge" to change tonality, the V of the Melodic Minor 7th is in common with a V of a Major scale 7th or a IV of another Melodic Minor 7th
 
 **Circle of fifth**
 
@@ -419,6 +370,9 @@ Types of modulation:
     The most common modulations are to closely related keys (I, V, IV, vi, iii, ii). V (dominant) is the most frequent goal and, in minor, III (relative key) is also a common goal. Modulation to the dominant or the subdominant is relatively simple as they are adjacent steps on the circle of fifths. Modulations to the relative major or minor are also simple, as these keys share all pitches in common. Modulation to distantly related keys is often done smoothly through using chords in successive related keys, such as through the circle of fifths, the entirety of which may be used in either direction:
 
       <center><img src="/images/music/harmony/pitch-class-space.png"></center>
+
+**Progressions**
+movimento identico e continuo del basso che riproduce con le triadi superiori un andamento definito (modello, o pattern). All'interno delle progressioni sono permessi andamenti melodici e raddopi che al di fuori della progressione sarebbero vietati.
 
 ## **Music notation**
 
