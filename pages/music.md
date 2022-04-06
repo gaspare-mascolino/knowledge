@@ -372,7 +372,7 @@ Types of modulation:
 
       <center><img src="/images/music/harmony/pitch-class-space.png"></center>
 
-**Parrern**
+**Pattern**
 
 A **pattern** (or motive) is a cell or germ serving as the basis for repetitive pattern. It is a figure that can be used with any scale. It is used primarily for solos because, when practiced enough, it can be extremely useful when improvising. "Sequence" refers to the repetition of a part at a higher or lower pitch, and melodic sequence is differentiated from harmonic sequence.
 Identic movement of the bass and defined by the upper triads, inside the patterns are allowed melodic movements and doublet which is not allowed outside of them.
