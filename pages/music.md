@@ -242,9 +242,9 @@ The symbols used for notating chords are:
 
     In Major tonality IV joint down to III, VII joint up to I/VIII
 
-- **9** indicates a ninth chord, which in jazz usually includes the dominant seventh as well, if it is a dominant chord.
-- **11** indicates an eleventh chord, which in jazz usually includes the dominant seventh and ninth as well, if it is a dominant chord.
-- **13** indicates a thirteenth chord, which in jazz usually includes the dominant seventh, ninth and eleventh as well.
+- **9** indicates a ninth chord, which in jazz usually includes the dominant seventh as well, if it is a dominant chord (**2** + an octave).
+- **11** indicates an eleventh chord, which in jazz usually includes the dominant seventh and ninth as well, if it is a dominant chord(**4** + an octave).
+- **13** indicates a thirteenth chord, which in jazz usually includes the dominant seventh, ninth and eleventh as well (**6** + an octave).
 - **6/9** indicates a triad with the addition of the sixth and ninth.
 - **sus2** (or simply 2) indicates a sus chord with the third omitted and the second (which may also be called the ninth) used instead. As with "sus4", a "sus2" chord can have other scale degrees added (e.g., Asus2(add♭7) or Asus2(add4)).
 - **sus4** (or simply 4) indicates a sus chord with the third omitted and the fourth used instead. Other notes may be added to a sus4 chord, indicated with the word "add" and the scale degree (e.g., Asus4(add9) or Asus4(add7)).
@@ -303,6 +303,7 @@ add indicates that an additional interval number should be added to the chord. (
 The choose between one position from the other take the name of **voicing**.
 
 **Inversion**
+
 An inversion is a type of change to intervals, chords, voices (in counterpoint), and melodies. In each of these cases, "inversion" has a distinct but related meaning.
 
 - Root position: Bass - I and Violin (whatever disposition).
@@ -371,8 +372,34 @@ Types of modulation:
 
       <center><img src="/images/music/harmony/pitch-class-space.png"></center>
 
-**Progressions**
-movimento identico e continuo del basso che riproduce con le triadi superiori un andamento definito (modello, o pattern). All'interno delle progressioni sono permessi andamenti melodici e raddopi che al di fuori della progressione sarebbero vietati.
+**Parrern**
+
+A **pattern** (or motive) is a cell or germ serving as the basis for repetitive pattern. It is a figure that can be used with any scale. It is used primarily for solos because, when practiced enough, it can be extremely useful when improvising. "Sequence" refers to the repetition of a part at a higher or lower pitch, and melodic sequence is differentiated from harmonic sequence.
+Identic movement of the bass and defined by the upper triads, inside the patterns are allowed melodic movements and doublet which is not allowed outside of them.
+
+<center><img src="/images/music/harmony/pattern.png"></center>
+
+To determine a pattern occurs at least 4 chords.
+
+**Additional notes to chord**
+
+Add some notes to the foundamental didn't change the nature of the chord, thoose notes can be use melodically or harmonically:
+
+    - Major: 6M, 7M, 9M
+    - Minor: 6M, 7M, 9M, 11P
+    - Minor 7th: 9M. 11P
+    - 7: 5P, 5aug, 5dim, 9m, 9M, 11P, 11aug, 13M
+
+Tthe 9th, generally is not added without 6th or th 7th, the 11th without the 6th or the 7th and the 9th
+
+**Harmonization**
+
+**Harmonization** is a simultaneous succession in order to create a sequence of chords: *closed harmony* or *open harmony*.
+
+The **Soprano Top Note** (guide note) will be supported from the notes of the chord *from the top to the bottom* (more closely possible); 13th, 11th, 9th and the 7th can be used **only on the sing part or under much higher extensions** (A 9th under a 11th). This needs to avoid the number of the notes which can be added to particulars chords.
+
+!!! Note
+    In harmonization it is better to use at least a 3th minor under. Offen if a 13th, 11th, 9th and the 7th is on the sing part it used to use an inversion with the root note not always at the bottom.
 
 ## **Music notation**
 
