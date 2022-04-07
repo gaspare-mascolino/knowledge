@@ -16,7 +16,7 @@
 - The container becomes the unit for distributing and testing your application.
 - When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
 
-**Commands:**
+### Commands
 
 - build (build a docker image):
 
@@ -92,7 +92,7 @@
 
 <br>
 
-**Commands:**
+### Commands
 
 add
 

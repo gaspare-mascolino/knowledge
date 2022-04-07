@@ -2,20 +2,12 @@
 
 **Acoustic** is the interdisciplinary science that deals with the study of mechanical waves in gases, liquids, and solids including vibration, sound, ultrasound, and infrasound.
 
-**Sound**
 
-**Sound** is a vibration (compression and rarefaction) that propagates as an acoustic wave, through a transmission medium such as a gas, liquid or solid.
+### Phase
 
-Sound waves are often simplified to a description in terms of sinusoidal plane waves, which are characterized by these generic properties:
+ The **phase** of a periodic function F of some real variable t (such as time) is an angle-like quantity representing the fraction of the cycle covered up to t. It is denoted phi (t) and expressed in such a scale that it varies by one full turn as the variable t goes through each period (an F(t)}F(t) goes through each complete cycle). It may be measured in any angular unit such as degrees or radians, thus increasing by 360° or {\displaystyle 2\pi }2\pi  as the variable {\displaystyle t}t completes a full period.
 
-- Frequency (in Hz), or its inverse, wavelength
-    - Low: 20Hz-200Hz
-    - Middle-Low: 200Hz-1000Hz
-    - Middle-High: 1000Hz-5000Hz
-    - High: 5000Hz-20000Hz
-- Amplitude, sound pressure or Intensity (dB)
-- Speed of sound: the speed of sound in a particular substance was equal to the square root of the pressure acting on it multiplied the heat capacity ratio divided by its density. Dependent from the ambient, indipendent from the propagation. (~ 344 m/s)
-- Direction: omnidirectional
+This convention is especially appropriate for a sinusoidal function, since its value at any argument t then can be expressed as the sine of the phase phi (t), multiplied by some factor (the amplitude of the sinusoid). (The cosine may be used instead of sine, depending on where one considers each period to start).
 
 **Phase shift**
 
@@ -30,6 +22,22 @@ Sound waves are often simplified to a description in terms of sinusoidal plane w
 
 !!! Info
     Two identical sounds were sum increasing the volume of the double
+
+### Sound
+
+**Sound** is a vibration (compression and rarefaction) that propagates as an acoustic wave, through a transmission medium such as a gas, liquid or solid.
+
+Sound waves are often simplified to a description in terms of sinusoidal plane waves, which are characterized by these generic properties:
+
+- Frequency (in Hz), or its inverse, wavelength
+    - Low: 20Hz-200Hz
+    - Middle-Low: 200Hz-1000Hz
+    - Middle-High: 1000Hz-5000Hz
+    - High: 5000Hz-20000Hz
+- Amplitude, sound pressure or Intensity (dB)
+- Speed of sound: the speed of sound in a particular substance was equal to the square root of the pressure acting on it multiplied the heat capacity ratio divided by its density. Dependent from the ambient, indipendent from the propagation. (~ 344 m/s)
+- Direction: omnidirectional
+
 
 **Reflection**
 
@@ -381,6 +389,11 @@ Identic movement of the bass and defined by the upper triads, inside the pattern
 
 To determine a pattern occurs at least 4 chords.
 
+In a pattern can be identify:
+
+- parallel octaves
+- hidden octaves
+
 **Additional notes to chord**
 
 Add some notes to the foundamental didn't change the nature of the chord, thoose notes can be use melodically or harmonically:
@@ -401,6 +414,31 @@ The **Soprano Top Note** (guide note) will be supported from the notes of the ch
 !!! Note
     In harmonization it is better to use at least a 3th minor under. Offen if a 13th, 11th, 9th and the 7th is on the sing part it used to use an inversion with the root note not always at the bottom.
 
+*Harmonization in 4 parts*
+
+In standard harmony not all the notes of the melody are simple notes of the chord, so it is necessary distinguish:
+
+- chord notes (C)
+- chord off-notes (NC)
+
+Rules for harmonize:
+
+- I. Start to harmonize the notes of the chord first from the chord of the melody keeping the disposition as close as possible.
+- II. harmonizing the note always with the notes of the chords. **The NC replaced the note of the chords suddenly below**. 
+
+**Principles of harmonization**
+
+1. Whatever note of whatever chord coul be use in whatever position, frequency and rhythm in the medesim chord -> Chord / Arpeggio
+2. From the sing part is better to keep a distance of a II Major.
+3. Jump of 4th and 5th, but also 6th and 8th are intersting on the attack of the sing part
+
+**Chromatic transition**
+It is possible use melodically, whatever notes which far cromatically to a structerd note of the chord. Those note will be always of short duration (1/8 or less).
+
+**Close note of the scale**
+Whatever notes on top of one structured note of the chord. Those note will be always of short duration (1/8 or less).
+
+The most important thins to comprend this technique is to know the rapport between scale and chord. Use whatever note which belongs to the key reference to approach to a structured note. **Pay attention to the use the 11th on the Major chord, it could be a violation**. 
 ## **Music notation**
 
 **Music notation** or **musical notation** is any system used to visually represent aurally perceived music played with instruments or sung by the human voice through the use of written, printed, or otherwise-produced symbols, including notation for durations of absence of sound such as rests.
@@ -662,3 +700,7 @@ MIDI are instructions which are read from instument:
 **Audio signal routing**
 
 <center><img src="/images/music/production/audio-routing.png"></center>
+
+**Vocal pan**
+
+To avoid issue with frequencies, higher is the pith more open is the pan.
