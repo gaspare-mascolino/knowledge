@@ -2,27 +2,34 @@ site_name: Gaspare Mascolino
 site_url: https://gasparemascolino.com
 
 theme:
-    name: null
-    custom_dir: pages/documents/mkdocs-material
-    language: en
-    favicon: 'images/triskele.png'
-    feature:
-        tabs: false
-    palette:
-        primary: 'white'
-        accent: 'white'
-    font:
-        text: Roboto
-        code: Roboto Mono
-    logo: 'images/triskele.png'
+  name: null
+  custom_dir: pages/documents/mkdocs-material
+  language: en
+  favicon: 'images/triskele.png'
+  feature:
+    tabs: true
+  palette:
+    primary: 'white'
+    accent: 'white'
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: 'images/triskele.png'
+
+extra_css:
+  - stylesheets/extra.css
+  
 markdown_extensions:
-    - admonition
-    - codehilite
-    - footnotes
+  - admonition
+  - footnotes
+
 docs_dir: pages
 
+plugins:
+  - search
+  - mermaid2
+
 nav:
-    - Computer Science: computer-science.md
-    - English: english.md
-    - Music: music.md
-    
+  - Computer Science: computer-science.md
+  - English: english.md
+  - Music: music.md 

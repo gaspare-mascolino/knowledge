@@ -5,9 +5,9 @@
 
 ### Phase
 
- The **phase** of a periodic function F of some real variable t (such as time) is an angle-like quantity representing the fraction of the cycle covered up to t. It is denoted phi (t) and expressed in such a scale that it varies by one full turn as the variable t goes through each period (an F(t)}F(t) goes through each complete cycle). It may be measured in any angular unit such as degrees or radians, thus increasing by 360° or 2\pi as the variable t completes a full period.
+ The **phase** of a periodic function F of some real variable t (such as time) is an angle-like quantity representing the fraction of the cycle covered up to t. It is denoted phi (t) and expressed in such a scale that it varies by one full turn as the variable t goes through each period (an F(t) goes through each complete cycle). It may be measured in any angular unit such as degrees or radians, thus increasing by 360° or 2\pi as the variable t completes a full period.
 
-This convention is especially appropriate for a sinusoidal function, since its value at any argument t then can be expressed as the sine of the phase phi (t), multiplied by some factor (the amplitude of the sinusoid). (The cosine may be used instead of sine, depending on where one considers each period to start).
+This convention is especially appropriate for a sinusoidal function, since its value at any argument t then can be expressed as the sine of the phase phi (t), multiplied by some factor (the amplitude of the sinusoid, the cosine may be used instead of sine, depending on where one considers each period to start).
 
 **Phase shift**
 
@@ -65,11 +65,11 @@ Principal charateristics of sound are:
 
 **Harmonic**
 
-A **Harmonic** is a wave with a frequency that is a positive integer multiple of the fundamental frequency, the frequency of the original periodic signal, such as a sinusoidal wave. The original signal is also called the 1st harmonic, the other harmonics are known as higher harmonics. As all harmonics are periodic at the fundamental frequency, the sum of harmonics is also periodic at that frequency. The set of harmonics forms a harmonic series.
+A **Harmonic** is a wave with a frequency that is a positive integer multiple of the fundamental frequency, the frequency of the original periodic signal, such as a sinusoidal wave. The original signal is also called the 1st harmonic (main harmonic), the other harmonics are known as higher harmonics (collateral harmonic, one or more depending on the instrument). As all harmonics are periodic at the fundamental frequency, the sum of harmonics is also periodic at that frequency. The set of harmonics forms a harmonic series.
 
-Two notes with fundamental frequencies in a ratio equal to any integer power of two (e.g., half, twice, or four times) are perceived as very similar. Because of that, all notes with these kinds of relations can be grouped under the same pitch class.
+!!! Info
+    Two notes with fundamental frequencies in a ratio equal to any integer power of two (e.g., half, twice, or four times) are perceived as very similar. Because of that, all notes with these kinds of relations can be grouped under the same pitch class.
 
-**The sound is formed by the main harmonic (1st) and collateral harmonics (one or more depending on the instrument)**
 ## **Harmony**
 
 **Harmony** is the process by which the composition of individual sounds, or superpositions of sounds, is analysed by hearing. Usually, this means simultaneously occurring frequencies, pitches (tones, notes), or chords.
@@ -83,16 +83,16 @@ A dissonant chord (chord with tension) "resolves" to a consonant chord. Harmoniz
 
 ### Chord
 
-Chord, in music, is any harmonic set of pitches/frequencies consisting of multiple notes (also called "pitches") that are heard as if sounding simultaneously. For many practical and theoretical purposes, arpeggios and broken chords (in which the notes of the chord are sounded one after the other, rather than simultaneously), or sequences of chord tones, may also be considered as chords in the right musical context.
+**Chord**, in music, is any harmonic set of pitches/frequencies consisting of multiple notes (also called "pitches") that are heard as if sounding simultaneously. For many practical and theoretical purposes, arpeggios and broken chords (in which the notes of the chord are sounded one after the other, rather than simultaneously), or sequences of chord tones, may also be considered as chords in the right musical context.
 
 The most frequently encountered chords are triads, so called because they consist of three distinct notes: the root note, and intervals of a third and a fifth above the root note.
 
 The symbols used for notating chords are:
 
-- **m**, **min**, or **−** indicates a minor chord. The "m" must be lowercase to distinguish it from the "M" for major **(I - III Minor - V Perfect)**.
-- **M**, **Ma**, **Maj**, **Δ**, or (**no symbol**) indicates a major chord. In a jazz context, this typically indicates that the player should use any suitable chord of a major quality, for example a major seventh chord or a 6/9 chord. In a lot of jazz styles, an unembellished major triad is rarely if ever played, but in a lead sheet the choice of which major quality chord to use is left to the performer **(I - III Major - V Perfect)**.
+- **m**, **min**, or **−** indicates a minor chord **(I - III Minor - V Perfect)**.
+- **M**, **Ma**, **Maj**, **Δ**, or (**no symbol**) indicates a major chord. In a jazz context, this typically indicates that the player should use any suitable chord of a major quality, for example a major seventh chord or a 6/9 chord **(I - III Major - V Perfect)**.
 - **+** or **aug** indicates an augmented chord **(I - III Augmented - V Perfect)**.
-- **o** or **dim** indicates a diminished chord, either a diminished triad or a diminished seventh chord (d is not used) **(I - III Minor - V Diminished)**.
+- **o** or **dim** indicates a diminished chord, either a diminished triad or a diminished seventh chord **(I - III Minor - V Diminished)**.
 - **ø** indicates a half-diminished seventh chord. In some fake books, the abbreviation m7(♭5) is used as an equivalent symbol **(I - III Minor - V Diminished - VII Minor)**.
 - **2** is mostly used as an extra note in a chord (e.g., add2, sus2) **(I - II Major - V Perfect)**.
 - **3** is the minor or major quality of the chord and is rarely written as a number.
@@ -106,16 +106,16 @@ The symbols used for notating chords are:
     - **m7(♭5)/ø**: Diminished chord + VII Minor (III Minor up)
 
 !!! Note
-    **Resolution of the dominant 7th chord**
+    **Resolution of the dominant VII chord**
 
     - complete: Bass VII - and Violin (any of the 3 positions)
     - incomplete: Bass VII - and Violin (omit the V in the 3 positions)
 
     VII incomplete - I tonic:
     
-    1. The 7th of the VII tends to the 3th of the I tonic
-    2. The 3th of the VII tend to the 1sr of the I tonic
-    3. The 8th (double substituted of the 5th) in common with the 5th Perfect of the I tonic
+    1. The VII of the chord tends to the III of the I tonic chord
+    2. The III of the chord tend to the I of the I tonic chord
+    3. The VIII (double substituted of the V) in common with the V Perfect of the I tonic
 
     In Major tonality IV joint down to III, VII joint up to I/VIII
 
@@ -129,8 +129,7 @@ The symbols used for notating chords are:
 !!! Note
     Sus chords (because of there is no the third) creates instability, to give colour to a melody and to link chords with shared note.
 
-- **(♭9)** (parenthesis) is used to indicate explicit chord alterations (e.g., A7(♭9)). The parenthesis is probably left from older days when jazz musicians weren't used to "altered chords". Albeit important, the parenthesis can be left unplayed (with no "musical harm").
-add indicates that an additional interval number should be added to the chord. (e.g., C7add13 is a C 7th chord plus an added 13th).
+- **(♭9)** (parenthesis) is used to indicate explicit chord alterations (e.g., A7(♭9)). The parenthesis is probably left from older days when jazz musicians weren't used to "altered chords".
 - **alt** or **alt dom** indicates an altered dominant seventh chord (e.g., G7♯11).
 - **omit5** (or simply **no5**) indicates that the (indicated) note should be omitted.
 
@@ -161,8 +160,8 @@ The choose between one position from the other take the name of **voicing**.
 An inversion is a type of change to intervals, chords, voices (in counterpoint), and melodies. In each of these cases, "inversion" has a distinct but related meaning.
 
 - Root position: Bass - I and Violin (whatever disposition).
-- I inversion: Bass - III and Violin (creates an III - VI - VIII, it is call 6th chord) (It could be helpfull avoid thi inversion with vocal-third 'cause of weigh down the composition).
-- II inversion: Bass - V and Violin (creates an IIII - VI - VIII, it is call 4th and 6th chord (4/6)) -> pre o post of the perfect chord.
+- I inversion: Bass - III and Violin (creates an III - VI - VIII, it is call 6th chord, it could be helpfull avoid the inversion with vocal-third 'cause of weigh down the composition).
+- II inversion: Bass - V and Violin (creates an IIII - VI - VIII, it is call 4th and 6th chord (4/6), suggests pre o post of the perfect chord).
 
 !!! Note
 
@@ -178,12 +177,40 @@ An inversion is a type of change to intervals, chords, voices (in counterpoint),
 
 Add some notes to the foundamental didn't change the nature of the chord, thoose notes can be use melodically or harmonically:
 
-    - Major: 6M, 7M, 9M
-    - Minor: 6M, 7M, 9M, 11P
-    - Minor 7th: 9M. 11P
-    - 7: 5P, 5aug, 5dim, 9m, 9M, 11P, 11aug, 13M
+<section markdown="1" style="display: flex;">
 
-The 9th, generally is not added without 6th or th 7th, the 11th without the 6th or the 7th and the 9th
+``` mermaid
+    graph LR 
+    A[Major] --> 6M
+    A --> 7M
+    A --> 9M
+```
+
+``` mermaid
+    graph LR 
+    A[Minor] --> 6M
+    A --> 7M
+    A --> 9M
+    A --> 11P
+```
+
+``` mermaid
+    graph LR 
+    A[Minor VII] --> M
+    A --> 11P
+```
+
+``` mermaid
+    graph LR 
+    A[VII] --> 5P/5aug/5dim
+    A --> 9m/9M
+    A --> 11P/11aug
+    A --> 13M
+```
+
+</section>
+
+The IX, generally is not added without VI or th VII, the 11th without the VI or the VII and the IX
 
 ### Circle of fifth
 
@@ -195,20 +222,22 @@ The 9th, generally is not added without 6th or th 7th, the 11th without the 6th 
 
 **Harmonic Continuity**
 
-In this method the chords could be appears in each kind of inversion, inserting the VI major to crate a 4 degrees chord.
+In this method the chords could be appears in each kind of inversion, inserting the VI Major to create a 4 degrees chord.
 
 *Base principle of harmonic continuity*: keep the note in common between chords (the same vocals registry).
 
-!!! Info
+!!! Warning
 
     If two chords have no notes in common it's important to keep the top note (singing note) near to a note of the next chord, at least if you don't want to change register.
 
-    When a chord remains stationary the guide note could be changed.
-
 The **Soprano Top Note** (guide note) will be supported from the notes of the chord *from the top to the bottom* (more closely possible); 13th, 11th, 9th and the 7th can be used **only on the sing part or under much higher extensions** (A 9th under a 11th). This needs to avoid the number of the notes which can be added to particulars chords.
 
+!!! Info
+
+    When a chord remains stationary the guide note could be changed.
+
 !!! Note
-    In harmonization it is better to use at least a 3th minor under. Offen if a 13th, 11th, 9th and the 7th is on the sing part it used to use an inversion with the root note not always at the bottom.
+    In harmonization it is better to use at least a 3th minor under. Offen if a 13th, 11th, 9th and the 7th is on the sing part it used to put an inversion with the root note not at the bottom of the chord.
 
 *Harmonization in 4 parts*
 
@@ -217,28 +246,26 @@ In standard harmony not all the notes of the melody are simple notes of the chor
 - chord notes (C)
 - chord off-notes (NC)
 
-Rules for harmonize:
+*Rules to harmonize*
 
-- I. Start to harmonize the notes of the chord first from the chord of the melody keeping the disposition as close as possible.
-- II. harmonizing the note always with the notes of the chords. **The NC replaced the note of the chords suddenly below**. 
+1. Start to harmonize the notes of the chord first from the chord of the melody keeping the disposition as close as possible.
+2. Harmonizing the note always with the notes of the chords. **The NC replaced the note of the chords suddenly below**. 
+3. Whatever note of the chord coul be use in whatever position, frequency and rhythm in the medesim chord -> Chord / Arpeggio
+4. From the sing part is better to keep a distance of a II Major.
+5. Jump of 4th and 5th, but also 6th and 8th are intersting on the attack of the sing part
 
-**Principles of harmonization**
+!!! Note
 
-1. Whatever note of whatever chord coul be use in whatever position, frequency and rhythm in the medesim chord -> Chord / Arpeggio
-2. From the sing part is better to keep a distance of a II Major.
-3. Jump of 4th and 5th, but also 6th and 8th are intersting on the attack of the sing part
+    - **Chromatic transition**: It is possible use melodically, whatever notes which far cromatically to a structerd note of the chord. Those note will be always of short duration (1/8 or less).
 
-**Chromatic transition**
-It is possible use melodically, whatever notes which far cromatically to a structerd note of the chord. Those note will be always of short duration (1/8 or less).
+    - **Close note of the scale**: Whatever notes on top of one structured note of the chord. Those note will be always of short duration (1/8 or less).
 
-**Close note of the scale**
-Whatever notes on top of one structured note of the chord. Those note will be always of short duration (1/8 or less).
+!!! Info
+    The most important thins to comprend this technique is to know the rapport between scale and chord. Use whatever note which belongs to the key reference to approach to a structured note. **Pay attention to the use the 11th on the Major chord, it could be a violation**. 
 
-The most important thins to comprend this technique is to know the rapport between scale and chord. Use whatever note which belongs to the key reference to approach to a structured note. **Pay attention to the use the 11th on the Major chord, it could be a violation**. 
+### Intervals
 
-### Interval
-
-An **interval** is the relationship between two separate musical pitches.
+An **intervals** is the relationship between two separate musical pitches.
 
 Two different kind:
 
@@ -247,35 +274,52 @@ Two different kind:
 
 The intervals in the major scale are:
 
-<center>
+<a>
 
-|         |     Intervals     |
-| ------- | ----------------  |
-|   I     |     1a Perfect    |  
-|   II    |     2a Major      |  
-|   III   |     3a Major      | 
-|   IV    |     4a Perfect    |  
-|   V     |     5a Perfect    | 
-|   VI    |     6a Major      | 
-|   VI    |     7a Major      | 
+| Degree  |       Kind       |  Degree  |    Kind   |
+| ------- | ---------------- | -------- | --------- |
+|   I     |     Perfect      |     V    |  Perfect  |
+|   II    |      Major       |    VI    |   Major   |
+|   III   |      Major       |    VII   |   Major   |
+|   IV    |     Perfect      |  
 
-</center>
+</a>
 
 Kind of intervals:
 
-* **Major**
-    * ♯ **Augmented**
-    * ♯♯ **Doubly Augmented**
-    * ♭ **Minor**
-* **Minor**
-    * ♯ **Major**
-    * ♭ **Diminished**
-    * ♭♭ **Doubly Diminished**
-* **Perfect**
-    * ♯ **Augmented**
-    * ♯♯ **Doubly Augmented**
-    * ♭ **Diminished**
-    * ♭♭ **Doubly Diminished**
+<section markdown="1" class="center">
+
+``` mermaid
+    graph LR 
+    A[Major] --> |#| B[Augmented] 
+    B --> |##| C[Doubly Augmented] 
+    A --> |b| D[Minor] 
+```
+
+</section>
+
+<section markdown="1" class="center">
+
+``` mermaid
+    graph LR 
+    A[Minor] --> |#| B[Major] 
+    A --> |b| C[Diminished] 
+    C --> |bb| D[Doubly Diminished] 
+```
+
+</section>
+
+<section markdown="1" class="center">
+
+``` mermaid
+    graph LR 
+    A[Perfect] --> |#| B[Augmented] 
+    B --> |##| C[Doubly Augmented] 
+    A --> |b| D[Diminished] 
+    D --> |bb| E[Doubly Diminished] 
+```
+
+</section>
 
 !!! Note
     To identify intervals from the sixth onwards it is useful invert the interval keep in mind theese rules:
@@ -286,18 +330,14 @@ Kind of intervals:
 
 Rules:
 
-- II Minor = H
-- II Major = W
-- III Minor = W + H
-- III Major = 2W
-- IV Perfect = III Major (2W) + H
-- V Perfect = III Major + III Minor
-- V Diminished = 2 III Minor
-- V Augmented = 2 III Major
-- VI Minor = III Major inverted
-- VI Major = III Minor inverted
-- VII Minor = II Major inverted
-- VII Major = II Minor Inverted
+|   Interval   |     Distance           |                  |                     |
+| ------------ | -----------------      | ---------------- | ------------------- |
+|   II Minor   |        H               |  V Diminished    |  2 III Minor        |
+|   II Major   |        W               |  V Augmented     |  2 III Major        | 
+|   III Minor  |       W+H              |    VI Minor      |  III Major inverted |
+|   III Major  |       2W               |    VI Major      |  III Minor Inverted |
+|   IV Perfect | III Major (2W) + H     |   VII Minor      |   II Major Inverted |
+|   V Perfect  | III Major + III Minor  |   VII Majoe      |   II Minor Inverted |
 
 ### Modulation
 
@@ -423,42 +463,29 @@ Those chords may be substitute from each others. To keep up a song three are the
 
 **Harmony of the scales**
 
-|         | Major | Minor | Harmonic Minor | Melody Minor | Major 7th |  Harmonic Minor 7th | Melodic Minor 7th |
-| ------- | ----- | ----- | -------------- | ------------ | --------- | ------------------- | ----------------- | 
-|    I    |   M   |   m   |       m        |      m       |    M7     |       m(M7)         |      m(M7)        |
-|    II   |   m   |  dim  |      dim       |      m       |    m7     |         ø           |       m7          |
-|    III  |   m   |   M   |      aug       |     aug      |    m7     |       M7(#5)        |      M7(#5)       |
-|    IV   |   M   |   m   |       m        |      M       |    M7     |         m7          |       7           |
-|    V    |   M   |   m   |       M        |      M       |    7      |         7           |       7           |
-|    VI   |   m   |   M   |       M        |     dim      |    m7     |         M7          |       ø           |
-|   VII   |  dim  |   M   |      dim       |     dim      |    ø      |        7dim         |       ø           |
+| Major | Minor | Harmonic Minor | Melody Minor | Major 7th |  Harmonic Minor 7th | Melodic Minor 7th |
+| ----- | ----- | -------------- | ------------ | --------- | ------------------- | ----------------- | 
+|   M   |   m   |       m        |      m       |    M7     |       m(M7)         |      m(M7)        |
+|   m   |  dim  |      dim       |      m       |    m7     |         ø           |       m7          |
+|   m   |   M   |      aug       |     aug      |    m7     |       M7(#5)        |      M7(#5)       |
+|   M   |   m   |       m        |      M       |    M7     |         m7          |       7           |
+|   M   |   m   |       M        |      M       |    7      |         7           |       7           |
+|   m   |   M   |       M        |     dim      |    m7     |         M7          |       ø           |
+|  dim  |   M   |      dim       |     dim      |    ø      |        7dim         |       ø           |
 
 
 !!! Note
-    The V degree as always take part of the tonal group but with the difference that the 7th is minor and it generates a dominat 7th chord which produce a particular sound and it tend to the tonic note (it is a leading tone).
+    The V degree as always take part of the tonal group but with the difference that the VII is minor and it generates a dominat 7th chord which produce a particular sound and it tend to the tonic note (it is a leading tone).
 
 !!! Warning
-    It could be useful use a chord in common between two different scales as "bridge" to change tonality, the V of the Melodic Minor 7th is in common with a V of a Major scale 7th or a IV of another Melodic Minor 7th
+    It could be useful use a chord in common between two different scales as "bridge" to change tonality, the V of the Melodic Minor 7th is in common with a V of a Major scale VII or a IV of another Melodic Minor VII
 
 ## **Music notation**
 
 **Music notation** or **musical notation** is any system used to visually represent aurally perceived music played with instruments or sung by the human voice through the use of written, printed, or otherwise-produced symbols, including notation for durations of absence of sound such as rests.
 It is a universal languages.
 
-**Staff**
-
-In Western musical notation, the **staff** (US) or **stave** (UK) is a set of five horizontal lines and four spaces that each represent a different musical pitch or in the case of a percussion staff, different percussion instruments. Appropriate music symbols, depending on the intended effect, are placed on the staff according to their corresponding pitch or function. Musical notes are placed by pitch, percussion notes are placed by instrument, and rests and other symbols are placed by convention.
-
-
-<center><img src="/images/music/music-notation/staff.png"></center>
-
-**Ledger line**
-
-A **ledger line** is used in Western musical notation to notate pitches above or below the lines and spaces of the regular musical staff. A line slightly longer than the note head is drawn parallel to the staff, above or below, spaced at the same distance as the lines within the staff.
-
-<center><img src="/images/music/music-notation/ledger-line.png"></center>
-
-**Clef**
+### Clef
 
 A **clef** (from French: clef 'key') is a musical symbol used to indicate which notes are represented by the lines and spaces on a musical stave. Placing a clef on a stave assigns a particular pitch to one of the five lines, which defines the pitches on the remaining lines and spaces.
 
@@ -541,7 +568,7 @@ This section shows a complete list of the clefs, along with a list of instrument
     - Soprano voice
     - Viola da gamba (high parts)
 
-**Note**
+### Note
 
 A **note** is a symbol denoting the pitch and duration of a sound. A note can also represent a pitch class (set of all pitches that are a whole number of octaves apart). 
 
@@ -593,28 +620,6 @@ An **accidental** is a note of a pitch (or pitch class) that is not a member of 
     - ♭♭ double flat -> lower the note of a tone.
     - ♮ natural -> restore the original sound.
 
-**Time signatures**
-
-The **time signature** (also known as meter signature, metre signature, or measure signature) is a notational convention used in Western musical notation to specify how many beats (pulses) are contained in each measure (bar), and which note value is equivalent to a beat.
-
-In a music score, the time signature appears at the beginning as a time symbol or stacked numerals, immediately following the key signature (or immediately following the clef symbol if the key signature is empty). A mid-score time signature, usually immediately following a barline, indicates a change of meter.
-
-There are various types of time signatures:
-
-- **Simple**: consist of two numerals, one stacked above the other. The lower numeral indicates the note value that represents one beat (the beat unit), this number is typically a power of 2. The upper numeral indicates how many such beats constitute a bar.
-
-- **Compound**: subdivisions (which are what the upper number represents in these meters) of the beat are in three equal parts, so that a dotted note (half again longer than a regular note) becomes the beat.
-
-<center><img src="/images/music/music-notation/meters.jpg"></center>
-    
-- **Complex**: signatures that do not fit the usual duple or triple categories are called complex, asymmetric, irregular, unusual, or odd—though these are broad terms, and usually a more specific description is appropriate. The term odd meter, however, sometimes describes time signatures in which the upper number is simply odd rather than even.
-
-- **Mixed**: While time signatures usually express a regular pattern of beat stresses continuing through a piece (or at least a section), sometimes composers place a different time signature at the beginning of each bar, resulting in music with an extremely irregular rhythmic feel. In this case, the time signatures are an aid to the performers and not necessarily an indication of meter.
-
-- **Additive**: to indicate more complex patterns of stresses, such as additive rhythms, more complex time signatures can be used. Additive meters have a pattern of beats that subdivide into smaller, irregular groups. Such meters are sometimes called imperfect, in contrast to perfect meters, in which the bar is first divided into equal units.
-
-- **Irrational**: Irrational time signatures (rarely, "non-dyadic time signatures") are used for so-called irrational bar lengths,that have a denominator that is not a power of two (1, 2, 4, 8, 16, 32, etc.).
-
 **Note value**
 
 A **note value** indicates the relative duration of a note, using the texture or shape of the notehead, the presence or absence of a stem, and the presence or absence of flags/beams/hooks/tails. Unmodified note values are fractional powers of two.
@@ -624,6 +629,7 @@ A **note value** indicates the relative duration of a note, using the texture or
 A **rest** indicates a silence of an equivalent duration.
 
 <center><img src="/images/music/music-notation/note-and-rest-value.png"></center>
+
 
 **Tuplet**
 
@@ -653,9 +659,61 @@ A legato indicates that musical notes are played or sung smoothly and connected.
 
 <center><img src="/images/music/music-notation/legato.png"></center>
 
+
+### Staff
+
+In Western musical notation, the **staff** (US) or **stave** (UK) is a set of five horizontal lines and four spaces that each represent a different musical pitch or in the case of a percussion staff, different percussion instruments. Appropriate music symbols, depending on the intended effect, are placed on the staff according to their corresponding pitch or function. Musical notes are placed by pitch, percussion notes are placed by instrument, and rests and other symbols are placed by convention.
+
+
+<center><img src="/images/music/music-notation/staff.png"></center>
+
+**Ledger line**
+
+A **ledger line** is used in Western musical notation to notate pitches above or below the lines and spaces of the regular musical staff. A line slightly longer than the note head is drawn parallel to the staff, above or below, spaced at the same distance as the lines within the staff.
+
+<center><img src="/images/music/music-notation/ledger-line.png"></center>
+
+### Time signatures
+
+The **time signature** (also known as meter signature, metre signature, or measure signature) is a notational convention used in Western musical notation to specify how many beats (pulses) are contained in each measure (bar), and which note value is equivalent to a beat.
+
+In a music score, the time signature appears at the beginning as a time symbol or stacked numerals, immediately following the key signature (or immediately following the clef symbol if the key signature is empty). A mid-score time signature, usually immediately following a barline, indicates a change of meter.
+
+There are various types of time signatures:
+
+- **Simple**: consist of two numerals, one stacked above the other. The lower numeral indicates the note value that represents one beat (the beat unit), this number is typically a power of 2. The upper numeral indicates how many such beats constitute a bar.
+
+- **Compound**: subdivisions (which are what the upper number represents in these meters) of the beat are in three equal parts, so that a dotted note (half again longer than a regular note) becomes the beat.
+
+<center><img src="/images/music/music-notation/meters.jpg"></center>
+    
+- **Complex**: signatures that do not fit the usual duple or triple categories are called complex, asymmetric, irregular, unusual, or odd—though these are broad terms, and usually a more specific description is appropriate. The term odd meter, however, sometimes describes time signatures in which the upper number is simply odd rather than even.
+
+- **Mixed**: While time signatures usually express a regular pattern of beat stresses continuing through a piece (or at least a section), sometimes composers place a different time signature at the beginning of each bar, resulting in music with an extremely irregular rhythmic feel. In this case, the time signatures are an aid to the performers and not necessarily an indication of meter.
+
+- **Additive**: to indicate more complex patterns of stresses, such as additive rhythms, more complex time signatures can be used. Additive meters have a pattern of beats that subdivide into smaller, irregular groups. Such meters are sometimes called imperfect, in contrast to perfect meters, in which the bar is first divided into equal units.
+
+- **Irrational**: Irrational time signatures (rarely, "non-dyadic time signatures") are used for so-called irrational bar lengths,that have a denominator that is not a power of two (1, 2, 4, 8, 16, 32, etc.).
+
 ## **Production**
 
-**Audio to digital**
+### Audio interface
+
+- Bit (directly proportional to the amplitude of the sound) ~ 64 bit (1 bit = 6dB)
+- Buffer size (number of samples in a second):
+    - 256 in recording (less latency)
+    - 1024 in reproduction, mixing, mastering (more latency)
+- DSP (digital signal processing, useful to use effects in real time reducing the latency)
+- Low-pass filter: exclude the high frequencies
+
+!!! Note
+    To avoid latency it could be useful separate instrument from audio recording in two different projects with pre-mix
+
+**Audio signal routing**
+
+<center><img src="/images/music/production/audio-routing.png"></center>
+
+### Audio to digital
 
 Mechanical energy -> electric current -> conductor -> AD <-> DA
 
@@ -675,32 +733,17 @@ Possible sampling frequencies:
 
 To represent faithfully in the digital context, it must be represented at the double of its frequency (Nyquist theorem). It could be helpful also if the sound was stressed (pitch-correction).
 
-**Audio interface**
+### MIDI
 
-- Bit (directly proportional to the amplitude of the sound) ~ 64 bit (1 bit = 6dB)
-- Buffer size (number of samples in a second):
-    - 256 in recording (less latency)
-    - 1024 in reproduction, mixing, mastering (more latency)
-- DSP (digital signal processing, useful to use effects in real time reducing the latency)
-- Low-pass filter: exclude the high frequencies
-
-!!! Note
-    To avoid latency it could be useful separate instrument from audio recording in two different projects with pre-mix
-
-**Techique of recording**
-
-- Input fader never touched
-- In recording max volume: -5dB / -6dB
-
-**MIDI (Musical Instrument digital interface)**
-MIDI are instructions which are read from instument:
+MIDI (Musical Instrument digital interface) are instructions which are read from instument:
 
 - Midi track: Rack VST - more instrument (No fader no pan)
 - Instrument track: one instrument
 
-**Audio signal routing**
+### Recording
 
-<center><img src="/images/music/production/audio-routing.png"></center>
+- Input fader never touched
+- In recording max volume: -5dB / -6dB
 
 **Vocal pan**
 
