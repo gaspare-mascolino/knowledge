@@ -171,7 +171,7 @@ An inversion is a type of change to intervals, chords, voices (in counterpoint),
 
     The same of the classic inversion adding the III inversion.
 
-        - III inversion: Bass - VII and Violin (creates an II - IV - VI)
+    - III inversion: Bass - VII and Violin (creates an II - IV - VI)
 
 **Additional notes to chord**
 
@@ -210,7 +210,7 @@ Add some notes to the foundamental didn't change the nature of the chord, thoose
 
 </section>
 
-The IX, generally is not added without VI or th VII, the 11th without the VI or the VII and the IX
+The IX, generally is not added without VI or th VII, the 11th without the VI or the VII and the IX.
 
 ### Circle of fifth
 
@@ -245,6 +245,8 @@ In standard harmony not all the notes of the melody are simple notes of the chor
 
 - chord notes (C)
 - chord off-notes (NC)
+
+To harmonize in 4 part could be usefull the I (double), V (double) or the VI.
 
 *Rules to harmonize*
 
@@ -338,6 +340,17 @@ Rules:
 |   III Major  |       2W               |    VI Major      |  III Minor Inverted |
 |   IV Perfect | III Major (2W) + H     |   VII Minor      |   II Major Inverted |
 |   V Perfect  | III Major + III Minor  |   VII Majoe      |   II Minor Inverted |
+
+### Melody
+
+A **melody**, melodic phrase or melodic line, in musical theory, is a succession of sounds whose structure generates a musical organism of complete meaning.
+
+**Melody on a succesion of note**
+
+1. Chord notes: the chord note could be used on the composition of the melody
+2. Cromatic approach: the notes of cromatic approach could preceded every note of the chord (near).
+3. Scale approach: the notes are present on the tonality referred to the chord and can be used directly on a structured note of the chord (near).
+4. Hi-Low: tension, supports or delay of a structured note (Hi) to a note of the chord (Low). These note have the same properties of the no chord and to locate it necessary keep in mind that they are always a tone (W) up (Hi) rather than the structured note of the chord (Low). In chords diminished and half diminished the highest voice are the *Hi* and the lowest the *Low*. The Hi-Low moves with the 13-5, 11-3, 9-1, 5-1 and 7-6. Since now the cromatism and the scales note a value of (1/8 or less), the Hig-Low have no limits of duration. Not very pretty at the vocal part.
 
 ### Modulation
 
