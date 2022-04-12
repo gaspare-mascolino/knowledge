@@ -551,11 +551,11 @@ This section shows a complete list of the clefs, along with a list of instrument
 
 *C-clefs*
 
-- Alto cief
+- Alto clef
     -  Viola, viola d'amore, alto trombone, viola da gamba, and mandola.
     - Countertenor (male singing voice whose vocal range is equivalent to that of the female contralto or mezzo-soprano voice types).
 
-- Tenor cief
+- Tenor clef
     - Viola da gamba, tenor violin.
     - Bassoon, cello, euphonium, double bass, and tenor trombone (upper ranges of bass-clef).  
 
