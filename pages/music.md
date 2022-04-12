@@ -11,8 +11,7 @@ This convention is especially appropriate for a sinusoidal function, since its v
 
 **Phase shift**
 
-<center>![Phase Shift](/images/music/acoustic/phase-shift.png)</center>
-
+<center><img src="/images/music/acoustic/phase-shift.png"></center>
 
 **Phase reversal**
 
