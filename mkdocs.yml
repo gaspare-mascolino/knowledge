@@ -17,7 +17,7 @@ theme:
   logo: 'images/triskele.png'
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/style.scss
   
 markdown_extensions:
   - admonition
