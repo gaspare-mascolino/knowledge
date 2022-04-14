@@ -16,6 +16,10 @@ theme:
     code: Roboto Mono
   logo: 'images/triskele.png'
 
+extra:
+  version:
+    provider: mike
+
 extra_css:
   - stylesheets/extra.css
   
