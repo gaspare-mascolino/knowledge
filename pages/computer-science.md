@@ -4,7 +4,7 @@
 
 <br>
 
-<center><img src="/images/computer-science/docker/docker-logo.png"></center>
+<center><img src="images/computer-science/docker/docker-logo.png"></center>
 
 <br>
 
@@ -88,7 +88,7 @@
 
 <br>
 
-<center><img src="/images/computer-science/git/git-logo.png"></center>
+<center><img src="images/computer-science/git/git-logo.png"></center>
 
 <br>
 
