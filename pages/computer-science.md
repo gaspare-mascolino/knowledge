@@ -4,7 +4,7 @@
 
 <br>
 
-<center><img src="/images/docker-logo.png"></center>
+<center><img src="/images/computer-science/docker/docker-logo.png"></center>
 
 <br>
 
