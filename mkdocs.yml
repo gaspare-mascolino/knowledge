@@ -15,9 +15,6 @@ theme:
     text: Roboto
     code: Roboto Mono
   logo: 'images/triskele.png'
-
-extra_css:
-  - stylesheets/extra.css
   
 markdown_extensions:
   - admonition
