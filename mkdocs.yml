@@ -21,7 +21,7 @@ extra:
     provider: mike
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/style.scss
   
 markdown_extensions:
   - admonition
