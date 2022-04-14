@@ -716,9 +716,10 @@ Mechanical energy -> electric current -> conductor -> AD <-> DA
 
 Possible sampling frequencies:
 
-|   Audio   |     Video     | Classic Music |
-| 44.100Hz  |  48.000Hz     | 176.400Hz     |
-| 88.200Hz  |  96.000Hz     | 192.000Hz     |
+| Audio    | Video    | Classic Music |
+|----------|----------|---------------|
+| 44.100Hz | 48.000Hz | 176.400Hz     |
+| 88.200Hz | 96.000Hz | 192.000Hz     |
 
 
 To represent faithfully in the digital context, it must be represented at the double of its frequency (Nyquist theorem). It could be helpful also if the sound was stressed (pitch-correction).
