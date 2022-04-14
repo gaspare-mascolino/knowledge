@@ -11,11 +11,11 @@ This convention is especially appropriate for a sinusoidal function, since its v
 
 **Phase shift**
 
-<center><img src="/images/music/acoustic/phase-shift.png"></center>
+![](images/music/acoustic/phase-shift.png)
 
 **Phase reversal**
 
-<center><img src="/images/music/acoustic/phase-reversal.png"></center>
+![](images/music/acoustic/phase-reversal.png)
 
 !!! Warning
     Two sounds in phase reversal cancel each other out.
@@ -56,7 +56,7 @@ Principal charateristics of sound are:
 2. **Loudness**: perceived as how "loud" or "soft" a sound is and relates to the totalled number of auditory nerve stimulations over short cyclic time periods, most likely over the duration of theta wave cycles (dB).
 3. **Duration**: perceived as how "long" or "short" a sound is and relates to onset and offset signals created by nerve responses to sounds. The duration of a sound usually lasts from the time the sound is first noticed until the sound is identified as having changed or ceased.
 
-    <center><img src="/images/music/acoustic/adsr.png"></center>
+   ![](images/music/acoustic/adsr.png)
 
     !!! Info
         Transient defined means a precise variation of the amplitude.
@@ -214,7 +214,7 @@ The IX, generally is not added without VI or th VII, the 11th without the VI or 
 
 ### Circle of fifth
 
-<center><img src="/images/music/harmony/circle-of-fifth.png"></center>
+![](images/music/harmony/circle-of-fifth.png)
 
 ### Harmonization
 
@@ -358,11 +358,11 @@ A **melody**, melodic phrase or melodic line, in musical theory, is a succession
 
 - Tonicization (transitory): less than 4 chords, it will be report below the relative chord.
 
-    <center><img src="/images/music/harmony/tonicization.png"></center>
+  ![](images/music/harmony/tonicization.png)
 
 - Base modulation (defined): 4 chords to confirm the tonality, and it will be reported on the staff.
 
-    <center><img src="/images/music/harmony/basic-modulation.png"></center>
+  ![](images/music/harmony/basic-modulation.png)
 
 Types of modulation:
 
@@ -390,14 +390,14 @@ Types of modulation:
 
     The most common modulations are to closely related keys (I, V, IV, vi, iii, ii). V (dominant) is the most frequent goal and, in minor, III (relative key) is also a common goal. Modulation to the dominant or the subdominant is relatively simple as they are adjacent steps on the circle of fifths. Modulations to the relative major or minor are also simple, as these keys share all pitches in common. Modulation to distantly related keys is often done smoothly through using chords in successive related keys, such as through the circle of fifths, the entirety of which may be used in either direction:
 
-      <center><img src="/images/music/harmony/pitch-class-space.png"></center>
+      ![](images/music/harmony/pitch-class-space.png)
 
 ### Pattern
 
 A **pattern** (or motive) is a cell or germ serving as the basis for repetitive pattern. It is a figure that can be used with any scale. It is used primarily for solos because, when practiced enough, it can be extremely useful when improvising. "Sequence" refers to the repetition of a part at a higher or lower pitch, and melodic sequence is differentiated from harmonic sequence.
 Identic movement of the bass and defined by the upper triads, inside the patterns are allowed melodic movements and doublet which is not allowed outside of them.
 
-<center><img src="/images/music/harmony/pattern.png"></center>
+![](images/music/harmony/pattern.png)
 
 To determine a pattern occurs at least 4 chords.
 
@@ -416,11 +416,11 @@ A **scale** is any set of musical notes ordered by fundamental frequency or pitc
     - **Minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensibile is not present)
     - **Harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh degrees (to fix the missing of the sensibile).
 
-    <center><img src="/images/music/harmony/harmonic-minor.png"></center>
+    ![](images/music/harmony/harmonic-minor.png)
 
     - **Melodic minor scale**: defined as the minor scale except that the sixth degree is raised by one semitone in the ascending form of the scale (jazz minor), while the lowered seventh appears in the descending form of the scale (minor).
 
-     <center><img src="/images/music/harmony/melodic-minor.png"></center>
+    ![](images/music/harmony/melodic-minor.png)
 
 - **Pentatonic scale**: defined as the major scale without the IV (descending sensibile/leading tone) and VII grades (ascending sensibile/leading tone).
 
@@ -429,32 +429,31 @@ A **scale** is any set of musical notes ordered by fundamental frequency or pitc
 
 The **modus** relates to the organisation of pitch in scales, start from a specific grade of the major scale.
 
-<center><img src="/images/music/harmony/modes.png"></center>
+![](images/music/harmony/modes.png)
 
-<center>
+<div style="text-align: center;">
 
-|         |       Modes       |
-| ------- | ----------------  |
-|   I     |      Ionico       |  
-|   II    |      Dorico       |  
-|   III   |      Frigio       | 
-|   IV    |      Lidio        |  
-|   V     |      Misolidio    | 
-|   VI    |      Eolio        | 
-|   VI    |      Locrio       | 
+|     | Modes     |
+|-----|-----------|
+| I   | Ionico    |  
+| II  | Dorico    |  
+| III | Frigio    | 
+| IV  | Lidio     |  
+| V   | Misolidio | 
+| VI  | Eolio     | 
+| VI  | Locrio    | 
 
-</center>
+</div>
 
 **Scale degree**
 
 The scale degree is the position of a particular note on a scale relative to the tonic.
 
-<center><img src="/images/music/harmony/degree.png"></center>
+![](images/music/harmony/degree.png)
 
-<center>
+<div style="text-align: center;">
 
 |         |          Degree          |                              |
-| ------- | ------------------------ | ---------------------------- |
 |   I     |          Tonica          |    (Strong or tonal degree)  |
 |   II    |        Sopratonica       |                              |
 |   III   |         Mediante         |                              |
@@ -464,7 +463,7 @@ The scale degree is the position of a particular note on a scale relative to the
 |   VII   |        Sottotonica       |    (1W from the tonic)       |
 |   VII   |         Sensibile        |    (1H from the tonic)       |
 
-</center>
+</div>
 
 Three different group for classification of degrees:
 
@@ -477,7 +476,6 @@ Those chords may be substitute from each others. To keep up a song three are the
 **Harmony of the scales**
 
 | Major | Minor | Harmonic Minor | Melody Minor | Major 7th |  Harmonic Minor 7th | Melodic Minor 7th |
-| ----- | ----- | -------------- | ------------ | --------- | ------------------- | ----------------- | 
 |   M   |   m   |       m        |      m       |    M7     |       m(M7)         |      m(M7)        |
 |   m   |  dim  |      dim       |      m       |    m7     |         ø           |       m7          |
 |   m   |   M   |      aug       |     aug      |    m7     |       M7(#5)        |      M7(#5)       |
@@ -504,15 +502,15 @@ A **clef** (from French: clef 'key') is a musical symbol used to indicate which 
 
 The three clef symbols used in modern music notation are the G-clef, F-clef, and C-clef. Placing these clefs on a line fixes a reference note to that line.
 
-<center><img src="/images/music/music-notation/all-clefs.png"></center>
-<center><img src="/images/music/music-notation/piano-ranges.jpg"></center>
+![](images/music/music-notation/all-clefs.png)
+![](images/music/music-notation/piano-ranges.jpg)
 
 
 Theoretically, any clef may be placed on any line. With five lines on the stave and three clefs, there are fifteen possibilities for clef placement. Six of these are redundant because they result in an identical assignment of the notes to the lines (and spaces). Thus, there are nine possible distinct clefs, all of which have been used historically.
 
 In modern music, only four clefs are used regularly: treble clef, bass clef, alto clef, and tenor clef. Of these, the treble and bass clefs are by far the most common. The tenor clef is used for the upper register of several instruments that usually use bass clef (including cello, bassoon, and trombone), while the alto is mostly only used by the viola.
 
-<center><img src="/images/music/music-notation/middle-c-in-four-clefs.png"></center>
+![](images/music/music-notation/middle-c-in-four-clefs.png)
 
 *Middle C represented on (from left to right) treble, alto, tenor and bass clefs.*
 
@@ -522,17 +520,16 @@ A symmetry exists with middle C for the F, C and G clefs. Two mnemonics for lear
 
 <center>**G**ood **B**oys **D**o **F**ine **A**lways, **E**very **G**ood **B**oy **D**oes **F**ine</center> 
 
-<center><img src="/images/music/music-notation/mnemonic-bass-alto-treble.png"></center>
+![](images/music/music-notation/mnemonic-bass-alto-treble.png)
 
-<center>
+<div style="text-align: center;">
 
 |     Clef     |          Note            |                     Note Location                   |
-| -----------  | ----------------------   | --------------------------------------------------- |
 | G-clef       |      G<sub>4</sub>       |     on the line that passes through the curl        |
 | C-clef       | C<sub>3</sub> (Middle C) |     on the line that passes through the centre      |
 | F-clef       |      F<sub>3</sub>       |     on the line that passes between the two dots    |
 
-</center> 
+</div> 
 
 This section shows a complete list of the clefs, along with a list of instruments and voice parts notated with them.
 
@@ -587,14 +584,13 @@ A **note** is a symbol denoting the pitch and duration of a sound. A note can al
 
 The **note notation**:
 
-<center><img src="/images/music/music-notation/note-notation.png"></center>
+![](images/music/music-notation/note-notation.png)
 
 <center>
 
 Do - Re - Mi - Fa - Sol - La - Si - Do - Si - La - Sol - Fa - Mi - Re - Do
 
 | Italian | International |
-| ------- | ------------- |
 |   Do    |       C       |
 |   Re    |       D       |
 |   Mi    |       E       |
@@ -607,11 +603,11 @@ Do - Re - Mi - Fa - Sol - La - Si - Do - Si - La - Sol - Fa - Mi - Re - Do
 
 The **percussion notation**:
 
-<center><img src="/images/music/music-notation/percussion-notation.png"></center>
+![](images/music/music-notation/percussion-notation.png)
 
 The **chord chart**:
 
-<center><img src="/images/music/music-notation/chord-chart.png"></center>
+![](images/music/music-notation/chord-chart.png)
 
 It is intended primarily for a rhythm section (usually consisting of piano, guitar, drums and bass). In these genres the musicians are expected to be able to improvise the individual notes used for the chords (the "voicing") and the appropriate ornamentation, counter melody or bassline.
 
@@ -637,11 +633,11 @@ An **accidental** is a note of a pitch (or pitch class) that is not a member of 
 
 A **note value** indicates the relative duration of a note, using the texture or shape of the notehead, the presence or absence of a stem, and the presence or absence of flags/beams/hooks/tails. Unmodified note values are fractional powers of two.
 
-<center><img src="/images/music/music-notation/parts-of-a-note.png"></center>
+![](images/music/music-notation/parts-of-a-note.png)
 
 A **rest** indicates a silence of an equivalent duration.
 
-<center><img src="/images/music/music-notation/note-and-rest-value.png"></center>
+![](images/music/music-notation/note-and-rest-value.png)
 
 
 **Tuplet**
@@ -658,33 +654,32 @@ The most common type of tuplet is the triplet.
 
 A **dotted note** is a note with a small dot written after it. In modern practice, the first dot increases the duration of the basic note by half (the original note with an extra beam) of its original value. This means that a dotted note is equivalent to writing the basic note tied to a note of half the value.
 
-<center><img src="/images/music/music-notation/dotted-notes.png"></center>
+![](images/music/music-notation/dotted-notes.png)
 
 **Tie**
 
 A **tie** is a curved line connecting the heads of two notes of the same pitch, indicating that they are to be played as a single note with a duration equal to the sum of the individual notes' values.
 
-<center><img src="/images/music/music-notation/tie.png"></center>
+![](images/music/music-notation/tie.png)
 
 **Legato**
 
 A legato indicates that musical notes are played or sung smoothly and connected. That is, the player makes a transition from note to note with no intervening silence.
 
-<center><img src="/images/music/music-notation/legato.png"></center>
-
+![](images/music/music-notation/legato.png)
 
 ### Staff
 
 In Western musical notation, the **staff** (US) or **stave** (UK) is a set of five horizontal lines and four spaces that each represent a different musical pitch or in the case of a percussion staff, different percussion instruments. Appropriate music symbols, depending on the intended effect, are placed on the staff according to their corresponding pitch or function. Musical notes are placed by pitch, percussion notes are placed by instrument, and rests and other symbols are placed by convention.
 
 
-<center><img src="/images/music/music-notation/staff.png"></center>
+![](images/music/music-notation/staff.png)
 
 **Ledger line**
 
 A **ledger line** is used in Western musical notation to notate pitches above or below the lines and spaces of the regular musical staff. A line slightly longer than the note head is drawn parallel to the staff, above or below, spaced at the same distance as the lines within the staff.
 
-<center><img src="/images/music/music-notation/ledger-line.png"></center>
+![](images/music/music-notation/ledger-line.png)
 
 ### Time signatures
 
@@ -698,7 +693,7 @@ There are various types of time signatures:
 
 - **Compound**: subdivisions (which are what the upper number represents in these meters) of the beat are in three equal parts, so that a dotted note (half again longer than a regular note) becomes the beat.
 
-<center><img src="/images/music/music-notation/meters.jpg"></center>
+![](images/music/music-notation/meters.jpg)
     
 - **Complex**: signatures that do not fit the usual duple or triple categories are called complex, asymmetric, irregular, unusual, or odd—though these are broad terms, and usually a more specific description is appropriate. The term odd meter, however, sometimes describes time signatures in which the upper number is simply odd rather than even.
 
@@ -724,7 +719,7 @@ There are various types of time signatures:
 
 **Audio signal routing**
 
-<center><img src="/images/music/production/audio-routing.png"></center>
+![](images/music/production/audio-routing.png)
 
 ### Audio to digital
 
@@ -735,14 +730,13 @@ Mechanical energy -> electric current -> conductor -> AD <-> DA
 
 Possible sampling frequencies:
 
-<center>
+<div style="text-align: center;">
 
 |   Audio   |     Video     | Classic Music |
-| --------- | ------------- | ------------- |
 | 44.100Hz  |  48.000Hz     | 176.400Hz     |
 | 88.200Hz  |  96.000Hz     | 192.000Hz     |
 
-</center>
+</div>
 
 To represent faithfully in the digital context, it must be represented at the double of its frequency (Nyquist theorem). It could be helpful also if the sound was stressed (pitch-correction).
 

@@ -4,7 +4,7 @@
 
 <br>
 
-![Image title](images/computer-science/docker/docker-logo.png)
+![](images/computer-science/docker/docker-logo.png)
 
 <br>
 
@@ -88,7 +88,7 @@
 
 <br>
 
-<center><img src="../images/computer-science/git/git-logo.png"></center>
+![](images/computer-science/git/git-logo.png)
 
 <br>
 
