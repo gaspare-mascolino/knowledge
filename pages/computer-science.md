@@ -4,7 +4,7 @@
 
 <br>
 
-<center><img src="images/computer-science/docker/docker-logo.png"></center>
+![Image title](images/computer-science/docker/docker-logo.png)
 
 <br>
 
