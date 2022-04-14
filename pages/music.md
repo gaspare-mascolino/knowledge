@@ -276,8 +276,6 @@ Two different kind:
 
 The intervals in the major scale are:
 
-<a>
-
 | Degree  |       Kind       |  Degree  |    Kind   |
 | ------- | ---------------- | -------- | --------- |
 |   I     |     Perfect      |     V    |  Perfect  |
@@ -285,7 +283,6 @@ The intervals in the major scale are:
 |   III   |      Major       |    VII   |   Major   |
 |   IV    |     Perfect      |  
 
-</a>
 
 Kind of intervals:
 
@@ -431,8 +428,6 @@ The **modus** relates to the organisation of pitch in scales, start from a speci
 
 ![](images/music/harmony/modes.png)
 
-<div style="text-align: center;">
-
 |     | Modes     |
 |-----|-----------|
 | I   | Ionico    |  
@@ -441,17 +436,13 @@ The **modus** relates to the organisation of pitch in scales, start from a speci
 | IV  | Lidio     |  
 | V   | Misolidio | 
 | VI  | Eolio     | 
-| VI  | Locrio    | 
-
-</div>
+| VI  | Locrio    |
 
 **Scale degree**
 
 The scale degree is the position of a particular note on a scale relative to the tonic.
 
 ![](images/music/harmony/degree.png)
-
-<div style="text-align: center;">
 
 |         |          Degree          |                              |
 |   I     |          Tonica          |    (Strong or tonal degree)  |
@@ -462,8 +453,6 @@ The scale degree is the position of a particular note on a scale relative to the
 |   VI    |       Sopradominante     |                              |
 |   VII   |        Sottotonica       |    (1W from the tonic)       |
 |   VII   |         Sensibile        |    (1H from the tonic)       |
-
-</div>
 
 Three different group for classification of degrees:
 
@@ -476,6 +465,7 @@ Those chords may be substitute from each others. To keep up a song three are the
 **Harmony of the scales**
 
 | Major | Minor | Harmonic Minor | Melody Minor | Major 7th |  Harmonic Minor 7th | Melodic Minor 7th |
+| ----- | ----- | -------------- | ------------ | --------- | ------------------- | ----------------- | 
 |   M   |   m   |       m        |      m       |    M7     |       m(M7)         |      m(M7)        |
 |   m   |  dim  |      dim       |      m       |    m7     |         ø           |       m7          |
 |   m   |   M   |      aug       |     aug      |    m7     |       M7(#5)        |      M7(#5)       |
@@ -522,14 +512,12 @@ A symmetry exists with middle C for the F, C and G clefs. Two mnemonics for lear
 
 ![](images/music/music-notation/mnemonic-bass-alto-treble.png)
 
-<div style="text-align: center;">
-
 |     Clef     |          Note            |                     Note Location                   |
+| -----------  | ----------------------   | --------------------------------------------------- |
 | G-clef       |      G<sub>4</sub>       |     on the line that passes through the curl        |
 | C-clef       | C<sub>3</sub> (Middle C) |     on the line that passes through the centre      |
 | F-clef       |      F<sub>3</sub>       |     on the line that passes between the two dots    |
 
-</div> 
 
 This section shows a complete list of the clefs, along with a list of instruments and voice parts notated with them.
 
@@ -586,11 +574,10 @@ The **note notation**:
 
 ![](images/music/music-notation/note-notation.png)
 
-<center>
-
 Do - Re - Mi - Fa - Sol - La - Si - Do - Si - La - Sol - Fa - Mi - Re - Do
 
 | Italian | International |
+| ------- | ------------- |
 |   Do    |       C       |
 |   Re    |       D       |
 |   Mi    |       E       |
@@ -599,7 +586,6 @@ Do - Re - Mi - Fa - Sol - La - Si - Do - Si - La - Sol - Fa - Mi - Re - Do
 |   La    |       A       |
 |   Si    |       B       |
 
-</center>
 
 The **percussion notation**:
 
@@ -730,13 +716,10 @@ Mechanical energy -> electric current -> conductor -> AD <-> DA
 
 Possible sampling frequencies:
 
-<div style="text-align: center;">
-
 |   Audio   |     Video     | Classic Music |
 | 44.100Hz  |  48.000Hz     | 176.400Hz     |
 | 88.200Hz  |  96.000Hz     | 192.000Hz     |
 
-</div>
 
 To represent faithfully in the digital context, it must be represented at the double of its frequency (Nyquist theorem). It could be helpful also if the sound was stressed (pitch-correction).
 
