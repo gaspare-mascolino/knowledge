@@ -25,10 +25,6 @@ markdown_extensions:
 
 docs_dir: pages
 
-plugins:
-  - search
-  - mermaid2
-
 nav:
   - Computer Science: computer-science.md
   - English: english.md
