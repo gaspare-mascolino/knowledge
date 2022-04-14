@@ -13,7 +13,7 @@ This convention is especially appropriate for a sinusoidal function, since its v
 
 <center><img src="/images/music/acoustic/phase-shift.png"></center>
 
-**Phase reversal**
+**Phase reversaaaal**
 
 <center><img src="/images/music/acoustic/phase-reversal.png"></center>
 
