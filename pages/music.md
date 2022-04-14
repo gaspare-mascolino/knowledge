@@ -212,6 +212,10 @@ Add some notes to the foundamental didn't change the nature of the chord, thoose
 
 The IX, generally is not added without VI or th VII, the 11th without the VI or the VII and the IX.
 
+**Modulation chords**
+
+A modular chord could be the V down or a IV up, this is it called resolution trend. Whatever is the tonality we can use the V7 rather a chord of a scale played before of it.
+
 ### Circle of fifth
 
 ![](images/music/harmony/circle-of-fifth.png)
@@ -347,7 +351,7 @@ A **melody**, melodic phrase or melodic line, in musical theory, is a succession
 1. Chord notes: the chord note could be used on the composition of the melody
 2. Cromatic approach: the notes of cromatic approach could preceded every note of the chord (near).
 3. Scale approach: the notes are present on the tonality referred to the chord and can be used directly on a structured note of the chord (near).
-4. Hi-Low: tension, supports or delay of a structured note (Hi) to a note of the chord (Low). These note have the same properties of the no chord and to locate it necessary keep in mind that they are always a tone (W) up (Hi) rather than the structured note of the chord (Low). In chords diminished and half diminished the highest voice are the *Hi* and the lowest the *Low*. The Hi-Low moves with the 13-5, 11-3, 9-1, 5-1 and 7-6. Since now the cromatism and the scales note a value of (1/8 or less), the Hig-Low have no limits of duration. Not very pretty at the vocal part.
+4. Hi-Low: tension, supports or delay always a tone (W) up (Hi) rather than a structured note of the chord (Low). In chords diminished and half diminished the highest voice are called *Hi* and the lowest *Low*. On the other chords the Hi-Low moves with the 13-5, 11-3, 9-1, 5-1 and 7-6. The Hig-Low have no limits of duration, not very pretty at the vocal part.
 
 ### Modulation
 
