@@ -766,4 +766,4 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 **E**
 
-[Elisa - Luce](documents/music/repertoire/Elisa-Luce.md)
+[Elisa - Luce](documents/music/repertoire/elisa-luce.md)
