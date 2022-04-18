@@ -1,12 +1,12 @@
 # Elisa - Luce (Tramonti A Nord Est)
 
-<center>
+CAPO: +3
 
-Em C D
+**Em**
 
 Parlami
 
- A Em A
+**C        D            Em  C D**
 
 come il vento fra gli alberi
 
@@ -227,5 +227,3 @@ ascoltami
 G D
 
 ascoltati ah !
-
-</center>
