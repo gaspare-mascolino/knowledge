@@ -17,11 +17,13 @@ theme:
   logo: 'images/triskele.png'
 
 extra_css:
-  - stylesheets/style.scss
+  - stylesheets/style.css
   
 markdown_extensions:
   - admonition
   - footnotes
+  - attr_list
+  - md_in_html
 
 docs_dir: pages
 

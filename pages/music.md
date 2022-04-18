@@ -11,7 +11,9 @@ This convention is especially appropriate for a sinusoidal function, since its v
 
 **Phase shift**
 
+<center>
 ![](images/music/acoustic/phase-shift.png)
+</center>
 
 **Phase reversal**
 
@@ -58,8 +60,8 @@ Principal charateristics of sound are:
 
    ![](images/music/acoustic/adsr.png)
 
-    !!! Info
-        Transient defined means a precise variation of the amplitude.
+!!! Info 
+    Transient defined means a precise variation of the amplitude.
 
 4. **Timbre**: perceived as the quality of different sounds (e.g. the thud of a fallen rock, the whir of a drill, the tone of a musical instrument or the quality of a voice) and represents the pre-conscious allocation of a sonic identity to a sound.
 
@@ -497,7 +499,10 @@ A **clef** (from French: clef 'key') is a musical symbol used to indicate which 
 The three clef symbols used in modern music notation are the G-clef, F-clef, and C-clef. Placing these clefs on a line fixes a reference note to that line.
 
 ![](images/music/music-notation/all-clefs.png)
+
+<center>
 ![](images/music/music-notation/piano-ranges.jpg)
+</center>
 
 
 Theoretically, any clef may be placed on any line. With five lines on the stave and three clefs, there are fifteen possibilities for clef placement. Six of these are redundant because they result in an identical assignment of the notes to the lines (and spaces). Thus, there are nine possible distinct clefs, all of which have been used historically.
@@ -514,7 +519,9 @@ A symmetry exists with middle C for the F, C and G clefs. Two mnemonics for lear
 
 <center>**G**ood **B**oys **D**o **F**ine **A**lways, **E**very **G**ood **B**oy **D**oes **F**ine</center> 
 
+<center>
 ![](images/music/music-notation/mnemonic-bass-alto-treble.png)
+</center>
 
 |     Clef     |          Note            |                     Note Location                   |
 | -----------  | ----------------------   | --------------------------------------------------- |
@@ -623,7 +630,9 @@ An **accidental** is a note of a pitch (or pitch class) that is not a member of 
 
 A **note value** indicates the relative duration of a note, using the texture or shape of the notehead, the presence or absence of a stem, and the presence or absence of flags/beams/hooks/tails. Unmodified note values are fractional powers of two.
 
+<center>
 ![](images/music/music-notation/parts-of-a-note.png)
+</center>
 
 A **rest** indicates a silence of an equivalent duration.
 
@@ -644,32 +653,41 @@ The most common type of tuplet is the triplet.
 
 A **dotted note** is a note with a small dot written after it. In modern practice, the first dot increases the duration of the basic note by half (the original note with an extra beam) of its original value. This means that a dotted note is equivalent to writing the basic note tied to a note of half the value.
 
+<center>
 ![](images/music/music-notation/dotted-notes.png)
+</center>
 
 **Tie**
 
 A **tie** is a curved line connecting the heads of two notes of the same pitch, indicating that they are to be played as a single note with a duration equal to the sum of the individual notes' values.
 
+<center>
 ![](images/music/music-notation/tie.png)
+</center>
 
 **Legato**
 
 A legato indicates that musical notes are played or sung smoothly and connected. That is, the player makes a transition from note to note with no intervening silence.
 
+<center>
 ![](images/music/music-notation/legato.png)
+</center>
 
 ### Staff
 
 In Western musical notation, the **staff** (US) or **stave** (UK) is a set of five horizontal lines and four spaces that each represent a different musical pitch or in the case of a percussion staff, different percussion instruments. Appropriate music symbols, depending on the intended effect, are placed on the staff according to their corresponding pitch or function. Musical notes are placed by pitch, percussion notes are placed by instrument, and rests and other symbols are placed by convention.
 
-
+<center>
 ![](images/music/music-notation/staff.png)
+</center>
 
 **Ledger line**
 
 A **ledger line** is used in Western musical notation to notate pitches above or below the lines and spaces of the regular musical staff. A line slightly longer than the note head is drawn parallel to the staff, above or below, spaced at the same distance as the lines within the staff.
 
+<center>
 ![](images/music/music-notation/ledger-line.png)
+</center>
 
 ### Time signatures
 

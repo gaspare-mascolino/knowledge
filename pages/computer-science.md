@@ -128,7 +128,9 @@ Commands
 
 <br>
 
-![](images/computer-science/git/git-logo.png)
+<center>
+![](images/computer-science/git/git-logo.png){ align=centre }
+</center>
 
 <br>
 
