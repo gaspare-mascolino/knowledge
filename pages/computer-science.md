@@ -1,4 +1,44 @@
-## **Docker**
+
+## **Terminal**
+
+Terminals, also known as command lines or consoles, allow us to accomplish and automate tasks on a computer without the use of a graphical user interface. Using a terminal allows us to send simple text commands to our computer to do things like navigate through a directory or copy a file, and form the basis for many more complex automations and programming skills.
+
+### Mac
+
+Shortcut: (⌘ + space + "ter")
+
+Mac uses Z shell, there are 2 foundamentals file (path: Users/username):
+
+- .zshrc (run control) -> file of declarations or commands that it interprets on startup.
+- .zshenv -> contains exported variables that should be available to other programs.
+
+**Commands:**
+
+- cat -> Lets you view the content of a text file.
+- cd -> Change directory. Allows you to move in your disk from one location to another.
+- chown -> Changes the owner and / or assigned group of one or more files and directories.
+- cp -> Copies a file from one location to another. If you want to copy a folder, use the ‘-R’ flag.
+- du -> Shows you the Disk Usage, a useful command to find out how much space is occupied by a folder. It is usually used with the -hs flag to only show totals in human-readable form.
+- find -> Find a file. If you want search every file (.) by name use the flag -name
+- grep -> Filters a text file on the keyword you specify.
+- less -> Lets you view the content of a text file.
+- ls -> List the files and folders of the location currently opened in terminal. Many times used as ls -a which shows hidden files as well as it converts file-sizes to a human-readable form.
+- man -> Displays the manual page of any supported command. This little built-in utility shows you all available information about a specific command including all the arguments and flags you can use.
+- mkdir -> Creates a new folder under the currently opened location. Note that you can create only a single new folder. If you want to create a hierarchy of folders you can use the -p parameter.
+- more -> Lets you view the content of a text file.
+- nano -> Lets you to edit a file.
+- ps ->  Used to list the currently running processes
+- pwd -> Find out the location/name of the folder currently opened in your terminal window.
+- rm -> Delete file
+- rmdir -> Delete folder
+- vim -> Lets you to edit a file.
+- wc -> word count
+- xargs -> Accept the pipe input such as text or file. It's default is echo.
+- | -> Allow to merge two or more commands
+
+## Tools
+
+### **Docker**
 
 **Docker** is an open platform for developing, shipping, and running applications. It enables you to separate your applications from your infrastructure so you can deliver software quickly, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
@@ -16,7 +56,7 @@
 - The container becomes the unit for distributing and testing your application.
 - When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
 
-### Commands
+Commands
 
 - build (build a docker image):
 
@@ -82,7 +122,7 @@
         docker stop [OPTIONS] CONTAINER [CONTAINER...]
     ```
 
-## **Git**
+### **Git**
 
 **Git** is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems which generate the **working tree**).
 
@@ -92,7 +132,7 @@
 
 <br>
 
-### Commands
+Commands
 
 add
 
@@ -346,40 +386,3 @@ To revert a branch to a specific commit:
 git reset --hard <commit_id>
 git push --force
 ```
-
-## **Terminal**
-
-Terminals, also known as command lines or consoles, allow us to accomplish and automate tasks on a computer without the use of a graphical user interface. Using a terminal allows us to send simple text commands to our computer to do things like navigate through a directory or copy a file, and form the basis for many more complex automations and programming skills.
-
-### Mac
-
-Shortcut: (⌘ + space + "ter")
-
-Mac uses Z shell, there are 2 foundamentals file (path: Users/username):
-
-- .zshrc (run control) -> file of declarations or commands that it interprets on startup.
-- .zshenv -> contains exported variables that should be available to other programs.
-
-**Commands:**
-
-- cat -> Lets you view the content of a text file.
-- cd -> Change directory. Allows you to move in your disk from one location to another.
-- chown -> Changes the owner and / or assigned group of one or more files and directories.
-- cp -> Copies a file from one location to another. If you want to copy a folder, use the ‘-R’ flag.
-- du -> Shows you the Disk Usage, a useful command to find out how much space is occupied by a folder. It is usually used with the -hs flag to only show totals in human-readable form.
-- find -> Find a file. If you want search every file (.) by name use the flag -name
-- grep -> Filters a text file on the keyword you specify.
-- less -> Lets you view the content of a text file.
-- ls -> List the files and folders of the location currently opened in terminal. Many times used as ls -a which shows hidden files as well as it converts file-sizes to a human-readable form.
-- man -> Displays the manual page of any supported command. This little built-in utility shows you all available information about a specific command including all the arguments and flags you can use.
-- mkdir -> Creates a new folder under the currently opened location. Note that you can create only a single new folder. If you want to create a hierarchy of folders you can use the -p parameter.
-- more -> Lets you view the content of a text file.
-- nano -> Lets you to edit a file.
-- ps ->  Used to list the currently running processes
-- pwd -> Find out the location/name of the folder currently opened in your terminal window.
-- rm -> Delete file
-- rmdir -> Delete folder
-- vim -> Lets you to edit a file.
-- wc -> word count
-- xargs -> Accept the pipe input such as text or file. It's default is echo.
-- | -> Allow to merge two or more commands
