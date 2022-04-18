@@ -6,7 +6,7 @@ CAPO: +3
 
 Parlami
 
-**C        D            Em  C D**
+**<pre>C      D       Em    C   D</pre>**
 
 come il vento fra gli alberi
 
