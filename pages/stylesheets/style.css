@@ -28,9 +28,4 @@
 .md-typeset code, .md-typeset pre {
     background-color: white;
     color: rgba(0,0,0,.87);
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    -webkit-print-color-adjust: exact;
 }
