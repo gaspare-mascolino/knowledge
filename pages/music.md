@@ -761,3 +761,9 @@ MIDI (Musical Instrument digital interface) are instructions which are read from
 **Vocal pan**
 
 To avoid issue with frequencies, higher is the pith more open is the pan.
+
+## **Repertoire**
+
+**E**
+
+[Elisa - Luce](documents/music/repertoire/Elisa-Luce.md)
