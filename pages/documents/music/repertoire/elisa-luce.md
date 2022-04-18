@@ -1,118 +1,231 @@
-# 
+# Elisa - Luce (Tramonti A Nord Est)
 
-<center>**Elisa - Luce**</center>
+<center>
 
-  Em
+Em C D
+
 Parlami
- A                      Em   A
+
+ A Em A
+
 come il vento fra gli alberi
+
 Em
+
 Parlami
-A                 Em
+
+A Em
+
 come il cielo con la sua terra
-A        Em
+
+A Em
+
 Non ho difese ma
-   A                Em
+
+ A Em
+
 Ho scelto di essere libera
-A            Em
+
+A Em
+
 Adesso è la verità
-A                Em
+
+A Em
+
 L'unica cosa che conta
-A                   C
+
+A C
+
 Dimmi se farai qualcosa
-               B
+
+ B
+
 Se mi stai sentendo
-                A                     F#
+
+ A F#
+
 Avrai cura di tutto quello che ti ho dato
+
  B5
+
 Dimmi
-                     Em
+
+ Em
+
 Siamo nella stessa lacrima
-C                   G
+
+C G
+
 come un sole e una stella
-D                    Em
+
+D Em
+
 Luce che cade dagli occhi
-C              G
+
+C G
+
 sui tramonti della mia terra
+
 D
+
 su nuovi giorni
+
 Em
+
 ascoltami
- A        Em
+
+ A Em
+
 ora so piangere
-A           Em
+
+A Em
+
 so che ho bisogno di te
-A                  Em
+
+A Em
+
 non ho mai saputo fingere
-A          C
+
+A C
+
 ti sento vicino
-                G
+
+ G
+
 il respiro non mente
-G5        Mm
+
+G5 Mm
+
 in tanto dolore
 
 niente di sbagliato
-          B5
+
+ B5
+
 niente, niente...
-                     Em
+
+ Em
+
 siamo nella stessa lacrima
-C                   G
+
+C G
+
 come un sole e una stella
-       D                   Em
+
+ D Em
+
 siamo luce che cade dagli occhi,
-C              G
+
+C G
+
 sui tramonti della mia terra
+
 D
+
 su nuovi giorni
-          Em
+
+ Em
+
 in una lacrima
-C                   G
+
+C G
+
 come un sole e una stella
-D                    Em
+
+D Em
+
 luce che cade dagli occhi
-C                       G
+
+C G
+
 sui tramonti della mia terra
+
 D
+
 su nuovi giorni...
-C        Am        Em
+
+C Am Em
+
 il sole mi parla di te...
+
 Bm7
+
 mi stai ascoltando? ora
-C        Am        Em
+
+C Am Em
+
 la luna mi parla di te...
-                                      B4
+
+ B4
+
 avrò cura di tutto quello che mi hai dato...
-                       Em
+
+ Em
+
 anche se dentro una lacrima
-C                   G
+
+C G
+
 come un sole e una stella
-D                    Em
+
+D Em
+
 luce che cade dagli occhi
-C               G
+
+C G
+
 sui tramonti della mia terra
-D                       Em
+
+D Em
+
 su nuovi giorni in una lacrima
-C                  G
+
+C G
+
 come un sole e una stella
-       D
+
+ D
+
 siamo luce che cade
-       Em
+
+ Em
+
 dagli occhi
-C              G
+
+C G
+
 sui tramonti della mia terra
+
 D
+
 su nuovi giorni
-   Em
+
+ Em
+
 ascoltami
-   C
+
+ C
+
 ascoltami
-   G
+
+ G
+
 ascoltami
-   D
+
+ D
+
 ascoltami
-   Em
+
+ Em
+
 ascoltami
+
 C
+
 ascoltami
-G      D
-   ascoltati ah !
+
+G D
+
+ascoltati ah !
+
+</center>
