@@ -8,31 +8,31 @@
 
 <pre>
 
-<b>Em           C</b>                                                                                                               
+<b>Em     C</b>                                                                                                               
                                                                                                                         
 Parlami
 
-<b>               D                   Em                      C        D</b>
+<b>     D             Em    C     D</b>
 
 come il vento fra gli alberi
 
-<b>Em</b>    
+<b>Em     C</b>
 
 Parlami
 
-C D Em
+<b>     D             Em    C     D</b>
 
 come il cielo con la sua terra
 
-CD Em
+<b> C  D       Em </b>
 
 Non ho difese ma
 
-C D EmCD
+<b>   C      D          Em      C   D</b>
 
 Ho scelto di essere libero
 
-Em
+<b>          Em  </b>
 
 Adesso è la verità
 
