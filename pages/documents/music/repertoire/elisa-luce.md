@@ -8,284 +8,119 @@
 
 <pre>
 
-<b>Em     C</b>                                                                                                               
-                                                                                                                        
+  Em
 Parlami
-
-<b>     D             Em    C     D</b>
-
+ A                      Em   A
 come il vento fra gli alberi
-
-<b>Em     C</b>
-
+Em
 Parlami
-
-<b>     D             Em    C     D</b>
-
+A                 Em
 come il cielo con la sua terra
-
-<b> C  D       Em </b>
-
+A        Em
 Non ho difese ma
-
-<b>   C      D          Em      C   D</b>
-
-Ho scelto di essere libero
-
-<b>          Em  </b>
-
+   A                Em
+Ho scelto di essere libera
+A            Em
 Adesso è la verità
-
-C D Em
-
+A                Em
 L'unica cosa che conta
-
-C
-
+A                   C
 Dimmi se farai qualcosa
-
-B
-
+               B
 Se mi stai sentendo
-
-A
-
+                A                     F#
 Avrai cura di tutto quello che ti ho dato
-
-B5
-
+ B5
 Dimmi
-
+                     Em
 Siamo nella stessa lacrima
-
-CG
-
+C                   G
 come un sole e una stella
-
-D Em
-
+D                    Em
 Luce che cade dagli occhi
-
-CG
-
+C              G
 sui tramonti della mia terra
-
 D
-
 su nuovi giorni
-
 Em
-
 ascoltami
-
-C D Em C D
-
+ A        Em
 ora so piangere
-
-Em
-
+A           Em
 so che ho bisogno di te
-
-C D Em
-
+A                  Em
 non ho mai saputo fingere
-
-C
-
+A          C
 ti sento vicino
-
-Elisa - Luce (Tramonti a Nord Est)
-
-CAPO: +3
-
-Em
-
-Parlami
-
-C D EmCD
-
-come il vento fra gli alberi
-
-Em
-
-Parlami
-
-C D Em
-
-come il cielo con la sua terra
-
-CD Em
-
-Non ho difese ma
-
-C D EmCD
-
-Ho scelto di essere libero
-
-Em
-
-Adesso è la verità
-
-C D Em
-
-L'unica cosa che conta
-
-C
-
-Dimmi se farai qualcosa
-
-B
-
-Se mi stai sentendo
-
-A
-
-Avrai cura di tutto quello che ti ho dato
-
-Em
-
- G
-
+                G
 il respiro non mente
-
-B
-
+G5        Mm
 in tanto dolore
 
-A
-
 niente di sbagliato
-
-B5
-
+          B5
 niente, niente...
-
-Em
-
+                     Em
 siamo nella stessa lacrima
-
-CG
-
+C                   G
 come un sole e una stella
-
-D Em
-
+       D                   Em
 siamo luce che cade dagli occhi,
-
-CG
-
+C              G
 sui tramonti della mia terra
-
 D
-
 su nuovi giorni
-
-Em
-
+          Em
 in una lacrima
-
-CG
-
+C                   G
 come un sole e una stella
-
-D Em
-
+D                    Em
 luce che cade dagli occhi
-
-CG
-
+C                       G
 sui tramonti della mia terra
-
 D
-
 su nuovi giorni...
-
-C Am Em
-
+C        Am        Em
 il sole mi parla di te...
-
 Bm7
-
 mi stai ascoltando? ora
-
-C Am Em
-
+C        Am        Em
 la luna mi parla di te...
-
+                                      B4
 avrò cura di tutto quello che mi hai dato...
-
-Em
-
+                       Em
 anche se dentro una lacrima
-
-CG
-
+C                   G
 come un sole e una stella
-
-D Em
-
+D                    Em
 luce che cade dagli occhi
-
-CG
-
+C               G
 sui tramonti della mia terra
-
-D Em
-
+D                       Em
 su nuovi giorni in una lacrima
-
-CG
-
+C                  G
 come un sole e una stella
-
-B4
-
- D
-
+       D
 siamo luce che cade
-
-Em
-
+       Em
 dagli occhi
-
-CG
-
+C              G
 sui tramonti della mia terra
-
 D
-
 su nuovi giorni
-
-Em
-
+   Em
 ascoltami
-
+   C
+ascoltami
+   G
+ascoltami
+   D
+ascoltami
+   Em
+ascoltami
 C
-
 ascoltami
-
-G
-
-ascoltami
-
-D
-
-ascoltami
-
-Em
-
-ascoltami
-
-C
-
-ascoltami
-
-G
-
-ascoltati
-
-D
-
-ascoltati
+G      D
+   ascoltati ah !
 
 </pre>
