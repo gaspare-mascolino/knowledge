@@ -1,19 +1,22 @@
 # Elisa - Luce (Tramonti A Nord Est)
 
+!!! Info
+
+    Capo: +3
+
+    Key: A#
 
 <pre>
 
-CAPO: +3
-
-<b>Em</b>
-
+<b>Em           C</b>                                                                                                               
+                                                                                                                        
 Parlami
 
-<b>C         D           Em    C   D</b>
+<b>               D                   Em                      C        D</b>
 
 come il vento fra gli alberi
 
-Em
+<b>Em</b>    
 
 Parlami
 
