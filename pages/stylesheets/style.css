@@ -29,4 +29,5 @@
 	background-color: white;
 	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin-block-start: 1em;
+	margin-inline-start: 0;
 }

@@ -8,7 +8,7 @@
 
 <pre>
 
-  Em
+<b>Em</b>
 Parlami
  A                      Em   A
 come il vento fra gli alberi
@@ -32,6 +32,7 @@ Se mi stai sentendo
 Avrai cura di tutto quello che ti ho dato
  B5
 Dimmi
+
                      Em
 Siamo nella stessa lacrima
 C                   G
@@ -42,6 +43,7 @@ C              G
 sui tramonti della mia terra
 D
 su nuovi giorni
+
 Em
 ascoltami
  A        Em
@@ -60,6 +62,7 @@ in tanto dolore
 niente di sbagliato
           B5
 niente, niente...
+
                      Em
 siamo nella stessa lacrima
 C                   G
@@ -80,6 +83,7 @@ C                       G
 sui tramonti della mia terra
 D
 su nuovi giorni...
+
 C        Am        Em
 il sole mi parla di te...
 Bm7
@@ -88,6 +92,7 @@ C        Am        Em
 la luna mi parla di te...
                                       B4
 avrò cura di tutto quello che mi hai dato...
+
                        Em
 anche se dentro una lacrima
 C                   G
@@ -108,6 +113,7 @@ C              G
 sui tramonti della mia terra
 D
 su nuovi giorni
+
    Em
 ascoltami
    C
@@ -118,9 +124,11 @@ ascoltami
 ascoltami
    Em
 ascoltami
-C
+   C
 ascoltami
-G      D
-   ascoltati ah !
+   G
+ascoltami
+   D
+ascoltami
 
 </pre>
