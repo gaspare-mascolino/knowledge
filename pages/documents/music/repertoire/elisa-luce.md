@@ -8,7 +8,7 @@
 
 <pre>
 
-'''Em     C'''
+Em     C
 Parlami
         D             Em     C     D
 come il vento fra gli alberi
