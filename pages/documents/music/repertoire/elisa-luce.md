@@ -4,11 +4,11 @@
 
     **Capo**: +3
 
-    **Key**: A#
-
 <pre>
 
-Em     C
+[Verse]
+
+<b>Em     C</b>
 Parlami
         D             Em     C     D
 come il vento fra gli alberi
@@ -24,6 +24,9 @@ A            Em
 Adesso è la verità
 A                Em
 L'unica cosa che conta
+
+[Pre-Chorus]
+
 A                   C
 Dimmi se farai qualcosa
                B
@@ -33,6 +36,7 @@ Avrai cura di tutto quello che ti ho dato
  B5
 Dimmi
 
+[Chorus]
                      Em
 Siamo nella stessa lacrima
 C                   G
@@ -44,6 +48,8 @@ sui tramonti della mia terra
 D
 su nuovi giorni
 
+[Verse]
+
 Em
 ascoltami
  A        Em
@@ -52,6 +58,9 @@ A           Em
 so che ho bisogno di te
 A                  Em
 non ho mai saputo fingere
+
+[Pre-Chorus]
+
 A          C
 ti sento vicino
                 G
@@ -62,6 +71,8 @@ in tanto dolore
 niente di sbagliato
           B5
 niente, niente...
+
+[Chorus]
 
                      Em
 siamo nella stessa lacrima
@@ -84,15 +95,18 @@ sui tramonti della mia terra
 D
 su nuovi giorni...
 
+[Bridge]
+
 C        Am        Em
 il sole mi parla di te...
 Bm7
 mi stai ascoltando? ora
 C        Am        Em
 la luna mi parla di te...
-                                      B4
-avrò cura di tutto quello che mi hai dato...
+                                            B4
+avrò cura di tutto quello che mi hai dato, dimmi...
 
+[Chorus]
                        Em
 anche se dentro una lacrima
 C                   G
@@ -113,6 +127,8 @@ C              G
 sui tramonti della mia terra
 D
 su nuovi giorni
+
+[Outro]
 
    Em
 ascoltami
