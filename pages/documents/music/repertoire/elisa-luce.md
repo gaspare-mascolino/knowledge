@@ -2,15 +2,15 @@
 
 !!! Info
 
-    Capo: +3
+    **Capo**: +3
 
-    Key: A#
+    **Key**: A#
 
 <pre>
 
-<b>Em</b>
+Em     C
 Parlami
- A                      Em   A
+        D             Em     C     D
 come il vento fra gli alberi
 Em
 Parlami
