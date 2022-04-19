@@ -28,5 +28,8 @@
 .md-typeset code, .md-typeset pre {
 	background-color: white;
 	font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin-left: 20px;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
