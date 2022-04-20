@@ -11,7 +11,6 @@
 <b>
 Em     C
 </b>
-
 Parlami
         D             Em     C     D
 come il vento fra gli alberi
