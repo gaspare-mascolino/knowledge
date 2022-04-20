@@ -3,7 +3,7 @@ site_url: https://gaspare-mascolino.github.io/knowledge/
 
 theme:
   name: null
-  custom_dir: mkdocs-material
+  custom_dir: docs/mkdocs-material
   language: en
   favicon: 'assets/images/triskele.png'
   feature:
