@@ -5,16 +5,13 @@
     **Capo**: +3
 
 <pre>
-<<<<<<< HEAD
-<b>
-Em     C
-</b>
-=======
 
 [Verse]
 
-<b>Em     C</b>
->>>>>>> master
+<b>
+Em     C
+</b>
+
 Parlami
         D             Em     C     D
 come il vento fra gli alberi
