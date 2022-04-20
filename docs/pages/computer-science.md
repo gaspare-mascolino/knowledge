@@ -44,7 +44,7 @@ Mac uses Z shell, there are 2 foundamentals file (path: Users/username):
 
 <br>
 
-![](images/computer-science/docker/docker-logo.png)
+![](../assets/images/computer-science/docker/docker-logo.png)
 
 <br>
 
@@ -129,7 +129,7 @@ Commands
 <br>
 
 <center>
-![](images/computer-science/git/git-logo.png){ align=centre }
+![](../assets/images/computer-science/git/git-logo.png){ align=centre }
 </center>
 
 <br>
