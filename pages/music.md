@@ -83,6 +83,36 @@ The study of harmony involves chords and their construction and chord progressio
 Counterpoint, which refers to the relationship between melodic lines, and polyphony, which refers to the simultaneous sounding of separate independent voices, are therefore sometimes distinguished from harmony.
 A dissonant chord (chord with tension) "resolves" to a consonant chord. Harmonization usually sounds pleasant to the ear when there is a balance between consonance and dissonance. Simply put, this occurs when there is a balance between "tense" and "relaxed" moments.
 
+### Bass writing
+
+The Bass(Double bass) is a transposed instrument, take place on F-Clef (it is written in a octave up rather its original sound to avoid ledger lines). The four notes of the bass are: E, A, D and G.
+
+Rules:
+
+Often alternate between the I (clarify and reiterate the melody) and the V.
+
+The bass could moves as follow:
+
+1. With one chord for bar.
+
+
+2. When a I is follow from a V, notes of the chord.
+
+
+3. With 2 chords for bar.
+
+
+4. Rest could be replace from repeated notes.
+
+
+5. Use I - V could be used instead of I - I
+
+
+6. Scale notes (usually III - VII) could be used instead of I and V to create a melodic sequence.
+
+
+7. When a 7 chord, or a m7 chord or a m chord. If the fundamental goes to the V perfect and it is follow from a IV up to the fundamental, a V diminished could be used as passing note in order to create a chromatic sequence I-V-bV-(I of IV).
+
 ### Chord
 
 **Chord**, in music, is any harmonic set of pitches/frequencies consisting of multiple notes (also called "pitches") that are heard as if sounding simultaneously. For many practical and theoretical purposes, arpeggios and broken chords (in which the notes of the chord are sounded one after the other, rather than simultaneously), or sequences of chord tones, may also be considered as chords in the right musical context.
