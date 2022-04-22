@@ -129,7 +129,9 @@ The bass could move as follows:
     Bass sounds well when it is linked with the kick or in backlash.
 
 !!! Warning
+    The III and the VII doesn't sound very well on the beat instead of passing note on the upbeat (duration less or equal of an 1/8).
     
+It useful to harmonise the singing note with the bass with a III or a VI.
 
 ### Chord
 
@@ -273,6 +275,18 @@ The IX, generally is not added without VI or th VII, the 11th without the VI or 
 **Modulation chords**
 
 A modular chord could be the V down or a IV up, this is it called resolution trend. Whatever is the tonality we can use the V7 rather a chord of a scale played before of it.
+
+Each chord on I degree could be precede by a chord of VII7 a IV Perfect down or a V Perfect up. Then each V7 could be precede from its V7 (V7/V relative).
+
+Each V7 also could be precede by a IIm7 is a II half diminished a IV Perfect down or a V Perfect up (this allow to create II - V - I).
+
+Each IIm could be precede from a V7 (V7/II relative).
+
+!!! Info
+ The same rules worth for major and minor chord.
+ 
+ !!! Warning
+  Also a IV Major could be replaced with a IV Minor as long as the altered note was not played on the previous chords.
 
 ### Circle of fifth
 
