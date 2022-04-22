@@ -506,8 +506,7 @@ pitch is a descending scale.
 
   ![](assets/images/music/harmony/harmonic-minor.png)
 
-    - **Melodic minor scale**: defined as the minor scale except that the sixth degree is raised by one semitone in the ascending form of the scale (jazz minor), while the lowered
-      seventh appears in the descending form of the scale (minor).
+    - **Melodic minor scale**: defined as the minor scale except that the sixth degree is raised by one semitone in the ascending form of the scale (jazz minor), while the lowered seventh appears in the descending form of the scale (minor).
 
   ![](assets/images/music/harmony/melodic-minor.png)
 
