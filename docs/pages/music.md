@@ -1,6 +1,6 @@
 ## **Acoustic**
 
-**Acoustic** is the interdisciplinary science that deals with the study of mechanical waves in gases, liquids, and solids including vibration, sound, ultrasound, and infrasound.
+**Acoustic** is the interdisciplinary science that deals with the study of mechanical waves in gases, liquids, and solids including vibration, sound, ultrasound, and infra-sound.
 
 ### Phase
 
@@ -38,7 +38,7 @@ Sound waves are often simplified to a description in terms of sinusoidal plane w
     - High: 5000Hz-20000Hz
 - Amplitude, sound pressure or Intensity (dB)
 - Speed of sound: the speed of sound in a particular substance was equal to the square root of the pressure acting on it multiplied the heat capacity ratio divided by its density.
-  Dependent from the ambient, indipendent from the propagation. (~ 344 m/s)
+  Dependent from the ambient, independent of the propagation. (~ 344 m/s)
 - Direction: omnidirectional
 
 **Reflection**
@@ -103,18 +103,18 @@ Rules:
 
 Often alternate between the I (clarify and reiterate the melody) and the V.
 
-The bass could moves as follow:
+The bass could move as follows:
 
 1. With one chord for bar.
 
 
-2. When a I is follow from a V, notes of the chord.
+2. When a I is followed from a V, notes of the chord.
 
 
 3. With 2 chords for bar.
 
 
-4. Rest could be replace from repeated notes.
+4. Rest could be replaced from repeated notes.
 
 
 5. Use I - V could be used instead of I - I
@@ -123,7 +123,13 @@ The bass could moves as follow:
 6. Scale notes (usually III - VII) could be used instead of I and V to create a melodic sequence.
 
 
-7. When a 7 chord, or a m7 chord or a m chord. If the fundamental goes to the V perfect and it is follow from a IV up to the fundamental, a V diminished could be used as passing note in order to create a chromatic sequence I-V-bV-(I of IV).
+7. When a 7 chord, or a m7 chord or a minor chord. If the fundamental goes to the V perfect, and it is followed from an IV up to the fundamental, a V diminished could be used as passing note in order to create a chromatic sequence I-V-bV-(I of IV).
+
+!!! Info
+    Bass sounds well when it is linked with the kick or in backlash.
+
+!!! Warning
+    
 
 ### Chord
 
@@ -191,20 +197,20 @@ The symbols used for notating chords are:
 - **Plagal (chiesastica) cadence**: IV - I
 - **Half Plagal cadence**: I - IV
 
-**Poliphony movements**
+**Polyphony movements**
 
 - **Direct**: parts move on the same direction
-- **Oblique**: one part fixs and the other go up or down
+- **Oblique**: one part fix and the other go up or down
 - **Opposite**: one part goes up and the other down.
 - **Mixed**: union of the previous three.
 
 **Chords position**
 
-1. **I position** (the octave sings): Bass - I and Violin III (Tenore) V (Alto) I (Soprano)
+1. **I position** (the octave sings): Bass - I and Violin III (Tenor) V (Alto) I (Soprano)
 2. **II position** (the third sings): Bass - I and Violin V I III
 3. **III position** (the fifth sings): Bass - I and Violin - I III V
 
-The choose between one position from the other take the name of **voicing**.
+To choose between one position from the other take the name of **voicing**.
 
 **Inversion**
 
@@ -227,7 +233,7 @@ An inversion is a type of change to intervals, chords, voices (in counterpoint),
 
 **Additional notes to chord**
 
-Add some notes to the foundamental didn't change the nature of the chord, thoose notes can be use melodically or harmonically:
+Add some notes to the fundamental didn't change the nature of the chord, thoose notes can be use melodically or harmonically:
 
 <section markdown="1" style="display: flex;">
 
@@ -278,23 +284,23 @@ A modular chord could be the V down or a IV up, this is it called resolution tre
 
 **Harmonic Continuity**
 
-In this method the chords could be appears in each kind of inversion, inserting the VI Major to create a 4 degrees chord.
+In this method the chords could be appeared in each kind of inversion, inserting the VI Major to create a 4 degrees chord.
 
-*Base principle of harmonic continuity*: keep the note in common between chords (the same vocals registry).
+*Base principle of harmonic continuity*: keep the note in common between chords (the same vocals' registry).
 
 !!! Warning
 
     If two chords have no notes in common it's important to keep the top note (singing note) near to a note of the next chord, at least if you don't want to change register.
 
 The **Soprano Top Note** (guide note) will be supported from the notes of the chord *from the top to the bottom* (more closely possible); 13th, 11th, 9th and the 7th can be used **
-only on the sing part or under much higher extensions** (A 9th under a 11th). This needs to avoid the number of the notes which can be added to particulars chords.
+only on the sing part or under much higher extensions** (A 9th under an 11th). This needs to avoid the number of the notes which can be added to particulars chords.
 
 !!! Info
 
     When a chord remains stationary the guide note could be changed.
 
 !!! Note
-    In harmonization it is better to use at least a 3th minor under. Offen if a 13th, 11th, 9th and the 7th is on the sing part it used to put an inversion with the root note not at the bottom of the chord.
+    In harmonization it is better to use at least a 3rd minor under. Often if a 13th, 11th, 9th and the 7th is on the sing part it used to put an inversion with the root note not at the bottom of the chord.
 
 *Harmonization in 4 parts*
 
@@ -303,15 +309,15 @@ In standard harmony not all the notes of the melody are simple notes of the chor
 - chord notes (C)
 - chord off-notes (NC)
 
-To harmonize in 4 part could be usefull the I (double), V (double) or the VI.
+To harmonize in 4 part could be usefully the I (double), V (double) or the VI.
 
 *Rules to harmonize*
 
 1. Start to harmonize the notes of the chord first from the chord of the melody keeping the disposition as close as possible.
 2. Harmonizing the note always with the notes of the chords. **The NC replaced the note of the chords suddenly below**.
-3. Whatever note of the chord coul be use in whatever position, frequency and rhythm in the medesim chord -> Chord / Arpeggio
+3. Whatever note of the chord could be use in whatever position, frequency and rhythm in the same chord -> Chord / Arpeggio
 4. From the sing part is better to keep a distance of a II Major.
-5. Jump of 4th and 5th, but also 6th and 8th are intersting on the attack of the sing part
+5. Jump of 4th and 5th, but also 6th and 8th are interesting on the attack of the sing part
 
 !!! Note
 
@@ -320,11 +326,11 @@ To harmonize in 4 part could be usefull the I (double), V (double) or the VI.
     - **Close note of the scale**: Whatever notes on top of one structured note of the chord. Those note will be always of short duration (1/8 or less).
 
 !!! Info
-    The most important thins to comprend this technique is to know the rapport between scale and chord. Use whatever note which belongs to the key reference to approach to a structured note. **Pay attention to the use the 11th on the Major chord, it could be a violation**. 
+    The most important thins to understand this technique is to know the rapport between scale and chord. Use whatever note which belongs to the key reference to approach to a structured note. **Pay attention to the use the 11th on the Major chord, it could be a violation**. 
 
 ### Intervals
 
-An **intervals** is the relationship between two separate musical pitches.
+An **interval** is the relationship between two separate musical pitches.
 
 Two different kind:
 
@@ -460,14 +466,14 @@ Types of modulation:
 
 A **pattern** (or motive) is a cell or germ serving as the basis for repetitive pattern. It is a figure that can be used with any scale. It is used primarily for solos because,
 when practiced enough, it can be extremely useful when improvising. "Sequence" refers to the repetition of a part at a higher or lower pitch, and melodic sequence is differentiated
-from harmonic sequence. Identic movement of the bass and defined by the upper triads, inside the patterns are allowed melodic movements and doublet which is not allowed outside of
+from harmonic sequence. Identical movement of the bass and defined by the upper triads, inside the patterns are allowed melodic movements and doublet which is not allowed outside of
 them.
 
 ![](assets/images/music/harmony/pattern.png)
 
 To determine a pattern occurs at least 4 chords.
 
-In a pattern can be identify:
+In a pattern can be identified:
 
 - parallel octaves
 - hidden octaves
@@ -480,7 +486,7 @@ pitch is a descending scale.
 - **Chromatic scale**: each scale step represents a semitone interval
 - **Diatonic scale**:
     - **Major scale**: defined by the interval pattern W–W–H–W–W–W–H
-    - **Minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensibile is not present)
+    - **Minor scale**: defined by the interval pattern W–H–W–W–H-W-W (the sensible/leading tone is not present)
     - **Harmonic minor scale**: defined as the minor scale except that the seventh degree is raised by one semitone, creating an augmented second between the sixth and seventh
       degrees (to fix the missing of the sensibile).
 
@@ -491,7 +497,7 @@ pitch is a descending scale.
 
   ![](assets/images/music/harmony/melodic-minor.png)
 
-- **Pentatonic scale**: defined as the major scale without the IV (descending sensibile/leading tone) and VII grades (ascending sensibile/leading tone).
+- **Pentatonic scale**: defined as the major scale without the IV (descending sensible/leading tone) and VII grades (ascending sensible/leading tone).
 
 !!! Warning
     A scale is formed at least by 5 notes, otherwise it is a fragment of a scale.
@@ -516,8 +522,16 @@ The scale degree is the position of a particular note on a scale relative to the
 
 ![](assets/images/music/harmony/degree.png)
 
-| | Degree | | | I | Tonica |    (Strong or tonal degree)  | | II | Sopratonica | | | III | Mediante | | | IV | Sottodominante |    (Strong or tonal degree)  | | V | Dominante
-|    (Strong or tonal degree)  | | VI | Sopradominante | | | VII | Sottotonica |    (1W from the tonic)       | | VII | Sensibile |    (1H from the tonic)       |
+| Degree | Name                                     |
+|--------|------------------------------------------|
+| I      | Tonica  (Strong or tonal degree)         |
+| II     | Sopratonica                              | 
+| III    | Mediante                                 |
+| IV     | Sottodominante  (Strong or tonal degree) | 
+| V      | Dominante (Strong or tonal degree)       | 
+| VI     | Sopradominante                           |
+| VII    | Sottotonica     (1W from the tonic)      |                                 
+| VII    | Sensibile    (1H from the tonic)         |   
 
 Three different group for classification of degrees:
 
@@ -525,7 +539,7 @@ Three different group for classification of degrees:
 2. Subtonic group: II, IV
 3. Dominant group: V, VII
 
-Those chords may be substitute from each others. To keep up a song three are the foundamental degrees: I - IV - V, the others are collateral.
+Those chords may be substituted from each others. To keep up a song three are the fundamental degrees: I - IV - V, the others are collateral.
 
 **Harmony of the scales**
 
@@ -540,7 +554,7 @@ Those chords may be substitute from each others. To keep up a song three are the
 ||  dim  |   M   |      dim       |     dim      |    ø      |        7dim         |       ø           |
 
 !!! Note
-    The V degree as always take part of the tonal group but with the difference that the VII is minor and it generates a dominat 7th chord which produce a particular sound and it tend to the tonic note (it is a leading tone).
+    The V degree as always take part of the tonal group but with the difference that the VII is minor, and it generates a dominat 7th chord which produce a particular sound, and it tends to the tonic note (it is a leading tone).
 
 !!! Warning
     It could be useful use a chord in common between two different scales as "bridge" to change tonality, the V of the Melodic Minor 7th is in common with a V of a Major scale VII or a IV of another Melodic Minor VII
@@ -594,7 +608,7 @@ This section shows a complete list of the clefs, along with a list of instrument
 *G clefs*
 
 - Treble clef:
-    - Violin, flute, oboe, cor anglais, all clarinets, all saxophones, horn, trumpet, cornet, vibraphone, xylophone, mandolin, recorder, bagpipe and guitar.
+    - Violin, flute, oboe, cor anglaise, all clarinets, all saxophones, horn, trumpet, cornet, vibraphone, xylophone, mandolin, recorder, bagpipe and guitar.
     - Euphonium and baritone horn (sounding a major ninth lower).
     - Harp and keyboard instruments (upper stave of the grand stave).
     - Cello, double bass, bassoon, trombone (high parts for bass-clef instruments).
@@ -665,7 +679,7 @@ The **chord chart**:
 ![](assets/images/music/music-notation/chord-chart.png)
 
 It is intended primarily for a rhythm section (usually consisting of piano, guitar, drums and bass). In these genres the musicians are expected to be able to improvise the
-individual notes used for the chords (the "voicing") and the appropriate ornamentation, counter melody or bassline.
+individual notes used for the chords (the "voicing") and the appropriate ornamentation, counter melody or baseline.
 
 **Accidental**
 
@@ -686,7 +700,7 @@ the note of a tone. - ♮ natural -> restore the original sound.
 
 **Note value**
 
-A **note value** indicates the relative duration of a note, using the texture or shape of the notehead, the presence or absence of a stem, and the presence or absence of
+A **note value** indicates the relative duration of a note, using the texture or shape of the note head, the presence or absence of a stem, and the presence or absence of
 flags/beams/hooks/tails. Unmodified note values are fractional powers of two.
 
 ![](assets/images/music/music-notation/parts-of-a-note.png)
@@ -698,7 +712,7 @@ A **rest** indicates a silence of an equivalent duration.
 **Tuplet**
 
 A **tuplet** (also irrational rhythm or groupings, artificial division or groupings, abnormal divisions, irregular rhythm, gruppetto, extra-metric groupings, or, rarely,
-contrametric rhythm) is "any rhythm that involves dividing the beat into a different number of equal subdivisions from that usually permitted by the time-signature (e.g., triplets,
+contra-metric rhythm) is "any rhythm that involves dividing the beat into a different number of equal subdivisions from that usually permitted by the time-signature (e.g., triplets,
 duplets, etc.)
 
 The most common type of tuplet is the triplet.
@@ -707,7 +721,7 @@ The most common type of tuplet is the triplet.
 
 - doublet -> Is an irregular group representing two notes played in a unit of time, usually when the rhythm is ternary. Even structure inside a odds value.
 
-**Dottet note**
+**Dotted note**
 
 A **dotted note** is a note with a small dot written after it. In modern practice, the first dot increases the duration of the basic note by half (the original note with an extra
 beam) of its original value. This means that a dotted note is equivalent to writing the basic note tied to a note of half the value.
@@ -748,7 +762,7 @@ The **time signature** (also known as meter signature, metre signature, or measu
 beats (pulses) are contained in each measure (bar), and which note value is equivalent to a beat.
 
 In a music score, the time signature appears at the beginning as a time symbol or stacked numerals, immediately following the key signature (or immediately following the clef
-symbol if the key signature is empty). A mid-score time signature, usually immediately following a barline, indicates a change of meter.
+symbol if the key signature is empty). A mid-score time signature, usually immediately following a bar line, indicates a change of meter.
 
 There are various types of time signatures:
 
@@ -810,7 +824,7 @@ pitch-correction).
 
 ### MIDI
 
-MIDI (Musical Instrument digital interface) are instructions which are read from instument:
+MIDI (Musical Instrument digital interface) are instructions which are read from instrument:
 
 - Midi track: Rack VST - more instrument (No fader no pan)
 - Instrument track: one instrument
@@ -819,6 +833,10 @@ MIDI (Musical Instrument digital interface) are instructions which are read from
 
 - Input fader never touched
 - In recording max volume: -5dB / -6dB
+
+**Side-chain**
+
+The kick sends the bus inside a bass where the sound will be compressed. When the compressor is set on the bpm velocity it creates a pumping effect on the bass on the upbeat.
 
 **Vocal pan**
 
@@ -829,5 +847,3 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 **E**
 
 [Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
-
-Each I chord preceduto da 
