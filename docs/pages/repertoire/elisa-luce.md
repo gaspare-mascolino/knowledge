@@ -8,9 +8,7 @@
 
 [Verse]
 
-<b>
-Em     C
-</b>
+<b>Em     C</b>
 Parlami
         D             Em     C     D
 come il vento fra gli alberi
