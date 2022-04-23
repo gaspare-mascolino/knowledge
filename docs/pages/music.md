@@ -861,6 +861,10 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 [Chris Isaak - Wicked Game](repertoire/chris-isaak-wicked-game.md)
 
+[Coldplay - Fix You](repertoire/coldplay-fix-you.md)
+
+[Coldplay - Fix You](repertoire/coldplay-wicked-game.md)
+
 **D**
 
 [Domenico Modugno - Meraviglioso](repertoire/domenico-modugno-meraviglioso.md)
