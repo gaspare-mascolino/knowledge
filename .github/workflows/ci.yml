@@ -13,7 +13,6 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install node
-      - run: node docs/pages/repertoire/converter.js
       - run: pip install mkdocs-material
       - run: pip install mkdocs-mermaid2-plugin
-      - run: mkdocs gh-deploy --force
+      - run: node docs/pages/repertoire/converter.js | mkdocs gh-deploy --force
