@@ -861,6 +861,10 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 [Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
 
+**L**
+
+[Luigi Tenco - Mi sono innamorato di te](repertoire/luigi-tenco-mi-sono-innamorato-di-te)
+
 **S**
 
 [One Direction - Story of my life](repertoire/one-direction-story-of-my-life.md)
