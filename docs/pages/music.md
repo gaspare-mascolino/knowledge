@@ -857,6 +857,10 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 ## **Repertoire**
 
+**C**
+
+[Chris Isaak - Wicked Game](repertoire/chris-isaak-wicked-game.md)
+
 **E**
 
 [Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
