@@ -863,7 +863,7 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 [Coldplay - Fix You](repertoire/coldplay-fix-you.md)
 
-[Coldplay - Fix You](repertoire/coldplay-wicked-game.md)
+[Coldplay - Viva La Vida](repertoire/coldplay-viva-la-vida.md)
 
 **D**
 
