@@ -863,6 +863,8 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 **E**
 
+[Ed Sheeran - Perfect](repertoire/ed-sheeran-perfect.md)
+
 [Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
 
 **J**
