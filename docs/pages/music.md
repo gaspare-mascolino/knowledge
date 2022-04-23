@@ -863,7 +863,9 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 **L**
 
-[Luigi Tenco - Mi sono innamorato di te](repertoire/luigi-tenco-mi-sono-innamorato-di-te)
+[Lorenzo Fragola - D'improvviso](repertoire/lorenzo-fragola-d-improvviso.md)
+
+[Luigi Tenco - Mi sono innamorato di te](repertoire/luigi-tenco-mi-sono-innamorato-di-te.md)
 
 **S**
 
