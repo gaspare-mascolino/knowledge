@@ -28,7 +28,7 @@ fs.readdir(
                 }
 
                 console.log(list)
-                fs.writeFile(path.resolve(__dirname, 'pages/'+file+'.md'), list.join('\n'), function(err) {
+                fs.writeFile(path.resolve(__dirname, file+'.md'), list.join('\n'), function(err) {
                     if(err) {
                         return console.log(err);
                     }
