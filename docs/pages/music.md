@@ -861,6 +861,10 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 [Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
 
+**J**
+
+[Jessie J - Who You Are](repertoire/jessie-j-who-you-are.md)
+
 **L**
 
 [Lorenzo Fragola - D'improvviso](repertoire/lorenzo-fragola-d-improvviso.md)
