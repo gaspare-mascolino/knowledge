@@ -846,4 +846,4 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 **E**
 
-[Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
+[Elisa - Luce (Tramonti A Nord Est)](repertoire/pages/elisa-luce.md)

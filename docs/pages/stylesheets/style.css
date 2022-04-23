@@ -33,3 +33,7 @@
     margin-inline-end: 0;
     font-size: .8rem;
 }
+
+pre b {
+    color: black;
+}
