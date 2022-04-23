@@ -861,6 +861,10 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 [Chris Isaak - Wicked Game](repertoire/chris-isaak-wicked-game.md)
 
+**D**
+
+[Domenico Modugno - Meraviglioso](repertoire/domenico-modugno-meraviglioso.md)
+
 **E**
 
 [Ed Sheeran - Perfect](repertoire/ed-sheeran-perfect.md)
