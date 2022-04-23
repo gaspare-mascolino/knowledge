@@ -21,6 +21,12 @@ fs.readdir(
                 list[3] = '<pre>\n'
                 list.push('</pre>')
 
+                for (let i = 4; i < list.length-1; i++) {
+                    if(i%2===0) {
+                        list[i] = '<b>'+list[i]+'</b>'
+                    }
+                }
+
                 console.log(list)
                 fs.writeFile(path.resolve(__dirname, 'pages/'+file+'.md'), list.join('\n'), function(err) {
                     if(err) {
