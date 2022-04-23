@@ -860,3 +860,7 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 **E**
 
 [Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
+
+**S**
+
+[One Direction - Story of my life](repertoire/elisa-luce.md)
