@@ -65,7 +65,7 @@ fs.readdir(
                             return console.log(err);
                         } else {
                             console.log("The music.md was updated!");
-                            console.log("<a id=songs href=/repertoire/" + file + ".md >" + data.split("\n")[0] + "</a>")
+                            console.log("<a href=/repertoire/" + file + ".md >" + data.split("\n")[0] + "</a>")
                         }
                     }
                 )
