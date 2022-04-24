@@ -39,9 +39,9 @@ pre b {
 }
 
 .md-button-play {
-    position: fixed;
-    bottom: 50px;
-    right: 30px;
+    position: absolute;
+    top: 300px;
+    right: 50px;
     border: none;
     color: white;
     text-align: center;
@@ -54,8 +54,8 @@ pre b {
 
 .md-button-pause {
     position: fixed;
-    bottom: 50px;
-    right: 30px;
+    top: 300px;
+    right: 50px;
     border: none;
     color: white;
     text-align: center;
@@ -64,4 +64,49 @@ pre b {
     width: 50px;
     height: 25px;
     visibility: hidden;
+    opacity: 50%;
+}
+
+.md-range {
+    position: absolute;
+    top: 310px;
+    right: 170px;
+    visibility: visible;
+
+}
+.md-range-value {
+    position: absolute;
+    top: 340px;
+    right: 100px;
+    visibility: visible;
+}
+
+#transposeText {
+    position: absolute;
+    top: 357px;
+    right: 170px;
+}
+
+#keyUp {
+    cursor: pointer;
+    position: absolute;
+    top: 380px;
+    right: 120px;
+}
+
+#keyDown {
+    cursor: pointer;
+    position: absolute;
+    top: 380px;
+    right: 80px;
+}
+
+.transpose {
+    visibility: visible;
+}
+
+#transposeValue {
+    position: absolute;
+    top: 400px;
+    right: 80px;
 }
