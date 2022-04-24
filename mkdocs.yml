@@ -18,6 +18,9 @@ theme:
 
 extra_css:
   - stylesheets/style.css
+
+extra_javascript:
+  - javascripts/extra.js
   
 markdown_extensions:
   - admonition

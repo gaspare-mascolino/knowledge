@@ -37,3 +37,31 @@
 pre b {
     color: blue;
 }
+
+.md-button-play {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    visibility: visible;
+}
+
+.md-button-pause {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    visibility: hidden;
+}
