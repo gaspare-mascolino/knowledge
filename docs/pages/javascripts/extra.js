@@ -13,7 +13,19 @@ const rangeValue = document.getElementById('rangeValue');
 const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
+
+const tools = document.getElementById('tools');
+
 function start(start) {
+
+    document.addEventListener('scroll', function (e) {
+        let scrollPosition = window.scrollY;
+
+        window.requestAnimationFrame(function () {
+            y = scrollPosition
+        })
+    });
+
     if (start) {
         playButton.style.visibility = "hidden";
         pauseButton.style.visibility = "visible";
@@ -21,6 +33,8 @@ function start(start) {
         range.style.visibility = "hidden";
         rangeValue.style.visibility = "hidden";
         transpose.style.visibility = "hidden";
+        tools.style.backgroundColor="transparent";
+        tools.style.boxShadow="0 0 0 white"
 
         y = 0;
         timer = setInterval(play, 50);
@@ -30,6 +44,8 @@ function start(start) {
         range.style.visibility = "visible";
         rangeValue.style.visibility = "visible";
         transpose.style.visibility = "visible";
+        tools.style.backgroundColor="white";
+        tools.style.boxShadow="0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%)"
 
         clearInterval(timer);
     }
@@ -37,7 +53,7 @@ function start(start) {
 
 function play() {
     window.scroll(-100, y);
-    y += 0.5 * rangeValue.value;
+    y += 0.05 * rangeValue.value;
 }
 
 function updateRangeInput(val) {
@@ -46,7 +62,7 @@ function updateRangeInput(val) {
 
 function changeKey(value) {
 
-    transposeValue.value = String(Number(transposeValue.value)+value);
+    transposeValue.value = String(Number(transposeValue.value) + value);
 
     let songChords = document.getElementsByTagName('chord')
     for (let i = 0; i < songChords.length; i++) {
@@ -55,7 +71,7 @@ function changeKey(value) {
 
         if (diesisChords.indexOf(chord) === 0 && value < 0) {
             songChords[i].innerHTML = diesisChords[diesisChords.length - 1]
-        } else if(diesisChords.indexOf(chord) === diesisChords.length - value && value > 0) {
+        } else if (diesisChords.indexOf(chord) === diesisChords.length - value && value > 0) {
             songChords[i].innerHTML = diesisChords[0]
         } else if (chord.match('#')) {
             songChords[i].innerHTML = diesisChords[diesisChords.indexOf(chord) + value]
@@ -65,4 +81,19 @@ function changeKey(value) {
             songChords[i].innerHTML = diesisChords[diesisChords.indexOf(chord) + value]
         }
     }
+}
+
+function shuffleSong() {
+    /*
+        fs.readdir(
+            path.resolve(__dirname, 'repertoire'),
+            (err, files) => {
+                if (err) throw err;
+
+                window.location.href = "../"+files[Math.floor(Math.random() * files.length)];
+
+
+            })
+     */
+
 }

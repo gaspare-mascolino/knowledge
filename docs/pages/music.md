@@ -857,34 +857,3 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 
 ## **Repertoire**
 
-**C**
-
-[Chris Isaak - Wicked Game](repertoire/chris-isaak-wicked-game.md)
-
-[Coldplay - Fix You](repertoire/coldplay-fix-you.md)
-
-[Coldplay - Viva La Vida](repertoire/coldplay-viva-la-vida.md)
-
-**D**
-
-[Domenico Modugno - Meraviglioso](repertoire/domenico-modugno-meraviglioso.md)
-
-**E**
-
-[Ed Sheeran - Perfect](repertoire/ed-sheeran-perfect.md)
-
-[Elisa - Luce (Tramonti A Nord Est)](repertoire/elisa-luce.md)
-
-**J**
-
-[Jessie J - Who You Are](repertoire/jessie-j-who-you-are.md)
-
-**L**
-
-[Lorenzo Fragola - D'improvviso](repertoire/lorenzo-fragola-d-improvviso.md)
-
-[Luigi Tenco - Mi sono innamorato di te](repertoire/luigi-tenco-mi-sono-innamorato-di-te.md)
-
-**S**
-
-[One Direction - Story of my life](repertoire/one-direction-story-of-my-life.md)
