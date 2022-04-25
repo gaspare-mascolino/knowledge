@@ -59,7 +59,7 @@ function start(start) {
 
 function play() {
     window.scroll(-100, y);
-    y += 0.05 * rangeValue.value;
+    y += 0.5 * rangeValue.value;
 }
 
 function updateRangeInput(val) {
