@@ -1,8 +1,14 @@
 let y;
 let timer;
 
+let songs = []
+
+let button = false;
+
 const diesisChords = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 const bemolleChords = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
+
+const tools = document.getElementById('tools');
 
 const playButton = document.getElementById('play');
 const pauseButton = document.getElementById('pause');
@@ -13,8 +19,7 @@ const rangeValue = document.getElementById('rangeValue');
 const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
-
-const tools = document.getElementById('tools');
+const shuffleButton = document.getElementById('shuffle');
 
 function start(start) {
 
@@ -33,10 +38,10 @@ function start(start) {
         range.style.visibility = "hidden";
         rangeValue.style.visibility = "hidden";
         transpose.style.visibility = "hidden";
+        shuffleButton.style.visibility = "hidden";
         tools.style.backgroundColor="transparent";
         tools.style.boxShadow="0 0 0 white"
-
-        y = 0;
+        
         timer = setInterval(play, 50);
     } else {
         playButton.style.visibility = "visible";
@@ -44,6 +49,7 @@ function start(start) {
         range.style.visibility = "visible";
         rangeValue.style.visibility = "visible";
         transpose.style.visibility = "visible";
+        shuffleButton.style.visibility = "visible";
         tools.style.backgroundColor="white";
         tools.style.boxShadow="0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%)"
 
@@ -53,7 +59,7 @@ function start(start) {
 
 function play() {
     window.scroll(-100, y);
-    y += 0.05 * rangeValue.value;
+    y += 0.5 * rangeValue.value;
 }
 
 function updateRangeInput(val) {
@@ -83,17 +89,24 @@ function changeKey(value) {
     }
 }
 
-function shuffleSong() {
-    /*
-        fs.readdir(
-            path.resolve(__dirname, 'repertoire'),
-            (err, files) => {
-                if (err) throw err;
-
-                window.location.href = "../"+files[Math.floor(Math.random() * files.length)];
+window.addEventListener('keydown', function(e) {
+    if(e.key === " " && e.target === document.body) {
+        e.preventDefault();
+    }
+});
 
 
-            })
-     */
-
+document.body.onkeyup = function(e) {
+    if (e.key === " " ||
+        e.code === "Space"
+    ) {
+        button = !button
+        start(button)
+    }
 }
+
+function shuffleSong() {
+    let songNumber = Math.floor(Math.random() * songs.length);
+    window.location.href = "../"+songs[songNumber];
+}
+

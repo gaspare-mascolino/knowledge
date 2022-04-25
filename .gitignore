@@ -1,5 +1,7 @@
 
 .idea
 .DS_Store
+
+docs/pages/repertoire.md
 docs/pages/repertoire/**.md
 

@@ -855,5 +855,3 @@ The kick sends the bus inside a bass where the sound will be compressed. When th
 
 To avoid issue with frequencies, higher is the pith more open is the pan.
 
-## **Repertoire**
-

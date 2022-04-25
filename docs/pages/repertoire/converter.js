@@ -39,18 +39,19 @@ fs.readdir(
 
                 list.push('</pre>')
                 list.push('\n')
-                list.push('<button id="play" class="md-button-play" onclick="start(true)"></button>')
-                list.push('<button id="pause" class="md-button-pause" onclick="start(false)"></button>')
 
-                list.push('<input type="range" id="range" class="md-range" value="10" min="1" max="10" onchange="updateRangeInput(this.value);"/>')
-                list.push('<input type="text" id="rangeValue" class="md-range-value" value="10" readonly/>')
-
-                list.push('<div id="transpose">')
-                list.push('    <b>Transpose:</b>')
-                list.push('    <input type="text" id="transposeValue" value="0" readonly/>')
-                list.push('    <button id="keyUp" class="md-buttonKey" onclick="changeKey(1)">+1</button>')
-                list.push('    <button id="keyDown" class="md-buttonKey" onclick="changeKey(-1)">-1</button>')
-                list.push('    <button id="shuffle" onclick="shuffleSong()"></button>')
+                list.push('<div id="tools">')
+                list.push('    <button id="play" class="md-button-play" onclick="start(true)"></button>')
+                list.push('    <button id="pause" class="md-button-pause" onclick="start(false)"></button>')
+                list.push('    <input type="range" id="range" class="md-range" value="1" min="1" max="10" onchange="updateRangeInput(this.value);"/>')
+                list.push('    <input type="text" id="rangeValue" class="md-range-value" value="1" readonly/>')
+                list.push('    <div id="transpose">')
+                list.push('        <b>Transpose:</b>')
+                list.push('        <input type="text" id="transposeValue" value="0" readonly/>')
+                list.push('        <button id="keyUp" class="md-buttonKey" onclick="changeKey(1)">+1</button>')
+                list.push('        <button id="keyDown" class="md-buttonKey" onclick="changeKey(-1)">-1</button>')
+                list.push('        <button id="shuffle" onclick="shuffleSong()"></button>')
+                list.push('    </div>')
                 list.push('</div>')
 
                 fs.writeFile(path.resolve(__dirname, file + '.md'), list.join('\n'), function (err) {
@@ -60,15 +61,26 @@ fs.readdir(
                     console.log("The file was saved!");
                 });
 
-                fs.appendFile( '../../music.md', "<a href=/knowledge/repertoire/" + file +"/>" + data.split("\n")[0] + "\n\n", function (err) {
+                fs.writeFile(path.resolve(__dirname, '../repertoire.md'), "", function (err) {
+                    if (err) {
+                        return console.log(err);
+                    } else {
+                        console.log("The repertoire.md was created!");
+                    }
+                })
+
+                fs.appendFile(path.resolve(__dirname, '../repertoire.md'), "<a href=/knowledge/repertoire/" + file + "/>" + data.split("\n")[0] + "\n\n", function (err) {
                         if (err) {
                             return console.log(err);
                         } else {
                             console.log("The music.md was updated!");
-                            console.log("<a href=/repertoire/" + file + ".md >" + data.split("\n")[0] + "</a>")
+                            fs.appendFile(path.resolve(__dirname, '../javascripts/extra.js'), "songs.push(\""+file+"/\")\n", function (err) {
+                            })
                         }
                     }
                 )
             })
         }
     })
+
+
