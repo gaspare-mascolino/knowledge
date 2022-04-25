@@ -1,6 +1,8 @@
 let y;
 let timer;
 
+let songs = []
+
 const diesisChords = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 const bemolleChords = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
 
@@ -16,8 +18,6 @@ const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
 const shuffleButton = document.getElementById('shuffle');
-
-
 
 function start(start) {
 
@@ -89,16 +89,7 @@ function changeKey(value) {
 }
 
 function shuffleSong() {
-    /*
-        fs.readdir(
-            path.resolve(__dirname, 'repertoire'),
-            (err, files) => {
-                if (err) throw err;
-
-                window.location.href = "../"+files[Math.floor(Math.random() * files.length)];
-
-
-            })
-     */
-
+    let songNumber = Math.floor(Math.random() * songs.length);
+    window.location.href = "../"+songs[songNumber];
 }
+

@@ -61,15 +61,18 @@ fs.readdir(
                     console.log("The file was saved!");
                 });
 
-                fs.appendFile( path.resolve(__dirname, '../music.md'), "<a class=\"song\" href=/knowledge/repertoire/" + file +"/>" + data.split("\n")[0] + "\n\n", function (err) {
+                fs.appendFile(path.resolve(__dirname, '../music.md'), "<a href=/knowledge/repertoire/" + file + "/>" + data.split("\n")[0] + "\n\n", function (err) {
                         if (err) {
                             return console.log(err);
                         } else {
                             console.log("The music.md was updated!");
-                            console.log("<a href=/repertoire/" + file + ".md >" + data.split("\n")[0] + "</a>")
+                            fs.appendFile(path.resolve(__dirname, '../javascripts/extra.js'), "songs.push(\""+file+"/\")\n", function (err) {
+                            })
                         }
                     }
                 )
             })
         }
     })
+
+
