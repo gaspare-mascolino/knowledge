@@ -61,7 +61,15 @@ fs.readdir(
                     console.log("The file was saved!");
                 });
 
-                fs.appendFile(path.resolve(__dirname, '../music.md'), "<a href=/knowledge/repertoire/" + file + "/>" + data.split("\n")[0] + "\n\n", function (err) {
+                fs.writeFile(path.resolve(__dirname, '../repertoire.md'), "", function (err) {
+                    if (err) {
+                        return console.log(err);
+                    } else {
+                        console.log("The repertoire.md was created!");
+                    }
+                })
+
+                fs.appendFile(path.resolve(__dirname, '../repertoire.md'), "<a href=/knowledge/repertoire/" + file + "/>" + data.split("\n")[0] + "\n\n", function (err) {
                         if (err) {
                             return console.log(err);
                         } else {
