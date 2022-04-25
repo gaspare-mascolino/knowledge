@@ -3,6 +3,8 @@ let timer;
 
 let songs = []
 
+let button = false;
+
 const diesisChords = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 const bemolleChords = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
 
@@ -39,8 +41,7 @@ function start(start) {
         shuffleButton.style.visibility = "hidden";
         tools.style.backgroundColor="transparent";
         tools.style.boxShadow="0 0 0 white"
-
-        y = 0;
+        
         timer = setInterval(play, 50);
     } else {
         playButton.style.visibility = "visible";
@@ -85,6 +86,22 @@ function changeKey(value) {
         } else {
             songChords[i].innerHTML = diesisChords[diesisChords.indexOf(chord) + value]
         }
+    }
+}
+
+window.addEventListener('keydown', function(e) {
+    if(e.key === " " && e.target === document.body) {
+        e.preventDefault();
+    }
+});
+
+
+document.body.onkeyup = function(e) {
+    if (e.key === " " ||
+        e.code === "Space"
+    ) {
+        button = !button
+        start(button)
     }
 }
 
