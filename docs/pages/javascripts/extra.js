@@ -4,6 +4,8 @@ let timer;
 const diesisChords = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 const bemolleChords = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
 
+const tools = document.getElementById('tools');
+
 const playButton = document.getElementById('play');
 const pauseButton = document.getElementById('pause');
 
@@ -13,8 +15,9 @@ const rangeValue = document.getElementById('rangeValue');
 const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
+const shuffleButton = document.getElementById('shuffle');
 
-const tools = document.getElementById('tools');
+
 
 function start(start) {
 
@@ -33,6 +36,7 @@ function start(start) {
         range.style.visibility = "hidden";
         rangeValue.style.visibility = "hidden";
         transpose.style.visibility = "hidden";
+        shuffleButton.style.visibility = "hidden";
         tools.style.backgroundColor="transparent";
         tools.style.boxShadow="0 0 0 white"
 
@@ -44,6 +48,7 @@ function start(start) {
         range.style.visibility = "visible";
         rangeValue.style.visibility = "visible";
         transpose.style.visibility = "visible";
+        shuffleButton.style.visibility = "visible";
         tools.style.backgroundColor="white";
         tools.style.boxShadow="0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%)"
 
