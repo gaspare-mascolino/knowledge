@@ -121,4 +121,5 @@ pre b {
     height: 50px;
     background: url(../assets/images/site/shuffle.png) no-repeat;
     background-size: 40px 40px;
+    top: 50%;
 }

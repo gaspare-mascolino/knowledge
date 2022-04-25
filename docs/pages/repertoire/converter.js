@@ -39,18 +39,19 @@ fs.readdir(
 
                 list.push('</pre>')
                 list.push('\n')
-                list.push('<button id="play" class="md-button-play" onclick="start(true)"></button>')
-                list.push('<button id="pause" class="md-button-pause" onclick="start(false)"></button>')
 
-                list.push('<input type="range" id="range" class="md-range" value="10" min="1" max="10" onchange="updateRangeInput(this.value);"/>')
-                list.push('<input type="text" id="rangeValue" class="md-range-value" value="10" readonly/>')
-
-                list.push('<div id="transpose">')
-                list.push('    <b>Transpose:</b>')
-                list.push('    <input type="text" id="transposeValue" value="0" readonly/>')
-                list.push('    <button id="keyUp" class="md-buttonKey" onclick="changeKey(1)">+1</button>')
-                list.push('    <button id="keyDown" class="md-buttonKey" onclick="changeKey(-1)">-1</button>')
-                list.push('    <button id="shuffle" onclick="shuffleSong()"></button>')
+                list.push('<div id="tools">')
+                list.push('    <button id="play" class="md-button-play" onclick="start(true)"></button>')
+                list.push('    <button id="pause" class="md-button-pause" onclick="start(false)"></button>')
+                list.push('    <input type="range" id="range" class="md-range" value="10" min="1" max="10" onchange="updateRangeInput(this.value);"/>')
+                list.push('    <input type="text" id="rangeValue" class="md-range-value" value="10" readonly/>')
+                list.push('    <div id="transpose">')
+                list.push('        <b>Transpose:</b>')
+                list.push('        <input type="text" id="transposeValue" value="0" readonly/>')
+                list.push('        <button id="keyUp" class="md-buttonKey" onclick="changeKey(1)">+1</button>')
+                list.push('        <button id="keyDown" class="md-buttonKey" onclick="changeKey(-1)">-1</button>')
+                list.push('        <button id="shuffle" onclick="shuffleSong()"></button>')
+                list.push('    </div>')
                 list.push('</div>')
 
                 fs.writeFile(path.resolve(__dirname, file + '.md'), list.join('\n'), function (err) {
