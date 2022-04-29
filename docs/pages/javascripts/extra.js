@@ -41,6 +41,7 @@ function start(start) {
         shuffleButton.style.visibility = "hidden";
         tools.style.backgroundColor="transparent";
         tools.style.boxShadow="0 0 0 white"
+        y = window.scrollY
         
         timer = setInterval(play, 50);
     } else {
