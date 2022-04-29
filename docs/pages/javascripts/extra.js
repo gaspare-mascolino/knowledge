@@ -23,14 +23,6 @@ const shuffleButton = document.getElementById('shuffle');
 
 function start(start) {
 
-    document.addEventListener('scroll', function (e) {
-        let scrollPosition = window.scrollY;
-
-        window.requestAnimationFrame(function () {
-            y = scrollPosition
-        })
-    });
-
     if (start) {
         playButton.style.visibility = "hidden";
         pauseButton.style.visibility = "visible";
