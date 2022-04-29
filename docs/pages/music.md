@@ -94,6 +94,19 @@ Counterpoint, which refers to the relationship between melodic lines, and polyph
 sometimes distinguished from harmony. A dissonant chord (chord with tension) "resolves" to a consonant chord. Harmonization usually sounds pleasant to the ear when there is a
 balance between consonance and dissonance. Simply put, this occurs when there is a balance between "tense" and "relaxed" moments.
 
+### Background
+
+The background is the melodic/harmonic part below the sound. Its role is to sustain the melodic part:
+
+Rules:
+- use only chord notes:
+  - where the melody moves the background doesn't move
+  - where the melody doesn't move the background moves
+- as the harmonic continuity establish a link with chords, as well as jump when the chord remains stationary.
+- where the melody and the background sound simultaneously it better keep a distance of III but not more than an VIII.
+- where the melody and the background doesn't sound simultaneously them could collide freely.
+
+
 ### Bass writing
 
 The Bass(Double bass) is a transposed instrument, take place on F-Clef (it is written in a octave up rather its original sound to avoid ledger lines). The four notes of the bass
@@ -131,7 +144,7 @@ The bass could move as follows:
 !!! Warning
     The III and the VII doesn't sound very well on the beat instead of passing note on the upbeat (duration less or equal of an 1/8).
     
-It useful to harmonise the singing note with the bass with a III or a VI.
+It is useful to harmonise the singing note with the bass with a III or a VI.
 
 ### Chord
 
@@ -274,13 +287,13 @@ The IX, generally is not added without VI or th VII, the 11th without the VI or 
 
 **Modulation chords**
 
-A modular chord could be the V down or a IV up, this is it called resolution trend. Whatever is the tonality we can use the V7 rather a chord of a scale played before of it.
+A modular chord could be the V down or an IV up, this is it called resolution trend. Whatever is the tonality we can use the V7 rather a chord of a scale played before of it.
 
-Each chord on I degree could be precede by a chord of VII7 a IV Perfect down or a V Perfect up. Then each V7 could be precede from its V7 (V7/V relative).
+Each chord on I degree could be preceded by a chord of VII7 an IV Perfect down or a V Perfect up. Then each V7 could be precede from its V7 (V7/V relative).
 
-Each V7 also could be precede by a IIm7 is a II half diminished a IV Perfect down or a V Perfect up (this allow to create II - V - I).
+Each V7 also could be preceded by a IIm7 is a II half diminished an IV Perfect down or a V Perfect up (this allow to create II - V - I).
 
-Each IIm could be precede from a V7 (V7/II relative).
+Each IIm could be preceded from a V7 (V7/II relative).
 
 !!! Info
  The same rules worth for major and minor chord.
