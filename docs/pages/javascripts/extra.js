@@ -21,6 +21,14 @@ const transposeValue = document.getElementById('transposeValue');
 
 const shuffleButton = document.getElementById('shuffle');
 
+document.addEventListener('scroll', function (e) {
+        let scrollPosition = window.scrollY;
+
+        window.requestAnimationFrame(function () {
+            y = scrollPosition
+        })
+    });
+    
 function start(start) {
 
     if (start) {
@@ -79,22 +87,6 @@ function changeKey(value) {
         } else {
             songChords[i].innerHTML = diesisChords[diesisChords.indexOf(chord) + value]
         }
-    }
-}
-
-window.addEventListener('keydown', function(e) {
-    if(e.key === " " && e.target === document.body) {
-        e.preventDefault();
-    }
-});
-
-
-document.body.onkeyup = function(e) {
-    if (e.key === " " ||
-        e.code === "Space"
-    ) {
-        button = !button
-        start(button)
     }
 }
 
