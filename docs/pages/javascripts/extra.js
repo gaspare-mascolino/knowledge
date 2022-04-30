@@ -1,4 +1,4 @@
-let y;
+let y = 0;
 let timer;
 
 let songs = []
