@@ -35,7 +35,11 @@ function start(start) {
         tools.style.boxShadow="0 0 0 white"
         
         document.addEventListener('scroll', function (e) {
-	        y = window.scrollY;
+        let scrollPosition = window.scrollY;
+
+	        window.requestAnimationFrame(function () {
+	            y = scrollPosition
+	        })
 	    });
         
         timer = setInterval(play, 50);
