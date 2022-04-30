@@ -20,7 +20,7 @@ const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
 const shuffleButton = document.getElementById('shuffle');
-
+	    
 function start(start) {
 
     if (start) {
@@ -35,6 +35,7 @@ function start(start) {
         tools.style.boxShadow="0 0 0 white"
         
         timer = setInterval(play, 50);
+        
     } else {
         playButton.style.visibility = "visible";
         pauseButton.style.visibility = "hidden";
@@ -50,7 +51,7 @@ function start(start) {
 }
 
 function play() {
-    window.scroll(-100, y);
+    window.scroll(0, y);
     y += 0.5 * rangeValue.value;
 }
 
