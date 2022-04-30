@@ -22,11 +22,7 @@ const transposeValue = document.getElementById('transposeValue');
 const shuffleButton = document.getElementById('shuffle');
 
 document.addEventListener('scroll', function (e) {
-        let scrollPosition = window.scrollY;
-
-        window.requestAnimationFrame(function () {
-            y = scrollPosition
-        })
+        y = window.scrollY;
     });
     
 function start(start) {
