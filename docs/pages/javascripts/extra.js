@@ -20,7 +20,11 @@ const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
 const shuffleButton = document.getElementById('shuffle');
-    
+
+window.onscroll = function(event) {
+    y = window.scrollY
+};
+
 function start(start) {
 
     if (start) {
@@ -50,12 +54,8 @@ function start(start) {
 }
 
 function play() {
-    document.addEventListener('scroll', function (e) {
-		window.requestAnimationFrame(function () {
-	        window.scroll(-100, y);
-		    y += 0.5 * rangeValue.value;
-	    })
-	});
+    window.scroll(-100, y);
+    y += 0.5 * rangeValue.value;
 }
 
 function updateRangeInput(val) {
