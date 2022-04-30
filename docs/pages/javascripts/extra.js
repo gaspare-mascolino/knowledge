@@ -22,7 +22,7 @@ const transposeValue = document.getElementById('transposeValue');
 const shuffleButton = document.getElementById('shuffle');
 
 window.onscroll = function(event) {
-    y = window.scrollY
+    y = window.pageYOffset
 };
 
 function start(start) {
