@@ -20,10 +20,6 @@ const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
 const shuffleButton = document.getElementById('shuffle');
-
-document.addEventListener('scroll', function (e) {
-        y = window.scrollY;
-    });
     
 function start(start) {
 
@@ -37,7 +33,10 @@ function start(start) {
         shuffleButton.style.visibility = "hidden";
         tools.style.backgroundColor="transparent";
         tools.style.boxShadow="0 0 0 white"
-        y = window.scrollY
+        
+        document.addEventListener('scroll', function (e) {
+	        y = window.scrollY;
+	    });
         
         timer = setInterval(play, 50);
     } else {
