@@ -34,14 +34,6 @@ function start(start) {
         tools.style.backgroundColor="transparent";
         tools.style.boxShadow="0 0 0 white"
         
-        document.addEventListener('scroll', function (e) {
-        let scrollPosition = window.scrollY;
-
-	        window.requestAnimationFrame(function () {
-	            y = scrollPosition
-	        })
-	    });
-        
         timer = setInterval(play, 50);
     } else {
         playButton.style.visibility = "visible";
@@ -58,8 +50,12 @@ function start(start) {
 }
 
 function play() {
-    window.scroll(-100, y);
-    y += 0.5 * rangeValue.value;
+    document.addEventListener('scroll', function (e) {
+		window.requestAnimationFrame(function () {
+	        window.scroll(-100, y);
+		    y += 0.5 * rangeValue.value;
+	    })
+	});
 }
 
 function updateRangeInput(val) {
