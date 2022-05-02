@@ -20,7 +20,11 @@ const transpose = document.getElementById('transpose');
 const transposeValue = document.getElementById('transposeValue');
 
 const shuffleButton = document.getElementById('shuffle');
-	    
+
+window.addEventListener("scroll", function () {
+    y = window.scrollY
+}, false);
+
 function start(start) {
 
     if (start) {
