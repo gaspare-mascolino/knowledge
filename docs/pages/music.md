@@ -532,15 +532,15 @@ The **modus** relates to the organisation of pitch in scales, start from a speci
 
 ![](assets/images/music/harmony/modes.png)
 
-|     | Modes     |
-|-----|-----------|
-| I   | Ionico    |  
-| II  | Dorico    |  
-| III | Frigio    | 
-| IV  | Lidio     |  
-| V   | Misolidio | 
-| VI  | Eolio     | 
-| VI  | Locrio    |
+|     | Modes     |       Notes        |
+|-----|-----------|--------------------|
+| I   | Ionico    | 1 2 3 4 5 6 7      |
+| II  | Dorico    | 1 2 b3 4 5 6 b7    |
+| III | Frigio    | 1 b2 b3 4 5 b6 b7  |
+| IV  | Lidio     | 1 2 3 b4 5 6 7     |
+| V   | Misolidio | 1 2 3 4 5 6 b7     |
+| VI  | Eolio     | 1 2 b3 4 5 b6 b7   |
+| VI  | Locrio    | 1 b2 b3 4 b5 b6 b7 |
 
 **Scale degree**
 
