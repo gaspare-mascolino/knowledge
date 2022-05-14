@@ -855,6 +855,50 @@ MIDI (Musical Instrument digital interface) are instructions which are read from
 - Midi track: Rack VST - more instrument (No fader no pan)
 - Instrument track: one instrument
 
+### Mixing
+
+The signal routing:
+
+- Filter: HI-PASS / LO-PASS, it needs to remove garbage.
+- Compressor: handle the principal frequency and remove hi and low picks, it allow to gain headroom. In this way we remove some color from the sound which could be recreated with the EQ
+- EQ: In order to reward the original sound.
+- Fader:In order to amplify the signal.
+
+N.B: two signals where one is 10dB decibel less than the other but the perceived volume is the same, when up the volume to 0dB the sound with the lower pick wins, it gains more headroom. In this way the volume can be increase more than the other one. 
+
+**Compressor**
+
+A compressor handle a series of parameters:
+- Threshold: value which above it the compressor starts to work.
+- Ratio (rapport of compression): the quantity of sound which is attenuated in relation to the quantity of the sound which pass the threshold. A ratio equals to a -infinite is the behavior of a limiter
+- Attack: determines the period of time between when the sound oversteps the threshold and when the sound is compressed. The compressor lets pass a X mms of the signal and after that it starts to work. With a faster attack also the more defined transition would be compressed, instead with a slowest attack the first portion of sound wasn't processed the other no. It intervenes in order to gain a headroomon the first part of the signal.
+- Release: It is expressed in mms as well and indicated the time where the signal goes below the threshold and in which it'll be released. 
+- Hold: needs to increase the compression effect between the threshold and the release.
+
+**Equalizator**
+
+The EQ needs to add or remove frequencies, exist 2 kind of EQ:
+
+- Series: safe, doesn't modify the signal.
+- Parallel: remove filter to emphasize, invert the phase to remove the frequency emphasied
+
+- Graphic: knobs.
+- Parametric: allow the control to everything, can be setted to work from a specified frequency, Q (merit factor) needs to modify the length of the wave.
+  - Shelf: bost or attenuate the start or the end or both of them of the signal
+
+- color: handle also the the harmonics which enrich the sound.
+- linear: they weigh more on the CPU but they do not distort the sound (more exactly).
+- no linear eq: cutting the low frequencies could create some phase shift and obtain some not desired result (less exactly).
+
+De-masking: remove some frequencies to benefict from others frequencies of others instruments.
+
+**Volume meter**
+
+Exist two tools to measure the volume levels:
+
+- Peak (pick volume): measure the highest pick reached by the signal (pression in relation of the frequency)
+- Rms (root main square): measure the avarage volume of a signal (avarage acosutic pression in a period of time, indipendent from the frequency). The same RMS on two different frequency could be perceived with a different volume. It is strictly correlated to how the sound and the dynamics are perceived.
+
 ### Recording
 
 - Input fader never touched
@@ -868,3 +912,9 @@ The kick sends the bus inside a bass where the sound will be compressed. When th
 
 To avoid issue with frequencies, higher is the pith more open is the pan.
 
+### Room acoustic
+
+1. The ambient must be linear
+2. In a home studio the room must not be empty. The obstacles break the frequencies.
+3. 1m from the frontal wall (reflex of the back of the monitors, otherwise 0m), 3m from the beside wall.
+4. Heal the reflaction: side-reflaction (isosceles trinagle in order to avoid it), back-reflation (generated from the back of the monitor), above-reflacion (inclination of 20°, 1m from the head) and corner-reflaction.
