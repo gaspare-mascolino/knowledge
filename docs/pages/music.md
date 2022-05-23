@@ -74,7 +74,7 @@ Principal charateristics of sound are:
 
 A **Harmonic** is a wave with a frequency that is a positive integer multiple of the fundamental frequency, the frequency of the original periodic signal, such as a sinusoidal
 wave. The original signal is also called the 1st harmonic (main harmonic), the other harmonics are known as higher harmonics (collateral harmonic, one or more depending on the
-instrument). As all harmonics are periodic at the fundamental frequency, the sum of harmonics is also periodic at that frequency. The set of harmonics forms a harmonic series.
+instrument). As all harmonics are periodic at the fundamental frequency, the sum of harmonics is also periodic at that frequency. The set of harmonics forms a harmonic series. Not all the harmonics are in the tonality of the song (E.g VII m), this will cause some resonances.
 
 !!! Info
     Two notes with fundamental frequencies in a ratio equal to any integer power of two (e.g., half, twice, or four times) are perceived as very similar. Because of that, all notes with these kinds of relations can be grouped under the same pitch class.
@@ -857,14 +857,60 @@ MIDI (Musical Instrument digital interface) are instructions which are read from
 
 ### Mixing
 
+Preparation:
+
+- Midi to audio
+- Stereo to mono
+- correct pitch
+- timing
+- strip
+- take/comp -> voice on more tracks with diffent value od dynamics.
+- choir align
+- breath
+- essing
+- de-esser lead -> in order to remove the undesired frequencies (manually).
+- picks
+
+- Marker
+- Disposition 4 most importants traks -> Bass, Lead, Kick, Snare (Center).
+- Side instruments -> for instruments max pan 80 (GTR EL D), effects max pan 100.
+- groups and routing
+- volume alignment -> 0dBu = 0,775 V, 0dBvu = 1,228 V = 4dBu, -14dBfs = 0dBvu (each track)
+
+N.B: each track must be under the -14dBfs.
+
+Procedure:
+1. Take Low frequencies tracks to -14dBfs (each single tracks from the gain).
+2. Align all the tracks to the lowest Loudness.
+3. Take the main track with all the instrumental cropped on the main frequencies of the first one.
+
+To handle the frequencies which are on the same phase:
+- side-chain -> EQ in bass (vst3), activate sidechain and in the send of the kick pass the bass in pre-fader.
+- EQ multi-width
+- ED dynamic
+
+4. Cut the useless frequencies with low pass and high pass filter. Low frequencies 18dB for octave, high frequencies 12dB for octave gaining headroom.
+
+5. Delete Resonance between 1000Hz-3000Hz, short bell to analyze and down the frequency in that point.
+
+6. Compression: Ratio 4:1, Release fast. Using it in order to increase the loudness lower the peak or gained headroom (optical compressor for vocal)
+
+7. Demasking, free some frequencies take from other instruments (EQ linear with subtraction technique):
+  - clean up with low-pass and high pass filter
+  - clean main frequency from other instruments.
+
+8. Color EQ: SSL, no linear EQ. Emphasize some frequencies.
+
 The signal routing:
 
 - Filter: HI-PASS / LO-PASS, it needs to remove garbage.
 - Compressor: handle the principal frequency and remove hi and low picks, it allow to gain headroom. In this way we remove some color from the sound which could be recreated with the EQ
 - EQ: In order to reward the original sound.
-- Fader:In order to amplify the signal.
+- Fader: In order to amplify the signal.
 
 N.B: two signals where one is 10dB decibel less than the other but the perceived volume is the same, when up the volume to 0dB the sound with the lower pick wins, it gains more headroom. In this way the volume can be increase more than the other one. 
+
+Low frequency setted close to the center, instead of the high frequency setted more to the sides.
 
 **Compressor**
 
@@ -885,6 +931,7 @@ The EQ needs to add or remove frequencies, exist 2 kind of EQ:
 - Graphic: knobs.
 - Parametric: allow the control to everything, can be setted to work from a specified frequency, Q (merit factor) needs to modify the length of the wave.
   - Shelf: bost or attenuate the start or the end or both of them of the signal
+- Semi-parametric: as the parametric but without che control on the bells.
 
 - color: handle also the the harmonics which enrich the sound.
 - linear: they weigh more on the CPU but they do not distort the sound (more exactly).
@@ -918,3 +965,10 @@ To avoid issue with frequencies, higher is the pith more open is the pan.
 2. In a home studio the room must not be empty. The obstacles break the frequencies.
 3. 1m from the frontal wall (reflex of the back of the monitors, otherwise 0m), 3m from the beside wall.
 4. Heal the reflaction: side-reflaction (isosceles trinagle in order to avoid it), back-reflation (generated from the back of the monitor), above-reflacion (inclination of 20°, 1m from the head) and corner-reflaction.
+
+### Voice
+
+- De-esser
+- EQ
+- Compressor
+- Effects
