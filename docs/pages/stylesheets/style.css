@@ -38,7 +38,7 @@ pre b {
     color: blue;
 }
 
-#tools {
+#toolsBar {
     background-color: white;
     display: inline-block;
     position: fixed;

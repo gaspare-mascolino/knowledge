@@ -8,7 +8,7 @@ let button = false;
 const diesisChords = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 const bemolleChords = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
 
-const tools = document.getElementById('tools');
+const tools = document.getElementById('toolsBar');
 
 const playButton = document.getElementById('play');
 const pauseButton = document.getElementById('pause');
@@ -91,3 +91,21 @@ function shuffleSong() {
     window.location.href = "../"+songs[songNumber];
 }
 
+songs.push("avicii-wake-me-up/")
+songs.push("blanco-notti-in-bianco/")
+songs.push("chris-isaak-wicked-game/")
+songs.push("coldplay-fix-you/")
+songs.push("coldplay-viva-la-vida/")
+songs.push("daughter-youth/")
+songs.push("domenico-modugno-meraviglioso/")
+songs.push("ed-sheeran-perfect/")
+songs.push("elisa-luce/")
+songs.push("elisa-una-poesia-anche-per-te/")
+songs.push("james-arthur-impossible/")
+songs.push("jessie-j-who-you-are/")
+songs.push("kings-of-leon-use-somebody/")
+songs.push("lorenzo-fragola-d-improvviso/")
+songs.push("madame-sentimi/")
+songs.push("ne-yo-so-sick/")
+songs.push("one-direction-story-of-my-life/")
+songs.push("swedish-house-mafia-don-t-you-worry-child/")
