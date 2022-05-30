@@ -40,7 +40,7 @@ fs.readdir(
                 list.push('</pre>')
                 list.push('\n')
 
-                list.push('<div class="tools">')
+                list.push('<div id="toolsBar">')
                 list.push('    <button id="play" class="md-button-play" onclick="start(true)"></button>')
                 list.push('    <button id="pause" class="md-button-pause" onclick="start(false)"></button>')
                 list.push('    <input type="range" id="range" class="md-range" value="1" min="1" max="10" onchange="updateRangeInput(this.value);"/>')
