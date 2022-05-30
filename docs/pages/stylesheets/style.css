@@ -38,7 +38,7 @@ pre b {
     color: blue;
 }
 
-#tools {
+.tools {
     background-color: white;
     display: inline-block;
     position: fixed;
