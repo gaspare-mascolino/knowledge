@@ -889,11 +889,11 @@ To handle the frequencies which are on the same phase:
 - EQ multi-width
 - ED dynamic
 
-4. Cut the useless frequencies with low pass and high pass filter. Low frequencies 18dB for octave, high frequencies 12dB for octave gaining headroom.
+4. Bracketing, cut the useless frequencies with low pass and high pass filter. Low frequencies 18dB for octave, high frequencies 12dB for octave gaining headroom.
 
 5. Delete Resonance between 1000Hz-3000Hz, short bell to analyze and down the frequency in that point.
 
-6. Compression: Ratio 4:1, Release fast. Using it in order to increase the loudness lower the peak or gained headroom (optical compressor for vocal)
+6. Compression: Ratio 4:1, Release fast. Using it in order to increase the loudness lower the peak or gained headroom (optical compressor for vocal) (Middle-Low tracks)
 
 7. Demasking, free some frequencies take from other instruments (EQ linear with subtraction technique):
   - clean up with low-pass and high pass filter
