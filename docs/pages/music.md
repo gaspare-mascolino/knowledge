@@ -855,6 +855,14 @@ MIDI (Musical Instrument digital interface) are instructions which are read from
 - Midi track: Rack VST - more instrument (No fader no pan)
 - Instrument track: one instrument
 
+### Mastering
+
+- export to 88200 kHz
+- remove dc offset -> prcoess remove dc offset
+- normalize to -14 dB
+- limiter
+- multiband compressor
+
 ### Mixing
 
 Preparation:
@@ -875,13 +883,15 @@ Preparation:
 - Disposition 4 most importants traks -> Bass, Lead, Kick, Snare (Center).
 - Side instruments -> for instruments max pan 80 (GTR EL D), effects max pan 100.
 - groups and routing
-- volume alignment -> 0dBu = 0,775 V, 0dBvu = 1,228 V = 4dBu, -14dBfs = 0dBvu (each track)
+- volume alignment -> 0dBu = 0,775 V, 0dBvu = 1,228 V = 4dBu, -14dBfs = 0dBvu (each track, important for analogic plugin which works well at this volume).
 
 N.B: each track must be under the -14dBfs.
 
+Select all -> process -> normalize -> max pick -14dB
+
 Procedure:
 1. Take Low frequencies tracks to -14dBfs (each single tracks from the gain).
-2. Align all the tracks to the lowest Loudness.
+2. Align all the tracks to the lowest Loudness. (MAudioAnalyzer)
 3. Take the main track with all the instrumental cropped on the main frequencies of the first one.
 
 To handle the frequencies which are on the same phase:
@@ -921,6 +931,8 @@ A compressor handle a series of parameters:
 - Release: It is expressed in mms as well and indicated the time where the signal goes below the threshold and in which it'll be released. 
 - Hold: needs to increase the compression effect between the threshold and the release.
 
+Start from an high attack and a release low untill then make the sound musically again.
+
 **Equalizator**
 
 The EQ needs to add or remove frequencies, exist 2 kind of EQ:
@@ -939,6 +951,18 @@ The EQ needs to add or remove frequencies, exist 2 kind of EQ:
 
 De-masking: remove some frequencies to benefict from others frequencies of others instruments.
 
+**Filtering**
+
+Save preset with low and high frequencies and with a positive notch.
+
+**Phase align**
+
+Usually in real drums, when some part were captured from different microphones. (MAutoAlign)
+
+**Transient designer**
+
+Needs to modify portions of the sounds.
+
 **Volume meter**
 
 Exist two tools to measure the volume levels:
@@ -949,7 +973,7 @@ Exist two tools to measure the volume levels:
 ### Recording
 
 - Input fader never touched
-- In recording max volume: -5dB / -6dB
+- In recording max volume: -5dB / -6dB (important for the audio interface)
 
 **Side-chain**
 
