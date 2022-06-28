@@ -6,4 +6,3 @@ COPY pages /tmp/mkdocs/pages
 COPY mkdocs.yml /tmp/mkdocs/
 WORKDIR /tmp/mkdocs
 RUN mkdocs build
-
