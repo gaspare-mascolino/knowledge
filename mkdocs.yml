@@ -32,7 +32,6 @@ docs_dir: docs/pages
 
 plugins:
   - search
-  - mermaid2
 
 nav:
   - Computer Science: computer-science.md
