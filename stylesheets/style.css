@@ -1,0 +1,125 @@
+.md-typeset__scrollwrap {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
+    -webkit-justify-content:center;
+    justify-content:center;
+}
+
+.center {
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
+    -webkit-justify-content:center;
+    justify-content:center;
+}
+
+.mermaid {
+    display: flex;
+    align-items: center;
+}
+
+.md-typeset code, .md-typeset pre {
+	background-color: white;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-size: .8rem;
+}
+
+pre b {
+    color: blue;
+}
+
+#toolsBar {
+    background-color: white;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 2.4rem;
+    box-shadow: 0 0 0.2rem rgb(0 0 0 / 10%), 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.md-button-play {
+    display:inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    visibility: visible;
+    background: url(../assets/images/site/play.png) no-repeat;
+    background-size: 40px 40px;
+}
+
+.md-button-pause {
+    position: absolute;
+    right: 10px;
+    display:inline-block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+    background: url(../assets/images/site/pause.png) no-repeat;
+    background-size: 40px 40px;
+    opacity: 50%;
+}
+
+.md-range {
+    position: relative;
+    height: 40px;
+    bottom: 18%;
+}
+.md-range-value {
+    position: relative;
+    visibility: visible;
+    height: 45px;
+    bottom: 50%;
+    width: 55px;
+}
+
+#keyUp {
+    cursor: pointer;
+    color: dodgerblue;
+    padding-right: 40px;
+}
+
+#keyDown {
+    cursor: pointer;
+    color: dodgerblue;
+    padding-right: 40px;
+}
+
+#transpose {
+    position: relative;
+    height: 50px;
+    visibility: visible;
+    display:inline-block;
+    bottom: 50%;
+}
+
+#transposeValue {
+    width: 55px;
+}
+
+#shuffle {
+    position: relative;
+    display:inline-block;
+    cursor: pointer;
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    background: url(../assets/images/site/shuffle.png) no-repeat;
+    background-size: 40px 40px;
+    top: 50%;
+}
